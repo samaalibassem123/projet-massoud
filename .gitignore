@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# SSIS
+*.dtproj.user
+*.ds
+*.dwlt
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# OS files
+Thumbs.db
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
