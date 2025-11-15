@@ -1,0 +1,271 @@
+Indicateur: Clé,Date,Milieu,Sexe,Niveau d''instruction,Régions,population
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Nord Est,432720
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Nord Est,645316
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Nord Est,252751
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Nord Est,395595
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Nord Est,559321
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Nord Est,253721
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Nord Est,131314
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Nord Est,107793
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Nord Est,15926
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Nord Est,100244
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Nord Est,85018
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Nord Est,18519
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Nord Ouest,65054
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Nord Ouest,86987
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Nord Ouest,25728
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Nord Ouest,56887
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Nord Ouest,72519
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Nord Ouest,28716
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Nord Ouest,112682
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Nord Ouest,80479
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Nord Ouest,9946
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Nord Ouest,76592
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Nord Ouest,61623
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Nord Ouest,11888
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Centre Est,261858
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Centre Est,342425
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Centre Est,114432
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Centre Est,239707
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Centre Est,296715
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Centre Est,117801
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Centre Est,123256
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Centre Est,93305
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Centre Est,15347
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Centre Est,99983
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Centre Est,70699
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Centre Est,14433
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Centre Ouest,63487
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Centre Ouest,88204
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Centre Ouest,26269
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Centre Ouest,55614
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Centre Ouest,71944
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Centre Ouest,26088
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Centre Ouest,144808
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Centre Ouest,102341
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Centre Ouest,15186
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Centre Ouest,103573
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Centre Ouest,75651
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Centre Ouest,12826
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Sud Est,108413
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Sud Est,128479
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Sud Est,33400
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Sud Est,103312
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Sud Est,108221
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Sud Est,38369
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Sud Est,42373
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Sud Est,36419
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Sud Est,6584
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Sud Est,39469
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Sud Est,31897
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Sud Est,8207
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Sud Ouest,56232
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Sud Ouest,74055
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Sud Ouest,19685
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Sud Ouest,51385
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Sud Ouest,60712
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Sud Ouest,23971
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Sud Ouest,27627
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Sud Ouest,28743
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Sud Ouest,5625
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Sud Ouest,22583
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Sud Ouest,23005
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Sud Ouest,6707
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Bèja,17316
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Bèja,24991
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Bèja,6777
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Bèja,15194
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Bèja,21165
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Bèja,7680
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Bèja,27794
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Bèja,20580
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Bèja,2449
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Bèja,18827
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Bèja,15724
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Bèja,2978
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Jendouba,15720
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Jendouba,22615
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Jendouba,7125
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Jendouba,14133
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Jendouba,18847
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Jendouba,7966
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Jendouba,43682
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Jendouba,32949
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Jendouba,4365
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Jendouba,30590
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Jendouba,25741
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Jendouba,5235
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat du Kef,19917
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat du Kef,23948
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat du Kef,6902
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat du Kef,16958
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat du Kef,19499
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat du Kef,7877
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat du Kef,19848
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat du Kef,12503
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat du Kef,1562
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat du Kef,12697
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat du Kef,9514
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat du Kef,1903
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Siliana,12101
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Siliana,15433
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Siliana,4924
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Siliana,10602
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Siliana,13008
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Siliana,5193
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Siliana,21358
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Siliana,14447
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Siliana,1570
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Siliana,14478
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Siliana,10644
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Siliana,1772
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Sousse,72875
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Sousse,101513
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Sousse,35858
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Sousse,66891
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Sousse,87188
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Sousse,37332
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Sousse,21732
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Sousse,18207
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Sousse,2970
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Sousse,17733
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Sousse,14003
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Sousse,3132
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Monastir,80752
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Monastir,97978
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Monastir,27094
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Monastir,73771
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Monastir,85146
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Monastir,30096
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Mahdia,27448
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Mahdia,31991
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Mahdia,8882
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Mahdia,25251
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Mahdia,27570
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Mahdia,9372
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Mahdia,37342
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Mahdia,27986
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Mahdia,4187
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Mahdia,32171
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Mahdia,21964
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Mahdia,3890
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Sfax,80783
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Sfax,110943
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Sfax,42598
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Sfax,73794
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Sfax,96811
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Sfax,41001
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Sfax,64182
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Sfax,47112
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Sfax,8190
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Sfax,50079
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Sfax,34732
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Sfax,7411
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Kairouan,26100
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Kairouan,34138
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Kairouan,9868
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Kairouan,23173
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Kairouan,28724
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Kairouan,10307
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Kairouan,58191
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Kairouan,34494
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Kairouan,3952
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Kairouan,40557
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Kairouan,26347
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Kairouan,3548
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Kasserine,23244
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Kasserine,33188
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Kasserine,8990
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Kasserine,20127
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Kasserine,26448
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Kasserine,8697
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Kasserine,37450
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Kasserine,27093
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Kasserine,4067
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Kasserine,27505
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Kasserine,19602
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Kasserine,3135
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Sidi Bouzid,14143
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Sidi Bouzid,20878
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Sidi Bouzid,7411
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Sidi Bouzid,12314
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Sidi Bouzid,16772
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Sidi Bouzid,7084
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Sidi Bouzid,49167
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Sidi Bouzid,40754
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Sidi Bouzid,7167
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Sidi Bouzid,35511
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Sidi Bouzid,29702
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Sidi Bouzid,6143
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Gabès,37860
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Gabès,47383
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Gabès,12725
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Gabès,34329
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Gabès,39856
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Gabès,15457
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Gabès,18343
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Gabès,14728
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Gabès,2445
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Gabès,15948
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Gabès,12406
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Gabès,3173
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Medenine,57880
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Medenine,64259
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Medenine,16412
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Medenine,55900
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Medenine,53559
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Medenine,17903
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Medenine,15730
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Medenine,14028
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Medenine,2813
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Medenine,15036
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Medenine,12440
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Medenine,3595
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Tataouine,12673
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Tataouine,16837
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Tataouine,4263
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Tataouine,13083
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Tataouine,14806
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Tataouine,5009
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Tataouine,8300
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Tataouine,7663
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Tataouine,1326
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Tataouine,8485
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Tataouine,7051
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Tataouine,1439
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Gafsa,32597
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Gafsa,46493
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Gafsa,12592
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Gafsa,30402
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Gafsa,37537
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Gafsa,14549
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Gafsa,12477
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Gafsa,11475
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Gafsa,2315
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Gafsa,9365
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Gafsa,8869
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Gafsa,2263
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Tozeur,11585
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Tozeur,12806
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Tozeur,3224
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Tozeur,10808
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Tozeur,11235
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Tozeur,4134
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Tozeur,5390
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Tozeur,4960
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Tozeur,865
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Tozeur,4459
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Tozeur,4143
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Tozeur,1126
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Kébili,12050
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Kébili,14756
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Kébili,3869
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Kébili,10175
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Kébili,11940
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Kébili,5288
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Kébili,9760
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Kébili,12308
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Kébili,2445
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Kébili,8759
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Kébili,9993
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Kébili,3318

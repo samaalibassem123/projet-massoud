@@ -1,0 +1,1081 @@
+,Indicateurs,date,milieu,sexe,secteuract,region,population
+0,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Tunisie,76872
+1,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Tunisie,40034
+2,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Tunisie,258838
+3,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Tunisie,265144
+4,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Tunisie,273069
+5,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Tunisie,116202
+6,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Tunisie,399366
+7,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Tunisie,222730
+8,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Tunisie,2242
+9,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Tunisie,11847
+10,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Tunisie,6157
+11,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Tunisie,214365
+12,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Tunisie,5646
+13,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Tunisie,70213
+14,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Tunisie,10399
+15,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Tunisie,299597
+16,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Tunisie,112047
+17,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Tunisie,1657
+18,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Tunisie,194783
+19,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Tunisie,9430
+20,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Tunisie,65547
+21,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Tunisie,202675
+22,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Tunisie,77592
+23,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Tunisie,33000
+24,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Tunisie,95487
+25,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Tunisie,39447
+26,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Tunisie,805
+27,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Tunisie,62579
+28,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Tunisie,747
+29,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Tunisie,64048
+30,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Tunisie,3074
+31,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Tunisie,12162
+32,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Tunisie,1023
+33,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Tunisie,33716
+34,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Tunisie,12950
+35,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Tunisie,475
+36,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Nord Est,30793
+37,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Nord Est,17221
+38,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Nord Est,130202
+39,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Nord Est,111617
+40,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Nord Est,132215
+41,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Nord Est,60992
+42,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Nord Est,185536
+43,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Nord Est,119564
+44,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Nord Est,916
+45,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Nord Est,5805
+46,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Nord Est,3373
+47,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Nord Est,107639
+48,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Nord Est,2949
+49,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Nord Est,38065
+50,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Nord Est,6770
+51,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Nord Est,149643
+52,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Nord Est,69546
+53,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Nord Est,723
+54,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Nord Est,50601
+55,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Nord Est,3081
+56,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Nord Est,28529
+57,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Nord Est,37941
+58,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Nord Est,17739
+59,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Nord Est,9800
+60,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Nord Est,20859
+61,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Nord Est,13367
+62,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Nord Est,143
+63,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Nord Est,14057
+64,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Nord Est,246
+65,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Nord Est,32369
+66,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Nord Est,567
+67,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Nord Est,5394
+68,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Nord Est,416
+69,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Nord Est,9325
+70,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Nord Est,5220
+71,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Nord Est,105
+72,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Nord Ouest,6337
+73,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Nord Ouest,1886
+74,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Nord Ouest,9721
+75,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Nord Ouest,14872
+76,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Nord Ouest,16620
+77,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Nord Ouest,6163
+78,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Nord Ouest,36750
+79,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Nord Ouest,8475
+80,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Nord Ouest,132
+81,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Nord Ouest,1535
+82,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Nord Ouest,283
+83,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Nord Ouest,7496
+84,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Nord Ouest,201
+85,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Nord Ouest,3923
+86,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Nord Ouest,409
+87,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Nord Ouest,25651
+88,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Nord Ouest,4049
+89,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Nord Ouest,82
+90,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Nord Ouest,47330
+91,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Nord Ouest,1145
+92,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Nord Ouest,5629
+93,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Nord Ouest,34904
+94,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Nord Ouest,10371
+95,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Nord Ouest,5472
+96,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Nord Ouest,18366
+97,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Nord Ouest,4533
+98,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Nord Ouest,149
+99,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Nord Ouest,12019
+100,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Nord Ouest,76
+101,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Nord Ouest,4520
+102,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Nord Ouest,381
+103,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Nord Ouest,1344
+104,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Nord Ouest,127
+105,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Nord Ouest,5997
+106,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Nord Ouest,1434
+107,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Nord Ouest,66
+108,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Centre Est,21090
+109,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Centre Est,7135
+110,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Centre Est,89030
+111,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Centre Est,72751
+112,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Centre Est,69573
+113,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Centre Est,28073
+114,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Centre Est,77348
+115,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Centre Est,60752
+116,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Centre Est,673
+117,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Centre Est,2110
+118,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Centre Est,989
+119,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Centre Est,85670
+120,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Centre Est,1555
+121,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Centre Est,15851
+122,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Centre Est,1893
+123,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Centre Est,65517
+124,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Centre Est,26063
+125,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Centre Est,528
+126,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Centre Est,22623
+127,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Centre Est,1575
+128,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Centre Est,20849
+129,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Centre Est,45591
+130,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Centre Est,19560
+131,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Centre Est,7278
+132,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Centre Est,14915
+133,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Centre Est,13286
+134,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Centre Est,148
+135,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Centre Est,5819
+136,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Centre Est,121
+137,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Centre Est,18702
+138,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Centre Est,620
+139,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Centre Est,2446
+140,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Centre Est,197
+141,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Centre Est,6466
+142,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Centre Est,4003
+143,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Centre Est,104
+144,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Centre Ouest,3142
+145,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Centre Ouest,1516
+146,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Centre Ouest,9011
+147,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Centre Ouest,17394
+148,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Centre Ouest,17930
+149,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Centre Ouest,5542
+150,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Centre Ouest,35792
+151,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Centre Ouest,7035
+152,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Centre Ouest,142
+153,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Centre Ouest,1034
+154,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Centre Ouest,345
+155,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Centre Ouest,5547
+156,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Centre Ouest,299
+157,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Centre Ouest,3190
+158,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Centre Ouest,293
+159,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Centre Ouest,22621
+160,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Centre Ouest,2988
+161,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Centre Ouest,103
+162,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Centre Ouest,52957
+163,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Centre Ouest,1419
+164,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Centre Ouest,5999
+165,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Centre Ouest,62006
+166,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Centre Ouest,19910
+167,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Centre Ouest,6683
+168,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Centre Ouest,20973
+169,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Centre Ouest,4392
+170,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Centre Ouest,256
+171,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Centre Ouest,25425
+172,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Centre Ouest,191
+173,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Centre Ouest,5562
+174,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Centre Ouest,1021
+175,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Centre Ouest,1508
+176,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Centre Ouest,100
+177,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Centre Ouest,6157
+178,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Centre Ouest,1211
+179,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Centre Ouest,154
+180,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Sud Est,8800
+181,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Sud Est,3928
+182,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Sud Est,16380
+183,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Sud Est,36262
+184,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Sud Est,27459
+185,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Sud Est,10710
+186,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Sud Est,33264
+187,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Sud Est,21494
+188,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Sud Est,174
+189,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Sud Est,961
+190,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Sud Est,342
+191,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Sud Est,5578
+192,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Sud Est,445
+193,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Sud Est,5953
+194,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Sud Est,663
+195,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Sud Est,21146
+196,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Sud Est,6942
+197,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Sud Est,121
+198,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Sud Est,8906
+199,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Sud Est,1154
+200,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Sud Est,3545
+201,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Sud Est,15641
+202,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Sud Est,7536
+203,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Sud Est,2346
+204,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Sud Est,8544
+205,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Sud Est,2602
+206,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Sud Est,42
+207,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Sud Est,1976
+208,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Sud Est,34
+209,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Sud Est,1405
+210,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Sud Est,170
+211,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Sud Est,900
+212,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Sud Est,47
+213,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Sud Est,2806
+214,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Sud Est,657
+215,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Sud Est,25
+216,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Sud Ouest,6710
+217,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Sud Ouest,8348
+218,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Sud Ouest,4494
+219,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Sud Ouest,12248
+220,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Sud Ouest,9272
+221,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Sud Ouest,4722
+222,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Sud Ouest,30676
+223,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Sud Ouest,5410
+224,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Sud Ouest,205
+225,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Sud Ouest,402
+226,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Sud Ouest,825
+227,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Sud Ouest,2435
+228,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Sud Ouest,197
+229,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Sud Ouest,3231
+230,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Sud Ouest,371
+231,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Sud Ouest,15019
+232,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Sud Ouest,2459
+233,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Sud Ouest,100
+234,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Sud Ouest,12366
+235,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Sud Ouest,1056
+236,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Sud Ouest,996
+237,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Sud Ouest,6592
+238,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Sud Ouest,2476
+239,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Sud Ouest,1421
+240,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Sud Ouest,11830
+241,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Sud Ouest,1267
+242,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Sud Ouest,67
+243,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Sud Ouest,3283
+244,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Sud Ouest,79
+245,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Sud Ouest,1490
+246,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Sud Ouest,315
+247,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Sud Ouest,570
+248,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Sud Ouest,136
+249,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Sud Ouest,2965
+250,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Sud Ouest,425
+251,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Sud Ouest,21
+252,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Tunis,1936
+253,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Tunis,6457
+254,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Tunis,28718
+255,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Tunis,26635
+256,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Tunis,46266
+257,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Tunis,21939
+258,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Tunis,64020
+259,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Tunis,45228
+260,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Tunis,290
+261,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Tunis,287
+262,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Tunis,1393
+263,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Tunis,20328
+264,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Tunis,1027
+265,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Tunis,13199
+266,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Tunis,2642
+267,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Tunis,53845
+268,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Tunis,28604
+269,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Tunis,231
+270,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de L'Ariana,3200
+271,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de L'Ariana,2847
+272,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de L'Ariana,15675
+273,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de L'Ariana,22469
+274,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de L'Ariana,20702
+275,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de L'Ariana,9470
+276,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de L'Ariana,28152
+277,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de L'Ariana,20364
+278,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de L'Ariana,98
+279,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de L'Ariana,247
+280,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de L'Ariana,666
+281,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de L'Ariana,12968
+282,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de L'Ariana,604
+283,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de L'Ariana,6111
+284,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de L'Ariana,1331
+285,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de L'Ariana,24948
+286,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de L'Ariana,14738
+287,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de L'Ariana,100
+288,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de L'Ariana,1491
+289,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de L'Ariana,381
+290,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de L'Ariana,2003
+291,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de L'Ariana,3196
+292,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de L'Ariana,2589
+293,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de L'Ariana,1474
+294,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de L'Ariana,3087
+295,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de L'Ariana,1816
+296,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de L'Ariana,9
+297,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de L'Ariana,214
+298,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de L'Ariana,78
+299,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de L'Ariana,1445
+300,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de L'Ariana,76
+301,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de L'Ariana,855
+302,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de L'Ariana,89
+303,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de L'Ariana,2524
+304,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de L'Ariana,1264
+305,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de L'Ariana,19
+306,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Ben Arous,2376
+307,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Ben Arous,3191
+308,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Ben Arous,26527
+309,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Ben Arous,14004
+310,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Ben Arous,22969
+311,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Ben Arous,12496
+312,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Ben Arous,31409
+313,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Ben Arous,17339
+314,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Ben Arous,144
+315,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Ben Arous,746
+316,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Ben Arous,726
+317,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Ben Arous,18445
+318,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Ben Arous,550
+319,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Ben Arous,6687
+320,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Ben Arous,1580
+321,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Ben Arous,27316
+322,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Ben Arous,9698
+323,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Ben Arous,129
+324,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Ben Arous,2108
+325,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Ben Arous,287
+326,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Ben Arous,3707
+327,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Ben Arous,2562
+328,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Ben Arous,2028
+329,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Ben Arous,1084
+330,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Ben Arous,1469
+331,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Ben Arous,848
+332,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Ben Arous,16
+333,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Ben Arous,761
+334,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Ben Arous,24
+335,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Ben Arous,2723
+336,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Ben Arous,44
+337,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Ben Arous,532
+338,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Ben Arous,35
+339,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Ben Arous,699
+340,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Ben Arous,325
+341,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Ben Arous,13
+342,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Manouba,2124
+343,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Manouba,1457
+344,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Manouba,9938
+345,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Manouba,11497
+346,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Manouba,9606
+347,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Manouba,4953
+348,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Manouba,17467
+349,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Manouba,7509
+350,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Manouba,61
+351,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Manouba,741
+352,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Manouba,198
+353,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Manouba,8081
+354,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Manouba,203
+355,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Manouba,2708
+356,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Manouba,392
+357,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Manouba,11577
+358,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Manouba,4258
+359,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Manouba,48
+360,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Manouba,5575
+361,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Manouba,485
+362,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Manouba,2630
+363,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Manouba,4052
+364,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Manouba,2359
+365,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Manouba,1602
+366,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Manouba,3668
+367,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Manouba,1540
+368,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Manouba,16
+369,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Manouba,1307
+370,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Manouba,37
+371,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Manouba,2000
+372,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Manouba,47
+373,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Manouba,763
+374,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Manouba,56
+375,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Manouba,1477
+376,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Manouba,576
+377,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Manouba,13
+378,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Nabeul,14135
+379,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Nabeul,1663
+380,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Nabeul,25614
+381,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Nabeul,21341
+382,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Nabeul,19726
+383,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Nabeul,6244
+384,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Nabeul,20465
+385,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Nabeul,22427
+386,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Nabeul,157
+387,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Nabeul,3337
+388,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Nabeul,195
+389,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Nabeul,24283
+390,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Nabeul,225
+391,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Nabeul,6241
+392,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Nabeul,488
+393,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Nabeul,17007
+394,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Nabeul,9289
+395,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Nabeul,99
+396,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Nabeul,19674
+397,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Nabeul,1015
+398,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Nabeul,10770
+399,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Nabeul,12223
+400,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Nabeul,5840
+401,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Nabeul,2866
+402,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Nabeul,4862
+403,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Nabeul,6756
+404,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Nabeul,39
+405,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Nabeul,8652
+406,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Nabeul,56
+407,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Nabeul,15295
+408,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Nabeul,128
+409,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Nabeul,2521
+410,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Nabeul,173
+411,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Nabeul,2350
+412,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Nabeul,2351
+413,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Nabeul,28
+414,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Zaghouan,727
+415,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Zaghouan,429
+416,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Zaghouan,5486
+417,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Zaghouan,2343
+418,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Zaghouan,2021
+419,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Zaghouan,798
+420,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Zaghouan,4618
+421,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Zaghouan,1283
+422,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Zaghouan,15
+423,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Zaghouan,152
+424,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Zaghouan,47
+425,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Zaghouan,6084
+426,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Zaghouan,26
+427,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Zaghouan,582
+428,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Zaghouan,55
+429,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Zaghouan,2945
+430,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Zaghouan,550
+431,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Zaghouan,13
+432,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Zaghouan,4984
+433,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Zaghouan,375
+434,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Zaghouan,3148
+435,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Zaghouan,5219
+436,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Zaghouan,1541
+437,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Zaghouan,918
+438,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Zaghouan,3031
+439,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Zaghouan,1094
+440,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Zaghouan,12
+441,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Zaghouan,1474
+442,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Zaghouan,23
+443,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Zaghouan,4581
+444,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Zaghouan,79
+445,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Zaghouan,261
+446,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Zaghouan,23
+447,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Zaghouan,934
+448,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Zaghouan,319
+449,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Zaghouan,11
+450,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Bizerte,6295
+451,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Bizerte,1177
+452,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Bizerte,18244
+453,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Bizerte,13328
+454,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Bizerte,10925
+455,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Bizerte,5092
+456,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Bizerte,19405
+457,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Bizerte,5414
+458,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Bizerte,151
+459,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Bizerte,295
+460,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Bizerte,148
+461,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Bizerte,17450
+462,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Bizerte,314
+463,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Bizerte,2537
+464,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Bizerte,282
+465,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Bizerte,12005
+466,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Bizerte,2409
+467,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Bizerte,103
+468,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Bizerte,16769
+469,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Bizerte,538
+470,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Bizerte,6271
+471,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Bizerte,10689
+472,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Bizerte,3382
+473,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Bizerte,1856
+474,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Bizerte,4742
+475,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Bizerte,1313
+476,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Bizerte,51
+477,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Bizerte,1649
+478,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Bizerte,28
+479,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Bizerte,6325
+480,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Bizerte,193
+481,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Bizerte,462
+482,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Bizerte,40
+483,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Bizerte,1341
+484,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Bizerte,385
+485,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Bizerte,21
+486,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Bèja,2397
+487,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Bèja,490
+488,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Bèja,3955
+489,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Bèja,4241
+490,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Bèja,4921
+491,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Bèja,1781
+492,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Bèja,9138
+493,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Bèja,2458
+494,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Bèja,34
+495,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Bèja,548
+496,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Bèja,83
+497,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Bèja,3434
+498,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Bèja,68
+499,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Bèja,985
+500,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Bèja,118
+501,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Bèja,6152
+502,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Bèja,1094
+503,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Bèja,26
+504,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Bèja,14823
+505,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Bèja,360
+506,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Bèja,1982
+507,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Bèja,8208
+508,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Bèja,2776
+509,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Bèja,1426
+510,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Bèja,4778
+511,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Bèja,1188
+512,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Bèja,46
+513,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Bèja,2854
+514,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Bèja,19
+515,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Bèja,2048
+516,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Bèja,95
+517,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Bèja,364
+518,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Bèja,29
+519,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Bèja,1298
+520,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Bèja,313
+521,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Bèja,19
+522,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Jendouba,999
+523,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Jendouba,422
+524,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Jendouba,1825
+525,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Jendouba,3094
+526,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Jendouba,4361
+527,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Jendouba,1415
+528,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Jendouba,9406
+529,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Jendouba,2529
+530,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Jendouba,26
+531,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Jendouba,203
+532,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Jendouba,69
+533,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Jendouba,840
+534,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Jendouba,48
+535,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Jendouba,918
+536,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Jendouba,103
+537,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Jendouba,6855
+538,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Jendouba,1192
+539,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Jendouba,19
+540,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Jendouba,9706
+541,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Jendouba,490
+542,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Jendouba,2174
+543,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Jendouba,15588
+544,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Jendouba,4923
+545,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Jendouba,2243
+546,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Jendouba,7287
+547,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Jendouba,2423
+548,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Jendouba,52
+549,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Jendouba,2261
+550,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Jendouba,35
+551,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Jendouba,991
+552,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Jendouba,147
+553,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Jendouba,592
+554,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Jendouba,60
+555,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Jendouba,2786
+556,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Jendouba,732
+557,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Jendouba,22
+558,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat du Kef,1579
+559,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat du Kef,684
+560,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat du Kef,2400
+561,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat du Kef,4846
+562,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat du Kef,4586
+563,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat du Kef,1739
+564,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat du Kef,10201
+565,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat du Kef,2187
+566,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat du Kef,45
+567,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat du Kef,322
+568,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat du Kef,94
+569,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat du Kef,1233
+570,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat du Kef,50
+571,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat du Kef,1286
+572,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat du Kef,131
+573,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat du Kef,7494
+574,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat du Kef,1281
+575,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat du Kef,27
+576,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat du Kef,12392
+577,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat du Kef,185
+578,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat du Kef,706
+579,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat du Kef,4378
+580,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat du Kef,1305
+581,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat du Kef,789
+582,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat du Kef,2769
+583,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat du Kef,486
+584,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat du Kef,28
+585,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat du Kef,3125
+586,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat du Kef,8
+587,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat du Kef,435
+588,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat du Kef,69
+589,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat du Kef,215
+590,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat du Kef,19
+591,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat du Kef,877
+592,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat du Kef,275
+593,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat du Kef,16
+594,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Siliana,1362
+595,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Siliana,290
+596,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Siliana,1541
+597,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Siliana,2691
+598,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Siliana,2752
+599,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Siliana,1228
+600,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Siliana,8005
+601,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Siliana,1301
+602,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Siliana,27
+603,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Siliana,462
+604,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Siliana,37
+605,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Siliana,1989
+606,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Siliana,35
+607,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Siliana,734
+608,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Siliana,57
+609,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Siliana,5150
+610,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Siliana,482
+611,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Siliana,10
+612,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Siliana,10409
+613,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Siliana,110
+614,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Siliana,767
+615,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Siliana,6730
+616,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Siliana,1367
+617,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Siliana,1014
+618,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Siliana,3532
+619,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Siliana,436
+620,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Siliana,23
+621,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Siliana,3779
+622,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Siliana,14
+623,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Siliana,1046
+624,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Siliana,70
+625,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Siliana,173
+626,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Siliana,19
+627,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Siliana,1036
+628,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Siliana,114
+629,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Siliana,9
+630,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Sousse,2588
+631,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Sousse,1916
+632,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Sousse,22655
+633,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sousse,21879
+634,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Sousse,19321
+635,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Sousse,8524
+636,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Sousse,23001
+637,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Sousse,24282
+638,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Sousse,264
+639,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Sousse,276
+640,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Sousse,332
+641,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Sousse,23927
+642,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sousse,474
+643,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Sousse,5401
+644,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Sousse,791
+645,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Sousse,20209
+646,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Sousse,11175
+647,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Sousse,187
+648,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Sousse,2852
+649,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Sousse,237
+650,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Sousse,4260
+651,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sousse,8397
+652,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Sousse,2837
+653,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Sousse,1607
+654,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Sousse,2756
+655,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Sousse,4605
+656,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Sousse,31
+657,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Sousse,1158
+658,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Sousse,26
+659,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Sousse,5226
+660,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sousse,150
+661,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Sousse,615
+662,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Sousse,79
+663,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Sousse,1442
+664,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Sousse,1231
+665,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Sousse,19
+666,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Monastir,7712
+667,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Monastir,1192
+668,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Monastir,30051
+669,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Monastir,23262
+670,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Monastir,18527
+671,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Monastir,7509
+672,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Monastir,19455
+673,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Monastir,14023
+674,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Monastir,177
+675,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Monastir,1055
+676,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Monastir,203
+677,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Monastir,39742
+678,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Monastir,476
+679,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Monastir,3392
+680,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Monastir,526
+681,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Monastir,16040
+682,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Monastir,4899
+683,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Monastir,185
+684,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Mahdia,4512
+685,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Mahdia,455
+686,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Mahdia,4958
+687,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Mahdia,7804
+688,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Mahdia,7123
+689,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Mahdia,1721
+690,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Mahdia,7778
+691,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Mahdia,4724
+692,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Mahdia,82
+693,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Mahdia,445
+694,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Mahdia,62
+695,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Mahdia,6039
+696,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Mahdia,118
+697,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Mahdia,1430
+698,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Mahdia,117
+699,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Mahdia,6770
+700,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Mahdia,1938
+701,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Mahdia,54
+702,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Mahdia,6137
+703,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Mahdia,222
+704,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Mahdia,4030
+705,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Mahdia,14256
+706,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Mahdia,7351
+707,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Mahdia,1517
+708,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Mahdia,4329
+709,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Mahdia,2867
+710,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Mahdia,55
+711,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Mahdia,2032
+712,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Mahdia,13
+713,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Mahdia,6275
+714,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Mahdia,193
+715,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Mahdia,539
+716,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Mahdia,36
+717,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Mahdia,1597
+718,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Mahdia,501
+719,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Mahdia,40
+720,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Sfax,6278
+721,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Sfax,3572
+722,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Sfax,31366
+723,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sfax,19806
+724,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Sfax,24602
+725,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Sfax,10319
+726,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Sfax,27114
+727,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Sfax,17723
+728,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Sfax,150
+729,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Sfax,334
+730,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Sfax,392
+731,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Sfax,15962
+732,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sfax,487
+733,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Sfax,5628
+734,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Sfax,459
+735,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Sfax,22498
+736,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Sfax,8051
+737,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Sfax,102
+738,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Sfax,13634
+739,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Sfax,1116
+740,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Sfax,12559
+741,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sfax,22938
+742,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Sfax,9372
+743,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Sfax,4154
+744,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Sfax,7830
+745,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Sfax,5814
+746,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Sfax,62
+747,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Sfax,2629
+748,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Sfax,82
+749,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Sfax,7201
+750,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sfax,277
+751,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Sfax,1292
+752,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Sfax,82
+753,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Sfax,3427
+754,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Sfax,2271
+755,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Sfax,45
+756,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Kairouan,1255
+757,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Kairouan,706
+758,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Kairouan,4459
+759,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kairouan,6666
+760,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Kairouan,8759
+761,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Kairouan,2708
+762,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Kairouan,12419
+763,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Kairouan,3418
+764,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Kairouan,18
+765,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Kairouan,435
+766,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Kairouan,131
+767,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Kairouan,3192
+768,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kairouan,72
+769,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Kairouan,1588
+770,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Kairouan,123
+771,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Kairouan,8720
+772,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Kairouan,1435
+773,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Kairouan,32
+774,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Kairouan,22569
+775,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Kairouan,659
+776,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Kairouan,2564
+777,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kairouan,23335
+778,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Kairouan,8446
+779,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Kairouan,2435
+780,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Kairouan,5799
+781,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Kairouan,1890
+782,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Kairouan,56
+783,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Kairouan,9162
+784,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Kairouan,31
+785,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Kairouan,2297
+786,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kairouan,235
+787,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Kairouan,530
+788,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Kairouan,26
+789,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Kairouan,1702
+790,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Kairouan,337
+791,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Kairouan,33
+792,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Kasserine,989
+793,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Kasserine,477
+794,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Kasserine,2827
+795,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kasserine,7098
+796,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Kasserine,5322
+797,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Kasserine,1741
+798,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Kasserine,13958
+799,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Kasserine,2176
+800,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Kasserine,76
+801,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Kasserine,223
+802,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Kasserine,76
+803,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Kasserine,1343
+804,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kasserine,145
+805,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Kasserine,860
+806,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Kasserine,100
+807,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Kasserine,8008
+808,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Kasserine,876
+809,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Kasserine,40
+810,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Kasserine,11941
+811,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Kasserine,213
+812,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Kasserine,1228
+813,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kasserine,17622
+814,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Kasserine,3931
+815,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Kasserine,1808
+816,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Kasserine,6499
+817,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Kasserine,914
+818,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Kasserine,73
+819,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Kasserine,3627
+820,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Kasserine,18
+821,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Kasserine,1268
+822,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kasserine,311
+823,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Kasserine,364
+824,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Kasserine,29
+825,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Kasserine,1829
+826,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Kasserine,324
+827,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Kasserine,52
+828,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Sidi Bouzid,898
+829,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Sidi Bouzid,333
+830,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Sidi Bouzid,1725
+831,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sidi Bouzid,3630
+832,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Sidi Bouzid,3849
+833,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Sidi Bouzid,1093
+834,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Sidi Bouzid,9415
+835,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Sidi Bouzid,1441
+836,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Sidi Bouzid,48
+837,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Sidi Bouzid,376
+838,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Sidi Bouzid,138
+839,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Sidi Bouzid,1012
+840,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sidi Bouzid,82
+841,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Sidi Bouzid,742
+842,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Sidi Bouzid,70
+843,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Sidi Bouzid,5893
+844,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Sidi Bouzid,677
+845,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Sidi Bouzid,31
+846,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Sidi Bouzid,18447
+847,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Sidi Bouzid,547
+848,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Sidi Bouzid,2207
+849,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Sidi Bouzid,21049
+850,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Sidi Bouzid,7533
+851,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Sidi Bouzid,2440
+852,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Sidi Bouzid,8675
+853,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Sidi Bouzid,1588
+854,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Sidi Bouzid,127
+855,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Sidi Bouzid,12636
+856,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Sidi Bouzid,142
+857,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Sidi Bouzid,1997
+858,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Sidi Bouzid,475
+859,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Sidi Bouzid,614
+860,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Sidi Bouzid,45
+861,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Sidi Bouzid,2626
+862,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Sidi Bouzid,550
+863,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Sidi Bouzid,69
+864,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Gabès,3991
+865,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Gabès,1752
+866,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Gabès,9214
+867,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Gabès,12347
+868,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Gabès,8003
+869,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Gabès,3299
+870,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Gabès,12489
+871,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Gabès,3923
+872,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Gabès,64
+873,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Gabès,616
+874,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Gabès,188
+875,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Gabès,2141
+876,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Gabès,177
+877,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Gabès,2012
+878,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Gabès,186
+879,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Gabès,8541
+880,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Gabès,1738
+881,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Gabès,45
+882,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Gabès,4503
+883,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Gabès,438
+884,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Gabès,1722
+885,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Gabès,6739
+886,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Gabès,2150
+887,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Gabès,813
+888,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Gabès,3326
+889,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Gabès,989
+890,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Gabès,19
+891,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Gabès,1491
+892,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Gabès,18
+893,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Gabès,812
+894,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Gabès,78
+895,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Gabès,422
+896,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Gabès,16
+897,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Gabès,1044
+898,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Gabès,284
+899,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Gabès,8
+900,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Medenine,4421
+901,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Medenine,1148
+902,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Medenine,5711
+903,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Medenine,19247
+904,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Medenine,16549
+905,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Medenine,6538
+906,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Medenine,15511
+907,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Medenine,16447
+908,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Medenine,87
+909,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Medenine,313
+910,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Medenine,112
+911,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Medenine,2917
+912,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Medenine,229
+913,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Medenine,3391
+914,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Medenine,433
+915,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Medenine,9502
+916,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Medenine,4822
+917,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Medenine,57
+918,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Medenine,3185
+919,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Medenine,269
+920,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Medenine,1354
+921,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Medenine,6322
+922,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Medenine,3914
+923,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Medenine,1160
+924,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Medenine,3277
+925,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Medenine,1196
+926,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Medenine,19
+927,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Medenine,416
+928,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Medenine,7
+929,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Medenine,444
+930,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Medenine,69
+931,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Medenine,364
+932,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Medenine,27
+933,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Medenine,1022
+934,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Medenine,292
+935,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Medenine,9
+936,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Tataouine,388
+937,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Tataouine,1028
+938,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Tataouine,1455
+939,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Tataouine,4668
+940,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Tataouine,2907
+941,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Tataouine,873
+942,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Tataouine,5264
+943,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Tataouine,1124
+944,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Tataouine,23
+945,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Tataouine,32
+946,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Tataouine,42
+947,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Tataouine,520
+948,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Tataouine,39
+949,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Tataouine,550
+950,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Tataouine,44
+951,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Tataouine,3103
+952,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Tataouine,382
+953,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Tataouine,19
+954,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Tataouine,1218
+955,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Tataouine,447
+956,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Tataouine,469
+957,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Tataouine,2580
+958,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Tataouine,1472
+959,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Tataouine,373
+960,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Tataouine,1941
+961,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Tataouine,417
+962,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Tataouine,4
+963,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Tataouine,69
+964,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Tataouine,9
+965,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Tataouine,149
+966,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Tataouine,23
+967,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Tataouine,114
+968,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Tataouine,4
+969,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Tataouine,740
+970,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Tataouine,81
+971,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Tataouine,8
+972,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Gafsa,848
+973,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Gafsa,7470
+974,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Gafsa,2899
+975,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Gafsa,6280
+976,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Gafsa,5361
+977,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Gafsa,3015
+978,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Gafsa,18936
+979,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Gafsa,2477
+980,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Gafsa,138
+981,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Gafsa,151
+982,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Gafsa,744
+983,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Gafsa,1783
+984,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Gafsa,82
+985,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Gafsa,1240
+986,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Gafsa,194
+987,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Gafsa,8248
+988,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Gafsa,1295
+989,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Gafsa,60
+990,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Gafsa,4487
+991,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Gafsa,481
+992,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Gafsa,412
+993,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Gafsa,3731
+994,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Gafsa,1052
+995,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Gafsa,558
+996,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Gafsa,5749
+997,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Gafsa,341
+998,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Gafsa,29
+999,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Gafsa,1764
+1000,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Gafsa,26
+1001,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Gafsa,1275
+1002,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Gafsa,65
+1003,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Gafsa,134
+1004,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Gafsa,17
+1005,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Gafsa,964
+1006,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Gafsa,116
+1007,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Gafsa,7
+1008,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Tozeur,2168
+1009,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Tozeur,589
+1010,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Tozeur,737
+1011,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Tozeur,2760
+1012,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Tozeur,1865
+1013,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Tozeur,1022
+1014,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Tozeur,5715
+1015,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Tozeur,1526
+1016,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Tozeur,27
+1017,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Tozeur,108
+1018,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Tozeur,45
+1019,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Tozeur,296
+1020,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Tozeur,47
+1021,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Tozeur,1051
+1022,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Tozeur,128
+1023,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Tozeur,3640
+1024,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Tozeur,593
+1025,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Tozeur,17
+1026,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Tozeur,1774
+1027,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Tozeur,369
+1028,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Tozeur,161
+1029,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Tozeur,1072
+1030,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Tozeur,523
+1031,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Tozeur,337
+1032,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Tozeur,2394
+1033,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Tozeur,365
+1034,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Tozeur,9
+1035,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Tozeur,78
+1036,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Tozeur,21
+1037,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Tozeur,141
+1038,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Tozeur,17
+1039,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Tozeur,250
+1040,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Tozeur,24
+1041,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Tozeur,1299
+1042,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Tozeur,219
+1043,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Tozeur,6
+1044,28001579,2014-01-01 00:00:00,Communal,Masculin,''Agriculture et peche'',Gouvernorat de Kébili,3694
+1045,28001579,2014-01-01 00:00:00,Communal,Masculin,''Mines  et énergie'',Gouvernorat de Kébili,289
+1046,28001579,2014-01-01 00:00:00,Communal,Masculin,''Industrie manufacturière'',Gouvernorat de Kébili,858
+1047,28001579,2014-01-01 00:00:00,Communal,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kébili,3208
+1048,28001579,2014-01-01 00:00:00,Communal,Masculin,''Commerce'',Gouvernorat de Kébili,2046
+1049,28001579,2014-01-01 00:00:00,Communal,Masculin,''Transport'',Gouvernorat de Kébili,685
+1050,28001579,2014-01-01 00:00:00,Communal,Masculin,'Education Santé et services administratifs',Gouvernorat de Kébili,6025
+1051,28001579,2014-01-01 00:00:00,Communal,Masculin,''Autres services'',Gouvernorat de Kébili,1407
+1052,28001579,2014-01-01 00:00:00,Communal,Masculin,''Non Declaré'',Gouvernorat de Kébili,40
+1053,28001579,2014-01-01 00:00:00,Communal,Féminin,''Agriculture et peche'',Gouvernorat de Kébili,143
+1054,28001579,2014-01-01 00:00:00,Communal,Féminin,''Mines  et énergie'',Gouvernorat de Kébili,36
+1055,28001579,2014-01-01 00:00:00,Communal,Féminin,''Industrie manufacturière'',Gouvernorat de Kébili,356
+1056,28001579,2014-01-01 00:00:00,Communal,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kébili,68
+1057,28001579,2014-01-01 00:00:00,Communal,Féminin,''Commerce'',Gouvernorat de Kébili,940
+1058,28001579,2014-01-01 00:00:00,Communal,Féminin,''Transport'',Gouvernorat de Kébili,49
+1059,28001579,2014-01-01 00:00:00,Communal,Féminin,'Education Santé et services administratifs',Gouvernorat de Kébili,3131
+1060,28001579,2014-01-01 00:00:00,Communal,Féminin,''Autres services'',Gouvernorat de Kébili,571
+1061,28001579,2014-01-01 00:00:00,Communal,Féminin,''Non Declaré'',Gouvernorat de Kébili,23
+1062,28001579,2014-01-01 00:00:00,Rural,Masculin,''Agriculture et peche'',Gouvernorat de Kébili,6105
+1063,28001579,2014-01-01 00:00:00,Rural,Masculin,''Mines  et énergie'',Gouvernorat de Kébili,206
+1064,28001579,2014-01-01 00:00:00,Rural,Masculin,''Industrie manufacturière'',Gouvernorat de Kébili,423
+1065,28001579,2014-01-01 00:00:00,Rural,Masculin,''Batiment et travaux publiques'',Gouvernorat de Kébili,1789
+1066,28001579,2014-01-01 00:00:00,Rural,Masculin,''Commerce'',Gouvernorat de Kébili,901
+1067,28001579,2014-01-01 00:00:00,Rural,Masculin,''Transport'',Gouvernorat de Kébili,526
+1068,28001579,2014-01-01 00:00:00,Rural,Masculin,'Education Santé et services administratifs',Gouvernorat de Kébili,3687
+1069,28001579,2014-01-01 00:00:00,Rural,Masculin,''Autres services'',Gouvernorat de Kébili,561
+1070,28001579,2014-01-01 00:00:00,Rural,Masculin,''Non Declaré'',Gouvernorat de Kébili,29
+1071,28001579,2014-01-01 00:00:00,Rural,Féminin,''Agriculture et peche'',Gouvernorat de Kébili,1441
+1072,28001579,2014-01-01 00:00:00,Rural,Féminin,''Mines  et énergie'',Gouvernorat de Kébili,32
+1073,28001579,2014-01-01 00:00:00,Rural,Féminin,''Industrie manufacturière'',Gouvernorat de Kébili,74
+1074,28001579,2014-01-01 00:00:00,Rural,Féminin,''Batiment et travaux publiques'',Gouvernorat de Kébili,233
+1075,28001579,2014-01-01 00:00:00,Rural,Féminin,''Commerce'',Gouvernorat de Kébili,186
+1076,28001579,2014-01-01 00:00:00,Rural,Féminin,''Transport'',Gouvernorat de Kébili,95
+1077,28001579,2014-01-01 00:00:00,Rural,Féminin,'Education Santé et services administratifs',Gouvernorat de Kébili,702
+1078,28001579,2014-01-01 00:00:00,Rural,Féminin,''Autres services'',Gouvernorat de Kébili,90
+1079,28001579,2014-01-01 00:00:00,Rural,Féminin,''Non Declaré'',Gouvernorat de Kébili,8

@@ -1,0 +1,2795 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/15/2025 12:04:46 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-P5D1I92"
+  DTS:CreatorName="DESKTOP-P5D1I92\micro"
+  DTS:DTSID="{BAAFD226-C632-45FD-B1D3-20AECC33A448}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1008.3"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="56"
+  DTS:VersionGUID="{58F6DCFA-6E26-4661-941D-4D7B254C983F}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Emploi-dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{608AE0BB-A103-4D87-B95D-07BA7E7216E5}"
+      DTS:ObjectName="Emploi-dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet massoud\datasets\Emploi-dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Colonne 0"
+              DTS:DTSID="{D288AC01-62B8-4FEC-8595-9BFCC1999DB7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Indicateurs"
+              DTS:DTSID="{E146AF09-4A0B-40DD-852D-2492F69F3FDB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="date"
+              DTS:DTSID="{B6FF423B-493A-40D6-B262-691F79F35E51}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="milieu"
+              DTS:DTSID="{A85D63CD-269A-4C15-A151-11CE43F8B4A8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="sexe"
+              DTS:DTSID="{E2E79650-24EE-48BB-BC4C-2319BAD39014}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="secteuract"
+              DTS:DTSID="{886793EA-4084-4D9B-8383-8504E67B3A6E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="region"
+              DTS:DTSID="{61FDAA3B-EF5F-4022-86BD-C781D61EA5DE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="population"
+              DTS:DTSID="{5903A527-07AF-4C55-98EB-29BF8926183D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Etudiant-dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{BC990D6A-CC6B-41FB-800F-92720C24395B}"
+      DTS:ObjectName="Etudiant-dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet massoud\datasets\Etudiant-dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Indicateur  ClÃ©"
+              DTS:DTSID="{C7DB9561-427F-4355-8027-2D6C10C6EB57}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{F848F0BC-2276-4BF5-BE8F-F37DB78DDBEB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Milieu"
+              DTS:DTSID="{FB9EB686-A54E-453E-BA87-7AF57E2648F1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexe"
+              DTS:DTSID="{EC7538A4-9103-4C54-AF55-DEF726E6FB43}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Niveau d''instruction"
+              DTS:DTSID="{2300054A-6018-469F-8D79-A61780CB61CB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RÃ©gions"
+              DTS:DTSID="{A639150C-F43F-41DC-8C29-62E3BE413778}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="population"
+              DTS:DTSID="{3E0EA0C5-FDE6-49E7-8C84-7B60951A0FB5}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CAB938EA-8E4C-4952-AD78-8F1C83136771}"
+      DTS:ObjectName="localhost\MSSQLSERVER01.StagingArea">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost\MSSQLSERVER01;Initial Catalog=StagingArea;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{CAB938EA-8E4C-4952-AD78-8F1C83136771}localhost\MSSQLSERVER01.StagingArea;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Migration-dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F0BB38FA-9C60-41EF-A159-5B87B18D69AF}"
+      DTS:ObjectName="Migration-dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet massoud\datasets\Migration-Dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Colonne 0"
+              DTS:DTSID="{4DB7E629-F214-4AFA-B3CC-540DAD7DC5C1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RÃ©gions"
+              DTS:DTSID="{4264F54F-585C-44DB-A4A4-2A9C65D22C1F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Milieu"
+              DTS:DTSID="{F61E4BDC-B6A7-4EC5-B10C-1522E7387328}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexe"
+              DTS:DTSID="{138CA55C-19DD-4301-80FF-93256267BEDA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Emploi"
+              DTS:DTSID="{AD9B5D3E-27AD-4244-95A5-8EFF53BF0C3D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Acquisition de logement ou meilleur condition de vie"
+              DTS:DTSID="{6FB749F3-4B14-4131-8A24-E7DE710323AC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Mariage"
+              DTS:DTSID="{9653B040-BBDF-49CD-9EB1-6694FA9FC7F4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Accompagnement de la famille"
+              DTS:DTSID="{62206F49-CD54-44CD-B041-602F996DD29D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Etudes"
+              DTS:DTSID="{D5512971-5544-4B7E-A6E5-A34B62AEBAAB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pop_Autres"
+              DTS:DTSID="{25888873-6176-4296-B51D-CB416131D1E9}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tâche de flux de données"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{15B0E847-9F50-4BCF-97E4-1112773D5CA4}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:MaxErrorCount="10"
+      DTS:ObjectName="Tâche de flux de données"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tâche de flux de données\Conversion de données"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Conversion de données"
+              name="Conversion de données"
+              usesDispositions="true"
+              validateExternalMetadata="False">
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données]"
+                  name="Entrée de conversion de données">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[population]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="population"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[population]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[date]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="date"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[date]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[milieu]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="milieu"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[sexe]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="sexe"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[secteuract]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="secteuract"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[secteuract]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données].Columns[region]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="region"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[region]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données]"
+                  exclusionGroup="1"
+                  name="Sortie de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of population]"
+                      dataType="ui4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of population]"
+                      name="Copy of population"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[population]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      name="Copy of date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of milieu]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of milieu]"
+                      name="Copy of milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[milieu]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of sexe]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of sexe]"
+                      name="Copy of sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[sexe]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of secteuract]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of secteuract]"
+                      name="Copy of secteuract"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[secteuract]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of region]"
+                      name="Copy of region"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[region]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie d'erreur de conversion de données]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\Conversion de données 1"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Conversion de données"
+              name="Conversion de données 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données]"
+                  name="Entrée de conversion de données">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[Date]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Date"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Date]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[Milieu]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Milieu"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[Sexe]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sexe"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[Niveau d''instruction]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Niveau d''instruction"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Niveau d''instruction]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[RÃ©gions]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="RÃ©gions"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données].Columns[population]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="population"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[population]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données]"
+                  exclusionGroup="1"
+                  name="Sortie de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Date]"
+                      name="Copy of Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      name="Copy of Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      name="Copy of Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Niveau d''instruction]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Niveau d''instruction]"
+                      name="Copy of Niveau d''instruction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Niveau d''instruction]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
+                      name="Copy of RÃ©gions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of population]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of population]"
+                      name="Copy of population"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[population]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie d'erreur de conversion de données]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\Conversion de données 2"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Conversion de données"
+              name="Conversion de données 2"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données]"
+                  name="Entrée de conversion de données">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[RÃ©gions]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="RÃ©gions"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Milieu]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Milieu"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Sexe]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sexe"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Emploi]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Emploi"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Emploi]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Acquisition de logement ou meilleur condition de vie]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Acquisition de logement ou meilleur condition de vie"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Acquisition de logement ou meilleur condition de vie]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Mariage]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Mariage"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Mariage]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Accompagnement de la famille]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Accompagnement de la famille"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Accompagnement de la famille]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Etudes]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Etudes"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Etudes]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Pop_Autres]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Pop_Autres"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Autres]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données]"
+                  exclusionGroup="1"
+                  name="Sortie de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
+                      name="Copy of RÃ©gions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      name="Copy of Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      name="Copy of Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Emploi]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Emploi]"
+                      name="Copy of Pop_Emploi"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Emploi]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Acquisition de logement ou meilleur condition de vie]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Acquisition de logement ou meilleur condition de vie]"
+                      name="Copy of Pop_Acquisition de logement ou meilleur condition de vie"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Acquisition de logement ou meilleur condition de vie]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Mariage]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Mariage]"
+                      name="Copy of Pop_Mariage"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Mariage]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Accompagnement de la famille]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Accompagnement de la famille]"
+                      name="Copy of Pop_Accompagnement de la famille"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Accompagnement de la famille]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Etudes]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Etudes]"
+                      name="Copy of Pop_Etudes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Etudes]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Autres]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Autres]"
+                      name="Copy of Pop_Autres"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Autres]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie d'erreur de conversion de données]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de conversion de données"
+                  synchronousInputId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\Emploi-dataset"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Emploi-dataset"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\Emploi-dataset.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Emploi-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[Emploi-dataset]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[population]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[population]"
+                      name="population"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      name="Colonne 0"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Indicateurs]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Indicateurs]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Indicateurs]"
+                      name="Indicateurs"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      name="date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[milieu]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[milieu]"
+                      name="milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[sexe]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[sexe]"
+                      name="sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[secteuract]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[secteuract]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[secteuract]"
+                      name="secteuract"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[region]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[region]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[region]"
+                      name="region"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="population" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Colonne 0" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Indicateurs]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Indicateurs" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="date" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[secteuract]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="secteuract" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[region]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="region" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\Etudiant_dataset"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Etudiant_dataset"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\Etudiant_dataset.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Etudiant-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[Etudiant-dataset]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Indicateur  ClÃ©]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Indicateur  ClÃ©]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Indicateur  ClÃ©]"
+                      name="Indicateur  ClÃ©"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      name="Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      name="Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Niveau d''instruction]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Niveau d''instruction]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[Niveau d''instruction]"
+                      name="Niveau d''instruction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]"
+                      name="RÃ©gions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[population]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].Columns[population]"
+                      name="population"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Indicateur  ClÃ©]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Indicateur  ClÃ©" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Niveau d''instruction]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Niveau d''instruction" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="RÃ©gions" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[population]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="population" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\Migration_dataset"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Migration_dataset"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\Migration_dataset.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Migration-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[Migration-dataset]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      name="Colonne 0"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[RÃ©gions]"
+                      name="RÃ©gions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      name="Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      name="Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Emploi]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Emploi]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Emploi]"
+                      name="Pop_Emploi"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Acquisition de logement ou meilleur condition de vie]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Acquisition de logement ou meilleur condition de vie]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Acquisition de logement ou meilleur condition de vie]"
+                      name="Pop_Acquisition de logement ou meilleur condition de vie"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Mariage]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Mariage]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Mariage]"
+                      name="Pop_Mariage"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Accompagnement de la famille]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Accompagnement de la famille]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Accompagnement de la famille]"
+                      name="Pop_Accompagnement de la famille"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Etudes]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Etudes]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Etudes]"
+                      name="Pop_Etudes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Autres]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Autres]"
+                      length="50"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Pop_Autres]"
+                      name="Pop_Autres"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Colonne 0" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="RÃ©gions" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Emploi]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Emploi" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Acquisition de logement ou meilleur condition de vie]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Acquisition de logement ou meilleur condition de vie" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Mariage]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Mariage" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Accompagnement de la famille]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Accompagnement de la famille" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Etudes]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Etudes" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Pop_Autres]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Pop_Autres" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\stag_emploi"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="stag_emploi"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[stag_Emploi]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\stag_emploi.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of date"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of milieu]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of milieu"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of sexe]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of sexe"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of secteuract]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of secteuract"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Secteur_Activite]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of secteuract]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of region]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of region"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of region]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of population]"
+                      cachedDataType="ui4"
+                      cachedName="Copy of population"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of population]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Indicateur_Cle]"
+                      dataType="i4"
+                      name="Indicateur_Cle" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      dataType="dbTimeStamp"
+                      name="Date_Collecte" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      dataType="wstr"
+                      length="20"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Secteur_Activite]"
+                      dataType="wstr"
+                      length="100"
+                      name="Secteur_Activite" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      dataType="i4"
+                      name="Population" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\stag_etudiant"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="stag_etudiant"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[stag_Etudiant]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\stag_etudiant.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of Date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of Date"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Date]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of Milieu"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of Sexe]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of Sexe"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of Niveau d''instruction]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of Niveau d''instruction"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Niveau_Instruction]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of Niveau d''instruction]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of RÃ©gions]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of RÃ©gions"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of population]"
+                      cachedDataType="i4"
+                      cachedName="Copy of population"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of population]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Indicateur_Cle]"
+                      dataType="i4"
+                      name="Indicateur_Cle" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      dataType="dbTimeStamp"
+                      name="Date_Collecte" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      dataType="wstr"
+                      length="20"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Niveau_Instruction]"
+                      dataType="wstr"
+                      length="50"
+                      name="Niveau_Instruction" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      dataType="i4"
+                      name="Population" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\stag_etudiant.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_etudiant.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_etudiant.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_etudiant.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tâche de flux de données\stag_mig"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="stag_mig"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[stag_Migration]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tâche de flux de données\stag_mig.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of RÃ©gions]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of RÃ©gions"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of Milieu"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Sexe]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of Sexe"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Emploi]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Emploi"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Emploi]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Emploi]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Acquisition de logement ou meilleur condition de vie]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Acquisition de logement ou meilleur condition de vie"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Acquisition_Logement]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Acquisition de logement ou meilleur condition de vie]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Mariage]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Mariage"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Mariage]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Mariage]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Etudes]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Etudes"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Etudes]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Etudes]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Autres]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Autres"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Autres]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Autres]" />
+                    <inputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Pop_Accompagnement de la famille]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Pop_Accompagnement de la famille"
+                      externalMetadataColumnId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Accompagnement_Famille]"
+                      lineageId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Pop_Accompagnement de la famille]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Indicateur_Cle]"
+                      dataType="i4"
+                      name="Indicateur_Cle" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      dataType="wstr"
+                      length="20"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Emploi]"
+                      dataType="i4"
+                      name="Pop_Emploi" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Acquisition_Logement]"
+                      dataType="i4"
+                      name="Pop_Acquisition_Logement" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Mariage]"
+                      dataType="i4"
+                      name="Pop_Mariage" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Accompagnement_Famille]"
+                      dataType="i4"
+                      name="Pop_Accompagnement_Famille" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Etudes]"
+                      dataType="i4"
+                      name="Pop_Etudes" />
+                    <externalMetadataColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Pop_Autres]"
+                      dataType="i4"
+                      name="Pop_Autres" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tâche de flux de données\stag_mig.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_mig.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tâche de flux de données\stag_mig.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tâche de flux de données\stag_mig.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de conversion de données]"
+              endId="Package\Tâche de flux de données\stag_emploi.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de conversion de données"
+              startId="Package\Tâche de flux de données\Conversion de données.Outputs[Sortie de conversion de données]" />
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de conversion de données1]"
+              endId="Package\Tâche de flux de données\stag_etudiant.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de conversion de données"
+              startId="Package\Tâche de flux de données\Conversion de données 1.Outputs[Sortie de conversion de données]" />
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de conversion de données2]"
+              endId="Package\Tâche de flux de données\stag_mig.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de conversion de données"
+              startId="Package\Tâche de flux de données\Conversion de données 2.Outputs[Sortie de conversion de données]" />
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat]"
+              endId="Package\Tâche de flux de données\Conversion de données.Inputs[Entrée de conversion de données]"
+              name="Sortie de source de fichier plat"
+              startId="Package\Tâche de flux de données\Emploi-dataset.Outputs[Sortie de source de fichier plat]" />
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat1]"
+              endId="Package\Tâche de flux de données\Conversion de données 1.Inputs[Entrée de conversion de données]"
+              name="Sortie de source de fichier plat"
+              startId="Package\Tâche de flux de données\Etudiant_dataset.Outputs[Sortie de source de fichier plat]" />
+            <path
+              refId="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat2]"
+              endId="Package\Tâche de flux de données\Conversion de données 2.Inputs[Entrée de conversion de données]"
+              name="Sortie de source de fichier plat"
+              startId="Package\Tâche de flux de données\Migration_dataset.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="205,42"
+          Id="Package\Tâche de flux de données"
+          TopLeft="305,170" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Tâche de flux de données">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Tâche de flux de données\Emploi-dataset"
+          TopLeft="154.5,207.5" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\Tâche de flux de données\Conversion de données"
+          TopLeft="491,207" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\Tâche de flux de données\stag_emploi"
+          TopLeft="864,203" />
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat]"
+          TopLeft="306.5,228.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="184.5,0"
+              Start="0,0"
+              End="177,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="177,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de conversion de données]"
+          TopLeft="686,226">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="178,0"
+              Start="0,0"
+              End="170.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="170.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Tâche de flux de données\Etudiant_dataset"
+          TopLeft="150,339" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Tâche de flux de données\Migration_dataset"
+          TopLeft="151,474" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Tâche de flux de données\Conversion de données 1"
+          TopLeft="488,348" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Tâche de flux de données\Conversion de données 2"
+          TopLeft="511,474" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Tâche de flux de données\stag_etudiant"
+          TopLeft="868,344" />
+        <NodeLayout
+          Size="124,42"
+          Id="Package\Tâche de flux de données\stag_mig"
+          TopLeft="877,477" />
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat1]"
+          TopLeft="312,360">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="176,9"
+              Start="0,0"
+              End="168.5,9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="84,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="84,0"
+                    Point2="88,0"
+                    Point3="88,4" />
+                  <mssgle:LineSegment
+                    End="88,5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="88,5"
+                    Point2="88,9"
+                    Point3="92,9" />
+                  <mssgle:LineSegment
+                    End="168.5,9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de source de fichier plat2]"
+          TopLeft="318,495">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="193,0"
+              Start="0,0"
+              End="185.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="185.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de conversion de données1]"
+          TopLeft="692,367">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="176,0"
+              Start="0,0"
+              End="168.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="168.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tâche de flux de données.Paths[Sortie de conversion de données2]"
+          TopLeft="715,496.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="162,0"
+              Start="0,0"
+              End="154.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="154.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tâche de flux de données\stag_emploi">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tâche de flux de données\stag_etudiant">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tâche de flux de données\stag_mig">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

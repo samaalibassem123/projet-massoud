@@ -1,0 +1,117 @@
+,Régions,Milieu,Sexe,Pop_Emploi,Pop_Acquisition de logement ou meilleur condition de vie,Pop_Mariage,Pop_Accompagnement de la famille,Pop_Etudes,Pop_Autres
+0,Tunisie,Communal,Masculin,63996,73917,56323,64224,19275,10346
+1,Tunisie,Communal,Féminin,30139,48866,88487,110390,16363,9653
+2,Tunisie,Rural,Masculin,15831,5089,9778,9662,2745,1030
+3,Tunisie,Rural,Féminin,8258,3525,21046,15931,2233,1220
+4,Nord Est,Communal,Masculin,22067,46841,29627,34307,6062,5402
+5,Nord Est,Communal,Féminin,10478,30019,41469,59296,5429,4996
+6,Nord Est,Rural,Masculin,1708,978,1951,1427,167,166
+7,Nord Est,Rural,Féminin,911,599,4176,2284,156,200
+8,Gouvernorat de Tunis,Communal,Masculin,10102,22979,14741,15456,2355,2748
+9,Gouvernorat de Tunis,Communal,Féminin,4922,15091,17668,26949,2096,2619
+10,Gouvernorat de L'Ariana,Communal,Masculin,1874,7634,3200,5177,306,586
+11,Gouvernorat de L'Ariana,Communal,Féminin,841,4493,4306,8986,266,533
+12,Gouvernorat de L'Ariana,Rural,Masculin,34,46,69,43,4,6
+13,Gouvernorat de L'Ariana,Rural,Féminin,39,17,100,75,11,5
+14,Gouvernorat de Ben Arous,Communal,Masculin,2289,8571,3993,5865,423,859
+15,Gouvernorat de Ben Arous,Communal,Féminin,1056,5568,5764,10039,332,763
+16,Gouvernorat de Ben Arous,Rural,Masculin,37,50,65,62,0,14
+17,Gouvernorat de Ben Arous,Rural,Féminin,17,31,136,109,3,11
+18,Gouvernorat de Manouba,Communal,Masculin,1031,2898,2130,2267,184,296
+19,Gouvernorat de Manouba,Communal,Féminin,440,1667,3568,3883,199,295
+20,Gouvernorat de Manouba,Rural,Masculin,96,134,191,133,2,14
+21,Gouvernorat de Manouba,Rural,Féminin,33,62,441,271,9,22
+22,Gouvernorat de Nabeul,Communal,Masculin,3449,2351,2830,2929,1689,534
+23,Gouvernorat de Nabeul,Communal,Féminin,1525,1612,5288,4946,1425,458
+24,Gouvernorat de Nabeul,Rural,Masculin,381,266,554,365,61,63
+25,Gouvernorat de Nabeul,Rural,Féminin,168,170,1269,591,36,76
+26,Gouvernorat de Zaghouan,Communal,Masculin,930,417,539,573,255,87
+27,Gouvernorat de Zaghouan,Communal,Féminin,412,246,1005,1002,214,83
+28,Gouvernorat de Zaghouan,Rural,Masculin,430,145,297,276,27,25
+29,Gouvernorat de Zaghouan,Rural,Féminin,218,88,678,437,23,42
+30,Gouvernorat de Bizerte,Communal,Masculin,2392,1991,2194,2040,850,292
+31,Gouvernorat de Bizerte,Communal,Féminin,1282,1342,3870,3491,897,245
+32,Gouvernorat de Bizerte,Rural,Masculin,730,337,775,548,73,44
+33,Gouvernorat de Bizerte,Rural,Féminin,436,231,1552,801,74,44
+34,Nord Ouest,Communal,Masculin,8522,3803,5180,5276,1932,595
+35,Nord Ouest,Communal,Féminin,4576,2530,8971,9055,1767,623
+36,Nord Ouest,Rural,Masculin,3522,1255,2269,2160,382,247
+37,Nord Ouest,Rural,Féminin,2163,934,4816,3662,381,296
+38,Gouvernorat de Bèja,Communal,Masculin,1727,931,1352,1238,463,136
+39,Gouvernorat de Bèja,Communal,Féminin,895,642,2431,2207,395,143
+40,Gouvernorat de Bèja,Rural,Masculin,676,241,558,417,75,48
+41,Gouvernorat de Bèja,Rural,Féminin,414,201,1167,719,68,59
+42,Gouvernorat de Jendouba,Communal,Masculin,2972,961,1460,1427,491,166
+43,Gouvernorat de Jendouba,Communal,Féminin,1652,653,2517,2261,494,175
+44,Gouvernorat de Jendouba,Rural,Masculin,1237,429,765,687,131,100
+45,Gouvernorat de Jendouba,Rural,Féminin,789,316,1653,1114,133,114
+46,Gouvernorat du Kef,Communal,Masculin,2108,1063,1239,1407,517,186
+47,Gouvernorat du Kef,Communal,Féminin,1153,711,2167,2542,547,207
+48,Gouvernorat du Kef,Rural,Masculin,689,273,434,510,92,54
+49,Gouvernorat du Kef,Rural,Féminin,445,214,899,866,102,67
+50,Gouvernorat de Siliana,Communal,Masculin,1715,848,1129,1204,461,107
+51,Gouvernorat de Siliana,Communal,Féminin,876,524,1856,2045,331,98
+52,Gouvernorat de Siliana,Rural,Masculin,920,312,512,546,84,45
+53,Gouvernorat de Siliana,Rural,Féminin,515,203,1097,963,78,56
+54,Centre Est,Communal,Masculin,13583,15478,11564,12471,4654,2535
+55,Centre Est,Communal,Féminin,6693,11089,18719,21340,3879,2347
+56,Centre Est,Rural,Masculin,1460,539,1197,863,266,92
+57,Centre Est,Rural,Féminin,824,394,2682,1358,194,144
+58,Gouvernorat de Sousse,Communal,Masculin,3850,6026,3895,3612,1004,915
+59,Gouvernorat de Sousse,Communal,Féminin,1998,4748,6042,6279,986,894
+60,Gouvernorat de Sousse,Rural,Masculin,183,86,175,92,24,13
+61,Gouvernorat de Sousse,Rural,Féminin,73,60,444,158,11,23
+62,Gouvernorat de Monastir,Communal,Masculin,2276,1857,1718,2269,962,440
+63,Gouvernorat de Monastir,Communal,Féminin,1188,1147,3523,3805,842,397
+64,Gouvernorat de Mahdia,Communal,Masculin,1869,536,985,825,901,148
+65,Gouvernorat de Mahdia,Communal,Féminin,1051,422,2045,1497,659,151
+66,Gouvernorat de Mahdia,Rural,Masculin,437,88,356,246,89,17
+67,Gouvernorat de Mahdia,Rural,Féminin,233,84,922,351,52,36
+68,Gouvernorat de Sfax,Communal,Masculin,5588,7059,4966,5765,1787,1032
+69,Gouvernorat de Sfax,Communal,Féminin,2456,4772,7109,9759,1392,905
+70,Gouvernorat de Sfax,Rural,Masculin,840,365,666,525,153,62
+71,Gouvernorat de Sfax,Rural,Féminin,518,250,1316,849,131,85
+72,Centre Ouest,Communal,Masculin,9637,3102,4273,4939,2881,585
+73,Centre Ouest,Communal,Féminin,4920,2151,7613,8279,1993,552
+74,Centre Ouest,Rural,Masculin,5188,1086,2492,2691,820,217
+75,Centre Ouest,Rural,Féminin,2933,820,5195,4288,559,240
+76,Gouvernorat de Kairouan,Communal,Masculin,4254,1457,2033,2337,1100,242
+77,Gouvernorat de Kairouan,Communal,Féminin,2525,1027,3497,4012,919,237
+78,Gouvernorat de Kairouan,Rural,Masculin,2209,341,1028,1245,234,68
+79,Gouvernorat de Kairouan,Rural,Féminin,1362,240,2136,1939,200,74
+80,Gouvernorat de Kasserine,Communal,Masculin,2825,908,1092,1413,788,199
+81,Gouvernorat de Kasserine,Communal,Féminin,1262,675,2047,2282,487,185
+82,Gouvernorat de Kasserine,Rural,Masculin,1674,494,707,851,309,96
+83,Gouvernorat de Kasserine,Rural,Féminin,857,402,1474,1375,171,110
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,2558,737,1148,1189,993,144
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,1133,449,2069,1985,587,130
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,1305,251,757,595,277,53
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,714,178,1585,974,188,56
+88,Sud Est,Communal,Masculin,7779,3634,4092,5440,2519,949
+89,Sud Est,Communal,Féminin,2385,2452,8239,9427,2352,867
+90,Sud Est,Rural,Masculin,1486,676,717,1313,254,122
+91,Sud Est,Rural,Féminin,467,429,1767,2344,252,147
+92,Gouvernorat de Gabès,Communal,Masculin,3096,1666,1906,2149,915,406
+93,Gouvernorat de Gabès,Communal,Féminin,1017,1128,3400,3942,1028,378
+94,Gouvernorat de Gabès,Rural,Masculin,482,198,229,378,91,22
+95,Gouvernorat de Gabès,Rural,Féminin,171,134,528,658,66,29
+96,Gouvernorat de Medenine,Communal,Masculin,3394,1526,1634,2401,1227,435
+97,Gouvernorat de Medenine,Communal,Féminin,1064,1056,3558,4027,1022,382
+98,Gouvernorat de Medenine,Rural,Masculin,646,316,320,575,115,59
+99,Gouvernorat de Medenine,Rural,Féminin,214,185,805,1067,109,70
+100,Gouvernorat de Tataouine,Communal,Masculin,1289,442,552,890,377,108
+101,Gouvernorat de Tataouine,Communal,Féminin,304,268,1281,1458,302,107
+102,Gouvernorat de Tataouine,Rural,Masculin,358,162,168,360,48,41
+103,Gouvernorat de Tataouine,Rural,Féminin,82,110,434,619,77,48
+104,Sud Ouest,Communal,Masculin,2408,1059,1587,1791,1227,280
+105,Sud Ouest,Communal,Féminin,1087,625,3476,2993,943,268
+106,Sud Ouest,Rural,Masculin,2467,555,1152,1208,856,186
+107,Sud Ouest,Rural,Féminin,960,349,2410,1995,691,193
+108,Gouvernorat de Gafsa,Communal,Masculin,1015,597,730,937,438,141
+109,Gouvernorat de Gafsa,Communal,Féminin,481,347,1560,1555,344,136
+110,Gouvernorat de Gafsa,Rural,Masculin,2173,483,851,1032,761,165
+111,Gouvernorat de Gafsa,Rural,Féminin,862,295,1736,1702,609,159
+112,Gouvernorat de Tozeur,Communal,Masculin,630,203,349,447,313,70
+113,Gouvernorat de Tozeur,Communal,Féminin,258,137,820,738,206,62
+114,Gouvernorat de Tozeur,Rural,Masculin,97,35,79,46,33,9
+115,Gouvernorat de Tozeur,Rural,Féminin,38,21,202,67,24,7
