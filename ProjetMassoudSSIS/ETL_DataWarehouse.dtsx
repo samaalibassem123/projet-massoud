@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="101"
-  DTS:VersionGUID="{60302537-0D40-47FA-9469-6E5931166B2B}">
+  DTS:VersionBuild="102"
+  DTS:VersionGUID="{4C2E9320-9EA3-4624-83C2-70CC89FD10CB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4171,7 +4171,7 @@ set nombre_etudiants = ?</property>
                   expressionType="Notify"
                   name="SqlCommandParam"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Fait_Education]) [refTable]
-where [refTable].[id_genre] = ?</property>
+where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[id_niveau] = ? and [refTable].[id_region] = ? and [refTable].[id_annee] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
@@ -4181,7 +4181,7 @@ where [refTable].[id_genre] = ?</property>
                   dataType="System.Int32"
                   description="Spécifie le type de cache de la table de correspondance."
                   name="CacheType"
-                  typeConverter="CacheType">1</property>
+                  typeConverter="CacheType">2</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
@@ -4207,7 +4207,7 @@ where [refTable].[id_genre] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Spécifie la liste d'identificateurs de traçabilité se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
-                  name="ParameterMap">#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_genre]};</property>
+                  name="ParameterMap">#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_genre]};#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_milieu]};#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_niveau]};#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_region]};#{Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_annee]};</property>
                 <property
                   dataType="System.Int32"
                   description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
@@ -4240,6 +4240,70 @@ where [refTable].[id_genre] = ?</property>
                           dataType="System.String"
                           description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
                           name="JoinToReferenceColumn">id_genre</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_milieu]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_milieu"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_milieu]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_milieu</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_niveau]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_niveau"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_niveau]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_niveau</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_region]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_region"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_region]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_region</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_annee]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_annee"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_annee]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_annee</property>
                         <property
                           dataType="System.Null"
                           description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
@@ -8196,13 +8260,25 @@ where
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="195,42"
+          Id="Package\Fact_Education\Conversion de données"
+          TopLeft="491,186" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Fact_Education\Destination OLE DB"
+          TopLeft="950,210" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\Fact_Education\Recherche"
+          TopLeft="727,251" />
+        <NodeLayout
           Size="157,42"
           Id="Package\Fact_Education\Source OLE DB"
           TopLeft="211,191" />
         <NodeLayout
-          Size="195,42"
-          Id="Package\Fact_Education\Conversion de données"
-          TopLeft="491,186" />
+          Size="179,42"
+          Id="Package\Fact_Education\Commande OLE DB"
+          TopLeft="997,357" />
         <EdgeLayout
           Id="Package\Fact_Education.Paths[Sortie de source OLE DB]"
           TopLeft="368,209.5">
@@ -8217,48 +8293,6 @@ where
                   Capacity="5">
                   <mssgle:LineSegment
                     End="115.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Fact_Education\Destination OLE DB"
-          TopLeft="950,210" />
-        <NodeLayout
-          Size="132,42"
-          Id="Package\Fact_Education\Recherche"
-          TopLeft="727,251" />
-        <EdgeLayout
-          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
-          TopLeft="588.5,228">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="204.5,23"
-              Start="0,0"
-              End="204.5,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,7.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.5"
-                    Point2="0,11.5"
-                    Point3="4,11.5" />
-                  <mssgle:LineSegment
-                    End="200.5,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="200.5,11.5"
-                    Point2="204.5,11.5"
-                    Point3="204.5,15.5" />
-                  <mssgle:LineSegment
-                    End="204.5,15.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8303,10 +8337,6 @@ where
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="179,42"
-          Id="Package\Fact_Education\Commande OLE DB"
-          TopLeft="997,357" />
         <EdgeLayout
           Id="Package\Fact_Education.Paths[Sortie de recherche avec correspondance]"
           TopLeft="793,293">
@@ -8343,9 +8373,87 @@ where
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
+          TopLeft="588.5,228">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="204.5,23"
+              Start="0,0"
+              End="204.5,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="4,11.5" />
+                  <mssgle:LineSegment
+                    End="200.5,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="200.5,11.5"
+                    Point2="204.5,11.5"
+                    Point3="204.5,15.5" />
+                  <mssgle:LineSegment
+                    End="204.5,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Recherche">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fait_Education]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Fact_Emploi">
     <LayoutInfo>
@@ -8491,29 +8599,6 @@ where
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Fact_Emploi\Recherche">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Fait_Emploi]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Fact_Emploi\Source OLE DB">
     <Properties>
       <Property>
@@ -8531,6 +8616,29 @@ where
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Emploi\Recherche">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fait_Emploi]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -8691,73 +8799,6 @@ where
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Recherche">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Fait_Education]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Migration\Recherche">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Fait_Migration]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Fact_Migration\Source OLE DB">
     <Properties>
       <Property>
@@ -8775,6 +8816,29 @@ where
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Migration\Recherche">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fait_Migration]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
