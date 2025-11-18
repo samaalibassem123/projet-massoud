@@ -12,7 +12,7 @@ from StagingArea.dbo.stag_Etudiant
 UNION
 
 select distinct Milieu
-from StagingArea.dbo.stag_Migration
+from StagingArea.dbo.stag_immigration
 
 
 -- GET THE SEX 
@@ -27,7 +27,7 @@ from StagingArea.dbo.stag_Etudiant
 UNION
 
 select distinct Sexe
-from StagingArea.dbo.stag_Migration
+from StagingArea.dbo.stag_immigration
 
 
 -- GET THE Regions 
@@ -42,7 +42,7 @@ from StagingArea.dbo.stag_Etudiant
 UNION
 
 select distinct Region
-from StagingArea.dbo.stag_Migration
+from StagingArea.dbo.stag_immigration
 
 
 --***SINGLE DIMENSIONS VALUES
@@ -52,7 +52,6 @@ SELECT distinct Secteur_Activite
 from StagingArea.dbo.stag_emploi
 
 
--- GET THE Niveau_Instruction from employees table
-SELECT distinct  Niveau_Instruction
-from StagingArea.dbo.stag_Etudiant
-
+-- GET THE raison from stag_immigration table
+SELECT distinct raison 
+from StagingArea.dbo.stag_immigration

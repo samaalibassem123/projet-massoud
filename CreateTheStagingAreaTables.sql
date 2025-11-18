@@ -34,19 +34,12 @@ VALUES ('2014-01-01 00:00:00', 'Communal', 'Masculin', 'Agriculture et peche', '
 
 
 -- STAG_MIGRATION TABLE
-CREATE TABLE stag_Migration (
-    Indicateur_Cle INT IDENTITY(1,1) PRIMARY KEY,  -- auto-increment key
-    Region NVARCHAR(100),
-    Milieu NVARCHAR(50),
-    Sexe NVARCHAR(20),
-    Pop_Emploi INT,
-    Pop_Acquisition_Logement INT,
-    Pop_Mariage INT,
-    Pop_Accompagnement_Famille INT,
-    Pop_Etudes INT,
-    Pop_Autres INT
+CREATE TABLE stag_immigration (
+    ID INT IDENTITY(1,1) PRIMARY KEY,  -- Auto-increment primary key
+    Region NVARCHAR(100) NOT NULL,
+    Milieu NVARCHAR(50) NOT NULL,
+    Sexe NVARCHAR(20) NOT NULL,
+    Raison NVARCHAR(100) NOT NULL,
+    Population INT NOT NULL
 );
 
--- Example data (no need to insert Indicateur_Cle manually)
-INSERT INTO stag_Migration (Region, Milieu, Sexe, Pop_Emploi, Pop_Acquisition_Logement, Pop_Mariage, Pop_Accompagnement_Famille, Pop_Etudes, Pop_Autres)
-VALUES ('Tunisie', 'Communal', 'Masculin', 63996, 73917, 56323, 64224, 19275, 10346);

@@ -1,117 +1,697 @@
-,Régions,Milieu,Sexe,Pop_Emploi,Pop_Acquisition de logement ou meilleur condition de vie,Pop_Mariage,Pop_Accompagnement de la famille,Pop_Etudes,Pop_Autres
-0,Tunisie,Communal,Masculin,63996,73917,56323,64224,19275,10346
-1,Tunisie,Communal,Féminin,30139,48866,88487,110390,16363,9653
-2,Tunisie,Rural,Masculin,15831,5089,9778,9662,2745,1030
-3,Tunisie,Rural,Féminin,8258,3525,21046,15931,2233,1220
-4,Nord Est,Communal,Masculin,22067,46841,29627,34307,6062,5402
-5,Nord Est,Communal,Féminin,10478,30019,41469,59296,5429,4996
-6,Nord Est,Rural,Masculin,1708,978,1951,1427,167,166
-7,Nord Est,Rural,Féminin,911,599,4176,2284,156,200
-8,Gouvernorat de Tunis,Communal,Masculin,10102,22979,14741,15456,2355,2748
-9,Gouvernorat de Tunis,Communal,Féminin,4922,15091,17668,26949,2096,2619
-10,Gouvernorat de L'Ariana,Communal,Masculin,1874,7634,3200,5177,306,586
-11,Gouvernorat de L'Ariana,Communal,Féminin,841,4493,4306,8986,266,533
-12,Gouvernorat de L'Ariana,Rural,Masculin,34,46,69,43,4,6
-13,Gouvernorat de L'Ariana,Rural,Féminin,39,17,100,75,11,5
-14,Gouvernorat de Ben Arous,Communal,Masculin,2289,8571,3993,5865,423,859
-15,Gouvernorat de Ben Arous,Communal,Féminin,1056,5568,5764,10039,332,763
-16,Gouvernorat de Ben Arous,Rural,Masculin,37,50,65,62,0,14
-17,Gouvernorat de Ben Arous,Rural,Féminin,17,31,136,109,3,11
-18,Gouvernorat de Manouba,Communal,Masculin,1031,2898,2130,2267,184,296
-19,Gouvernorat de Manouba,Communal,Féminin,440,1667,3568,3883,199,295
-20,Gouvernorat de Manouba,Rural,Masculin,96,134,191,133,2,14
-21,Gouvernorat de Manouba,Rural,Féminin,33,62,441,271,9,22
-22,Gouvernorat de Nabeul,Communal,Masculin,3449,2351,2830,2929,1689,534
-23,Gouvernorat de Nabeul,Communal,Féminin,1525,1612,5288,4946,1425,458
-24,Gouvernorat de Nabeul,Rural,Masculin,381,266,554,365,61,63
-25,Gouvernorat de Nabeul,Rural,Féminin,168,170,1269,591,36,76
-26,Gouvernorat de Zaghouan,Communal,Masculin,930,417,539,573,255,87
-27,Gouvernorat de Zaghouan,Communal,Féminin,412,246,1005,1002,214,83
-28,Gouvernorat de Zaghouan,Rural,Masculin,430,145,297,276,27,25
-29,Gouvernorat de Zaghouan,Rural,Féminin,218,88,678,437,23,42
-30,Gouvernorat de Bizerte,Communal,Masculin,2392,1991,2194,2040,850,292
-31,Gouvernorat de Bizerte,Communal,Féminin,1282,1342,3870,3491,897,245
-32,Gouvernorat de Bizerte,Rural,Masculin,730,337,775,548,73,44
-33,Gouvernorat de Bizerte,Rural,Féminin,436,231,1552,801,74,44
-34,Nord Ouest,Communal,Masculin,8522,3803,5180,5276,1932,595
-35,Nord Ouest,Communal,Féminin,4576,2530,8971,9055,1767,623
-36,Nord Ouest,Rural,Masculin,3522,1255,2269,2160,382,247
-37,Nord Ouest,Rural,Féminin,2163,934,4816,3662,381,296
-38,Gouvernorat de Bèja,Communal,Masculin,1727,931,1352,1238,463,136
-39,Gouvernorat de Bèja,Communal,Féminin,895,642,2431,2207,395,143
-40,Gouvernorat de Bèja,Rural,Masculin,676,241,558,417,75,48
-41,Gouvernorat de Bèja,Rural,Féminin,414,201,1167,719,68,59
-42,Gouvernorat de Jendouba,Communal,Masculin,2972,961,1460,1427,491,166
-43,Gouvernorat de Jendouba,Communal,Féminin,1652,653,2517,2261,494,175
-44,Gouvernorat de Jendouba,Rural,Masculin,1237,429,765,687,131,100
-45,Gouvernorat de Jendouba,Rural,Féminin,789,316,1653,1114,133,114
-46,Gouvernorat du Kef,Communal,Masculin,2108,1063,1239,1407,517,186
-47,Gouvernorat du Kef,Communal,Féminin,1153,711,2167,2542,547,207
-48,Gouvernorat du Kef,Rural,Masculin,689,273,434,510,92,54
-49,Gouvernorat du Kef,Rural,Féminin,445,214,899,866,102,67
-50,Gouvernorat de Siliana,Communal,Masculin,1715,848,1129,1204,461,107
-51,Gouvernorat de Siliana,Communal,Féminin,876,524,1856,2045,331,98
-52,Gouvernorat de Siliana,Rural,Masculin,920,312,512,546,84,45
-53,Gouvernorat de Siliana,Rural,Féminin,515,203,1097,963,78,56
-54,Centre Est,Communal,Masculin,13583,15478,11564,12471,4654,2535
-55,Centre Est,Communal,Féminin,6693,11089,18719,21340,3879,2347
-56,Centre Est,Rural,Masculin,1460,539,1197,863,266,92
-57,Centre Est,Rural,Féminin,824,394,2682,1358,194,144
-58,Gouvernorat de Sousse,Communal,Masculin,3850,6026,3895,3612,1004,915
-59,Gouvernorat de Sousse,Communal,Féminin,1998,4748,6042,6279,986,894
-60,Gouvernorat de Sousse,Rural,Masculin,183,86,175,92,24,13
-61,Gouvernorat de Sousse,Rural,Féminin,73,60,444,158,11,23
-62,Gouvernorat de Monastir,Communal,Masculin,2276,1857,1718,2269,962,440
-63,Gouvernorat de Monastir,Communal,Féminin,1188,1147,3523,3805,842,397
-64,Gouvernorat de Mahdia,Communal,Masculin,1869,536,985,825,901,148
-65,Gouvernorat de Mahdia,Communal,Féminin,1051,422,2045,1497,659,151
-66,Gouvernorat de Mahdia,Rural,Masculin,437,88,356,246,89,17
-67,Gouvernorat de Mahdia,Rural,Féminin,233,84,922,351,52,36
-68,Gouvernorat de Sfax,Communal,Masculin,5588,7059,4966,5765,1787,1032
-69,Gouvernorat de Sfax,Communal,Féminin,2456,4772,7109,9759,1392,905
-70,Gouvernorat de Sfax,Rural,Masculin,840,365,666,525,153,62
-71,Gouvernorat de Sfax,Rural,Féminin,518,250,1316,849,131,85
-72,Centre Ouest,Communal,Masculin,9637,3102,4273,4939,2881,585
-73,Centre Ouest,Communal,Féminin,4920,2151,7613,8279,1993,552
-74,Centre Ouest,Rural,Masculin,5188,1086,2492,2691,820,217
-75,Centre Ouest,Rural,Féminin,2933,820,5195,4288,559,240
-76,Gouvernorat de Kairouan,Communal,Masculin,4254,1457,2033,2337,1100,242
-77,Gouvernorat de Kairouan,Communal,Féminin,2525,1027,3497,4012,919,237
-78,Gouvernorat de Kairouan,Rural,Masculin,2209,341,1028,1245,234,68
-79,Gouvernorat de Kairouan,Rural,Féminin,1362,240,2136,1939,200,74
-80,Gouvernorat de Kasserine,Communal,Masculin,2825,908,1092,1413,788,199
-81,Gouvernorat de Kasserine,Communal,Féminin,1262,675,2047,2282,487,185
-82,Gouvernorat de Kasserine,Rural,Masculin,1674,494,707,851,309,96
-83,Gouvernorat de Kasserine,Rural,Féminin,857,402,1474,1375,171,110
-84,Gouvernorat de Sidi Bouzid,Communal,Masculin,2558,737,1148,1189,993,144
-85,Gouvernorat de Sidi Bouzid,Communal,Féminin,1133,449,2069,1985,587,130
-86,Gouvernorat de Sidi Bouzid,Rural,Masculin,1305,251,757,595,277,53
-87,Gouvernorat de Sidi Bouzid,Rural,Féminin,714,178,1585,974,188,56
-88,Sud Est,Communal,Masculin,7779,3634,4092,5440,2519,949
-89,Sud Est,Communal,Féminin,2385,2452,8239,9427,2352,867
-90,Sud Est,Rural,Masculin,1486,676,717,1313,254,122
-91,Sud Est,Rural,Féminin,467,429,1767,2344,252,147
-92,Gouvernorat de Gabès,Communal,Masculin,3096,1666,1906,2149,915,406
-93,Gouvernorat de Gabès,Communal,Féminin,1017,1128,3400,3942,1028,378
-94,Gouvernorat de Gabès,Rural,Masculin,482,198,229,378,91,22
-95,Gouvernorat de Gabès,Rural,Féminin,171,134,528,658,66,29
-96,Gouvernorat de Medenine,Communal,Masculin,3394,1526,1634,2401,1227,435
-97,Gouvernorat de Medenine,Communal,Féminin,1064,1056,3558,4027,1022,382
-98,Gouvernorat de Medenine,Rural,Masculin,646,316,320,575,115,59
-99,Gouvernorat de Medenine,Rural,Féminin,214,185,805,1067,109,70
-100,Gouvernorat de Tataouine,Communal,Masculin,1289,442,552,890,377,108
-101,Gouvernorat de Tataouine,Communal,Féminin,304,268,1281,1458,302,107
-102,Gouvernorat de Tataouine,Rural,Masculin,358,162,168,360,48,41
-103,Gouvernorat de Tataouine,Rural,Féminin,82,110,434,619,77,48
-104,Sud Ouest,Communal,Masculin,2408,1059,1587,1791,1227,280
-105,Sud Ouest,Communal,Féminin,1087,625,3476,2993,943,268
-106,Sud Ouest,Rural,Masculin,2467,555,1152,1208,856,186
-107,Sud Ouest,Rural,Féminin,960,349,2410,1995,691,193
-108,Gouvernorat de Gafsa,Communal,Masculin,1015,597,730,937,438,141
-109,Gouvernorat de Gafsa,Communal,Féminin,481,347,1560,1555,344,136
-110,Gouvernorat de Gafsa,Rural,Masculin,2173,483,851,1032,761,165
-111,Gouvernorat de Gafsa,Rural,Féminin,862,295,1736,1702,609,159
-112,Gouvernorat de Tozeur,Communal,Masculin,630,203,349,447,313,70
-113,Gouvernorat de Tozeur,Communal,Féminin,258,137,820,738,206,62
-114,Gouvernorat de Tozeur,Rural,Masculin,97,35,79,46,33,9
-115,Gouvernorat de Tozeur,Rural,Féminin,38,21,202,67,24,7
+,Régions,Milieu,Sexe,raison,POPULATION
+0,Tunisie,Communal,Masculin,Emploi,63996
+1,Tunisie,Communal,Féminin,Emploi,30139
+2,Tunisie,Rural,Masculin,Emploi,15831
+3,Tunisie,Rural,Féminin,Emploi,8258
+4,Nord Est,Communal,Masculin,Emploi,22067
+5,Nord Est,Communal,Féminin,Emploi,10478
+6,Nord Est,Rural,Masculin,Emploi,1708
+7,Nord Est,Rural,Féminin,Emploi,911
+8,Gouvernorat de Tunis,Communal,Masculin,Emploi,10102
+9,Gouvernorat de Tunis,Communal,Féminin,Emploi,4922
+10,Gouvernorat de L'Ariana,Communal,Masculin,Emploi,1874
+11,Gouvernorat de L'Ariana,Communal,Féminin,Emploi,841
+12,Gouvernorat de L'Ariana,Rural,Masculin,Emploi,34
+13,Gouvernorat de L'Ariana,Rural,Féminin,Emploi,39
+14,Gouvernorat de Ben Arous,Communal,Masculin,Emploi,2289
+15,Gouvernorat de Ben Arous,Communal,Féminin,Emploi,1056
+16,Gouvernorat de Ben Arous,Rural,Masculin,Emploi,37
+17,Gouvernorat de Ben Arous,Rural,Féminin,Emploi,17
+18,Gouvernorat de Manouba,Communal,Masculin,Emploi,1031
+19,Gouvernorat de Manouba,Communal,Féminin,Emploi,440
+20,Gouvernorat de Manouba,Rural,Masculin,Emploi,96
+21,Gouvernorat de Manouba,Rural,Féminin,Emploi,33
+22,Gouvernorat de Nabeul,Communal,Masculin,Emploi,3449
+23,Gouvernorat de Nabeul,Communal,Féminin,Emploi,1525
+24,Gouvernorat de Nabeul,Rural,Masculin,Emploi,381
+25,Gouvernorat de Nabeul,Rural,Féminin,Emploi,168
+26,Gouvernorat de Zaghouan,Communal,Masculin,Emploi,930
+27,Gouvernorat de Zaghouan,Communal,Féminin,Emploi,412
+28,Gouvernorat de Zaghouan,Rural,Masculin,Emploi,430
+29,Gouvernorat de Zaghouan,Rural,Féminin,Emploi,218
+30,Gouvernorat de Bizerte,Communal,Masculin,Emploi,2392
+31,Gouvernorat de Bizerte,Communal,Féminin,Emploi,1282
+32,Gouvernorat de Bizerte,Rural,Masculin,Emploi,730
+33,Gouvernorat de Bizerte,Rural,Féminin,Emploi,436
+34,Nord Ouest,Communal,Masculin,Emploi,8522
+35,Nord Ouest,Communal,Féminin,Emploi,4576
+36,Nord Ouest,Rural,Masculin,Emploi,3522
+37,Nord Ouest,Rural,Féminin,Emploi,2163
+38,Gouvernorat de Bèja,Communal,Masculin,Emploi,1727
+39,Gouvernorat de Bèja,Communal,Féminin,Emploi,895
+40,Gouvernorat de Bèja,Rural,Masculin,Emploi,676
+41,Gouvernorat de Bèja,Rural,Féminin,Emploi,414
+42,Gouvernorat de Jendouba,Communal,Masculin,Emploi,2972
+43,Gouvernorat de Jendouba,Communal,Féminin,Emploi,1652
+44,Gouvernorat de Jendouba,Rural,Masculin,Emploi,1237
+45,Gouvernorat de Jendouba,Rural,Féminin,Emploi,789
+46,Gouvernorat du Kef,Communal,Masculin,Emploi,2108
+47,Gouvernorat du Kef,Communal,Féminin,Emploi,1153
+48,Gouvernorat du Kef,Rural,Masculin,Emploi,689
+49,Gouvernorat du Kef,Rural,Féminin,Emploi,445
+50,Gouvernorat de Siliana,Communal,Masculin,Emploi,1715
+51,Gouvernorat de Siliana,Communal,Féminin,Emploi,876
+52,Gouvernorat de Siliana,Rural,Masculin,Emploi,920
+53,Gouvernorat de Siliana,Rural,Féminin,Emploi,515
+54,Centre Est,Communal,Masculin,Emploi,13583
+55,Centre Est,Communal,Féminin,Emploi,6693
+56,Centre Est,Rural,Masculin,Emploi,1460
+57,Centre Est,Rural,Féminin,Emploi,824
+58,Gouvernorat de Sousse,Communal,Masculin,Emploi,3850
+59,Gouvernorat de Sousse,Communal,Féminin,Emploi,1998
+60,Gouvernorat de Sousse,Rural,Masculin,Emploi,183
+61,Gouvernorat de Sousse,Rural,Féminin,Emploi,73
+62,Gouvernorat de Monastir,Communal,Masculin,Emploi,2276
+63,Gouvernorat de Monastir,Communal,Féminin,Emploi,1188
+64,Gouvernorat de Mahdia,Communal,Masculin,Emploi,1869
+65,Gouvernorat de Mahdia,Communal,Féminin,Emploi,1051
+66,Gouvernorat de Mahdia,Rural,Masculin,Emploi,437
+67,Gouvernorat de Mahdia,Rural,Féminin,Emploi,233
+68,Gouvernorat de Sfax,Communal,Masculin,Emploi,5588
+69,Gouvernorat de Sfax,Communal,Féminin,Emploi,2456
+70,Gouvernorat de Sfax,Rural,Masculin,Emploi,840
+71,Gouvernorat de Sfax,Rural,Féminin,Emploi,518
+72,Centre Ouest,Communal,Masculin,Emploi,9637
+73,Centre Ouest,Communal,Féminin,Emploi,4920
+74,Centre Ouest,Rural,Masculin,Emploi,5188
+75,Centre Ouest,Rural,Féminin,Emploi,2933
+76,Gouvernorat de Kairouan,Communal,Masculin,Emploi,4254
+77,Gouvernorat de Kairouan,Communal,Féminin,Emploi,2525
+78,Gouvernorat de Kairouan,Rural,Masculin,Emploi,2209
+79,Gouvernorat de Kairouan,Rural,Féminin,Emploi,1362
+80,Gouvernorat de Kasserine,Communal,Masculin,Emploi,2825
+81,Gouvernorat de Kasserine,Communal,Féminin,Emploi,1262
+82,Gouvernorat de Kasserine,Rural,Masculin,Emploi,1674
+83,Gouvernorat de Kasserine,Rural,Féminin,Emploi,857
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Emploi,2558
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Emploi,1133
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Emploi,1305
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Emploi,714
+88,Sud Est,Communal,Masculin,Emploi,7779
+89,Sud Est,Communal,Féminin,Emploi,2385
+90,Sud Est,Rural,Masculin,Emploi,1486
+91,Sud Est,Rural,Féminin,Emploi,467
+92,Gouvernorat de Gabès,Communal,Masculin,Emploi,3096
+93,Gouvernorat de Gabès,Communal,Féminin,Emploi,1017
+94,Gouvernorat de Gabès,Rural,Masculin,Emploi,482
+95,Gouvernorat de Gabès,Rural,Féminin,Emploi,171
+96,Gouvernorat de Medenine,Communal,Masculin,Emploi,3394
+97,Gouvernorat de Medenine,Communal,Féminin,Emploi,1064
+98,Gouvernorat de Medenine,Rural,Masculin,Emploi,646
+99,Gouvernorat de Medenine,Rural,Féminin,Emploi,214
+100,Gouvernorat de Tataouine,Communal,Masculin,Emploi,1289
+101,Gouvernorat de Tataouine,Communal,Féminin,Emploi,304
+102,Gouvernorat de Tataouine,Rural,Masculin,Emploi,358
+103,Gouvernorat de Tataouine,Rural,Féminin,Emploi,82
+104,Sud Ouest,Communal,Masculin,Emploi,2408
+105,Sud Ouest,Communal,Féminin,Emploi,1087
+106,Sud Ouest,Rural,Masculin,Emploi,2467
+107,Sud Ouest,Rural,Féminin,Emploi,960
+108,Gouvernorat de Gafsa,Communal,Masculin,Emploi,1015
+109,Gouvernorat de Gafsa,Communal,Féminin,Emploi,481
+110,Gouvernorat de Gafsa,Rural,Masculin,Emploi,2173
+111,Gouvernorat de Gafsa,Rural,Féminin,Emploi,862
+112,Gouvernorat de Tozeur,Communal,Masculin,Emploi,630
+113,Gouvernorat de Tozeur,Communal,Féminin,Emploi,258
+114,Gouvernorat de Tozeur,Rural,Masculin,Emploi,97
+115,Gouvernorat de Tozeur,Rural,Féminin,Emploi,38
+0,Tunisie,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,73917
+1,Tunisie,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,48866
+2,Tunisie,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,5089
+3,Tunisie,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,3525
+4,Nord Est,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,46841
+5,Nord Est,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,30019
+6,Nord Est,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,978
+7,Nord Est,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,599
+8,Gouvernorat de Tunis,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,22979
+9,Gouvernorat de Tunis,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,15091
+10,Gouvernorat de L'Ariana,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,7634
+11,Gouvernorat de L'Ariana,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,4493
+12,Gouvernorat de L'Ariana,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,46
+13,Gouvernorat de L'Ariana,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,17
+14,Gouvernorat de Ben Arous,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,8571
+15,Gouvernorat de Ben Arous,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,5568
+16,Gouvernorat de Ben Arous,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,50
+17,Gouvernorat de Ben Arous,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,31
+18,Gouvernorat de Manouba,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,2898
+19,Gouvernorat de Manouba,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1667
+20,Gouvernorat de Manouba,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,134
+21,Gouvernorat de Manouba,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,62
+22,Gouvernorat de Nabeul,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,2351
+23,Gouvernorat de Nabeul,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1612
+24,Gouvernorat de Nabeul,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,266
+25,Gouvernorat de Nabeul,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,170
+26,Gouvernorat de Zaghouan,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,417
+27,Gouvernorat de Zaghouan,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,246
+28,Gouvernorat de Zaghouan,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,145
+29,Gouvernorat de Zaghouan,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,88
+30,Gouvernorat de Bizerte,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1991
+31,Gouvernorat de Bizerte,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1342
+32,Gouvernorat de Bizerte,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,337
+33,Gouvernorat de Bizerte,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,231
+34,Nord Ouest,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,3803
+35,Nord Ouest,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,2530
+36,Nord Ouest,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,1255
+37,Nord Ouest,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,934
+38,Gouvernorat de Bèja,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,931
+39,Gouvernorat de Bèja,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,642
+40,Gouvernorat de Bèja,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,241
+41,Gouvernorat de Bèja,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,201
+42,Gouvernorat de Jendouba,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,961
+43,Gouvernorat de Jendouba,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,653
+44,Gouvernorat de Jendouba,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,429
+45,Gouvernorat de Jendouba,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,316
+46,Gouvernorat du Kef,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1063
+47,Gouvernorat du Kef,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,711
+48,Gouvernorat du Kef,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,273
+49,Gouvernorat du Kef,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,214
+50,Gouvernorat de Siliana,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,848
+51,Gouvernorat de Siliana,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,524
+52,Gouvernorat de Siliana,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,312
+53,Gouvernorat de Siliana,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,203
+54,Centre Est,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,15478
+55,Centre Est,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,11089
+56,Centre Est,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,539
+57,Centre Est,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,394
+58,Gouvernorat de Sousse,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,6026
+59,Gouvernorat de Sousse,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,4748
+60,Gouvernorat de Sousse,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,86
+61,Gouvernorat de Sousse,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,60
+62,Gouvernorat de Monastir,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1857
+63,Gouvernorat de Monastir,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1147
+64,Gouvernorat de Mahdia,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,536
+65,Gouvernorat de Mahdia,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,422
+66,Gouvernorat de Mahdia,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,88
+67,Gouvernorat de Mahdia,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,84
+68,Gouvernorat de Sfax,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,7059
+69,Gouvernorat de Sfax,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,4772
+70,Gouvernorat de Sfax,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,365
+71,Gouvernorat de Sfax,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,250
+72,Centre Ouest,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,3102
+73,Centre Ouest,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,2151
+74,Centre Ouest,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,1086
+75,Centre Ouest,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,820
+76,Gouvernorat de Kairouan,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1457
+77,Gouvernorat de Kairouan,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1027
+78,Gouvernorat de Kairouan,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,341
+79,Gouvernorat de Kairouan,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,240
+80,Gouvernorat de Kasserine,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,908
+81,Gouvernorat de Kasserine,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,675
+82,Gouvernorat de Kasserine,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,494
+83,Gouvernorat de Kasserine,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,402
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,737
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,449
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,251
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,178
+88,Sud Est,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,3634
+89,Sud Est,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,2452
+90,Sud Est,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,676
+91,Sud Est,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,429
+92,Gouvernorat de Gabès,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1666
+93,Gouvernorat de Gabès,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1128
+94,Gouvernorat de Gabès,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,198
+95,Gouvernorat de Gabès,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,134
+96,Gouvernorat de Medenine,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1526
+97,Gouvernorat de Medenine,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,1056
+98,Gouvernorat de Medenine,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,316
+99,Gouvernorat de Medenine,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,185
+100,Gouvernorat de Tataouine,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,442
+101,Gouvernorat de Tataouine,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,268
+102,Gouvernorat de Tataouine,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,162
+103,Gouvernorat de Tataouine,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,110
+104,Sud Ouest,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,1059
+105,Sud Ouest,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,625
+106,Sud Ouest,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,555
+107,Sud Ouest,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,349
+108,Gouvernorat de Gafsa,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,597
+109,Gouvernorat de Gafsa,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,347
+110,Gouvernorat de Gafsa,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,483
+111,Gouvernorat de Gafsa,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,295
+112,Gouvernorat de Tozeur,Communal,Masculin,Acquisition de logement ou meilleur condition de vie,203
+113,Gouvernorat de Tozeur,Communal,Féminin,Acquisition de logement ou meilleur condition de vie,137
+114,Gouvernorat de Tozeur,Rural,Masculin,Acquisition de logement ou meilleur condition de vie,35
+115,Gouvernorat de Tozeur,Rural,Féminin,Acquisition de logement ou meilleur condition de vie,21
+0,Tunisie,Communal,Masculin,Mariage,56323
+1,Tunisie,Communal,Féminin,Mariage,88487
+2,Tunisie,Rural,Masculin,Mariage,9778
+3,Tunisie,Rural,Féminin,Mariage,21046
+4,Nord Est,Communal,Masculin,Mariage,29627
+5,Nord Est,Communal,Féminin,Mariage,41469
+6,Nord Est,Rural,Masculin,Mariage,1951
+7,Nord Est,Rural,Féminin,Mariage,4176
+8,Gouvernorat de Tunis,Communal,Masculin,Mariage,14741
+9,Gouvernorat de Tunis,Communal,Féminin,Mariage,17668
+10,Gouvernorat de L'Ariana,Communal,Masculin,Mariage,3200
+11,Gouvernorat de L'Ariana,Communal,Féminin,Mariage,4306
+12,Gouvernorat de L'Ariana,Rural,Masculin,Mariage,69
+13,Gouvernorat de L'Ariana,Rural,Féminin,Mariage,100
+14,Gouvernorat de Ben Arous,Communal,Masculin,Mariage,3993
+15,Gouvernorat de Ben Arous,Communal,Féminin,Mariage,5764
+16,Gouvernorat de Ben Arous,Rural,Masculin,Mariage,65
+17,Gouvernorat de Ben Arous,Rural,Féminin,Mariage,136
+18,Gouvernorat de Manouba,Communal,Masculin,Mariage,2130
+19,Gouvernorat de Manouba,Communal,Féminin,Mariage,3568
+20,Gouvernorat de Manouba,Rural,Masculin,Mariage,191
+21,Gouvernorat de Manouba,Rural,Féminin,Mariage,441
+22,Gouvernorat de Nabeul,Communal,Masculin,Mariage,2830
+23,Gouvernorat de Nabeul,Communal,Féminin,Mariage,5288
+24,Gouvernorat de Nabeul,Rural,Masculin,Mariage,554
+25,Gouvernorat de Nabeul,Rural,Féminin,Mariage,1269
+26,Gouvernorat de Zaghouan,Communal,Masculin,Mariage,539
+27,Gouvernorat de Zaghouan,Communal,Féminin,Mariage,1005
+28,Gouvernorat de Zaghouan,Rural,Masculin,Mariage,297
+29,Gouvernorat de Zaghouan,Rural,Féminin,Mariage,678
+30,Gouvernorat de Bizerte,Communal,Masculin,Mariage,2194
+31,Gouvernorat de Bizerte,Communal,Féminin,Mariage,3870
+32,Gouvernorat de Bizerte,Rural,Masculin,Mariage,775
+33,Gouvernorat de Bizerte,Rural,Féminin,Mariage,1552
+34,Nord Ouest,Communal,Masculin,Mariage,5180
+35,Nord Ouest,Communal,Féminin,Mariage,8971
+36,Nord Ouest,Rural,Masculin,Mariage,2269
+37,Nord Ouest,Rural,Féminin,Mariage,4816
+38,Gouvernorat de Bèja,Communal,Masculin,Mariage,1352
+39,Gouvernorat de Bèja,Communal,Féminin,Mariage,2431
+40,Gouvernorat de Bèja,Rural,Masculin,Mariage,558
+41,Gouvernorat de Bèja,Rural,Féminin,Mariage,1167
+42,Gouvernorat de Jendouba,Communal,Masculin,Mariage,1460
+43,Gouvernorat de Jendouba,Communal,Féminin,Mariage,2517
+44,Gouvernorat de Jendouba,Rural,Masculin,Mariage,765
+45,Gouvernorat de Jendouba,Rural,Féminin,Mariage,1653
+46,Gouvernorat du Kef,Communal,Masculin,Mariage,1239
+47,Gouvernorat du Kef,Communal,Féminin,Mariage,2167
+48,Gouvernorat du Kef,Rural,Masculin,Mariage,434
+49,Gouvernorat du Kef,Rural,Féminin,Mariage,899
+50,Gouvernorat de Siliana,Communal,Masculin,Mariage,1129
+51,Gouvernorat de Siliana,Communal,Féminin,Mariage,1856
+52,Gouvernorat de Siliana,Rural,Masculin,Mariage,512
+53,Gouvernorat de Siliana,Rural,Féminin,Mariage,1097
+54,Centre Est,Communal,Masculin,Mariage,11564
+55,Centre Est,Communal,Féminin,Mariage,18719
+56,Centre Est,Rural,Masculin,Mariage,1197
+57,Centre Est,Rural,Féminin,Mariage,2682
+58,Gouvernorat de Sousse,Communal,Masculin,Mariage,3895
+59,Gouvernorat de Sousse,Communal,Féminin,Mariage,6042
+60,Gouvernorat de Sousse,Rural,Masculin,Mariage,175
+61,Gouvernorat de Sousse,Rural,Féminin,Mariage,444
+62,Gouvernorat de Monastir,Communal,Masculin,Mariage,1718
+63,Gouvernorat de Monastir,Communal,Féminin,Mariage,3523
+64,Gouvernorat de Mahdia,Communal,Masculin,Mariage,985
+65,Gouvernorat de Mahdia,Communal,Féminin,Mariage,2045
+66,Gouvernorat de Mahdia,Rural,Masculin,Mariage,356
+67,Gouvernorat de Mahdia,Rural,Féminin,Mariage,922
+68,Gouvernorat de Sfax,Communal,Masculin,Mariage,4966
+69,Gouvernorat de Sfax,Communal,Féminin,Mariage,7109
+70,Gouvernorat de Sfax,Rural,Masculin,Mariage,666
+71,Gouvernorat de Sfax,Rural,Féminin,Mariage,1316
+72,Centre Ouest,Communal,Masculin,Mariage,4273
+73,Centre Ouest,Communal,Féminin,Mariage,7613
+74,Centre Ouest,Rural,Masculin,Mariage,2492
+75,Centre Ouest,Rural,Féminin,Mariage,5195
+76,Gouvernorat de Kairouan,Communal,Masculin,Mariage,2033
+77,Gouvernorat de Kairouan,Communal,Féminin,Mariage,3497
+78,Gouvernorat de Kairouan,Rural,Masculin,Mariage,1028
+79,Gouvernorat de Kairouan,Rural,Féminin,Mariage,2136
+80,Gouvernorat de Kasserine,Communal,Masculin,Mariage,1092
+81,Gouvernorat de Kasserine,Communal,Féminin,Mariage,2047
+82,Gouvernorat de Kasserine,Rural,Masculin,Mariage,707
+83,Gouvernorat de Kasserine,Rural,Féminin,Mariage,1474
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Mariage,1148
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Mariage,2069
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Mariage,757
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Mariage,1585
+88,Sud Est,Communal,Masculin,Mariage,4092
+89,Sud Est,Communal,Féminin,Mariage,8239
+90,Sud Est,Rural,Masculin,Mariage,717
+91,Sud Est,Rural,Féminin,Mariage,1767
+92,Gouvernorat de Gabès,Communal,Masculin,Mariage,1906
+93,Gouvernorat de Gabès,Communal,Féminin,Mariage,3400
+94,Gouvernorat de Gabès,Rural,Masculin,Mariage,229
+95,Gouvernorat de Gabès,Rural,Féminin,Mariage,528
+96,Gouvernorat de Medenine,Communal,Masculin,Mariage,1634
+97,Gouvernorat de Medenine,Communal,Féminin,Mariage,3558
+98,Gouvernorat de Medenine,Rural,Masculin,Mariage,320
+99,Gouvernorat de Medenine,Rural,Féminin,Mariage,805
+100,Gouvernorat de Tataouine,Communal,Masculin,Mariage,552
+101,Gouvernorat de Tataouine,Communal,Féminin,Mariage,1281
+102,Gouvernorat de Tataouine,Rural,Masculin,Mariage,168
+103,Gouvernorat de Tataouine,Rural,Féminin,Mariage,434
+104,Sud Ouest,Communal,Masculin,Mariage,1587
+105,Sud Ouest,Communal,Féminin,Mariage,3476
+106,Sud Ouest,Rural,Masculin,Mariage,1152
+107,Sud Ouest,Rural,Féminin,Mariage,2410
+108,Gouvernorat de Gafsa,Communal,Masculin,Mariage,730
+109,Gouvernorat de Gafsa,Communal,Féminin,Mariage,1560
+110,Gouvernorat de Gafsa,Rural,Masculin,Mariage,851
+111,Gouvernorat de Gafsa,Rural,Féminin,Mariage,1736
+112,Gouvernorat de Tozeur,Communal,Masculin,Mariage,349
+113,Gouvernorat de Tozeur,Communal,Féminin,Mariage,820
+114,Gouvernorat de Tozeur,Rural,Masculin,Mariage,79
+115,Gouvernorat de Tozeur,Rural,Féminin,Mariage,202
+0,Tunisie,Communal,Masculin,Accompagnement de la famille,64224
+1,Tunisie,Communal,Féminin,Accompagnement de la famille,110390
+2,Tunisie,Rural,Masculin,Accompagnement de la famille,9662
+3,Tunisie,Rural,Féminin,Accompagnement de la famille,15931
+4,Nord Est,Communal,Masculin,Accompagnement de la famille,34307
+5,Nord Est,Communal,Féminin,Accompagnement de la famille,59296
+6,Nord Est,Rural,Masculin,Accompagnement de la famille,1427
+7,Nord Est,Rural,Féminin,Accompagnement de la famille,2284
+8,Gouvernorat de Tunis,Communal,Masculin,Accompagnement de la famille,15456
+9,Gouvernorat de Tunis,Communal,Féminin,Accompagnement de la famille,26949
+10,Gouvernorat de L'Ariana,Communal,Masculin,Accompagnement de la famille,5177
+11,Gouvernorat de L'Ariana,Communal,Féminin,Accompagnement de la famille,8986
+12,Gouvernorat de L'Ariana,Rural,Masculin,Accompagnement de la famille,43
+13,Gouvernorat de L'Ariana,Rural,Féminin,Accompagnement de la famille,75
+14,Gouvernorat de Ben Arous,Communal,Masculin,Accompagnement de la famille,5865
+15,Gouvernorat de Ben Arous,Communal,Féminin,Accompagnement de la famille,10039
+16,Gouvernorat de Ben Arous,Rural,Masculin,Accompagnement de la famille,62
+17,Gouvernorat de Ben Arous,Rural,Féminin,Accompagnement de la famille,109
+18,Gouvernorat de Manouba,Communal,Masculin,Accompagnement de la famille,2267
+19,Gouvernorat de Manouba,Communal,Féminin,Accompagnement de la famille,3883
+20,Gouvernorat de Manouba,Rural,Masculin,Accompagnement de la famille,133
+21,Gouvernorat de Manouba,Rural,Féminin,Accompagnement de la famille,271
+22,Gouvernorat de Nabeul,Communal,Masculin,Accompagnement de la famille,2929
+23,Gouvernorat de Nabeul,Communal,Féminin,Accompagnement de la famille,4946
+24,Gouvernorat de Nabeul,Rural,Masculin,Accompagnement de la famille,365
+25,Gouvernorat de Nabeul,Rural,Féminin,Accompagnement de la famille,591
+26,Gouvernorat de Zaghouan,Communal,Masculin,Accompagnement de la famille,573
+27,Gouvernorat de Zaghouan,Communal,Féminin,Accompagnement de la famille,1002
+28,Gouvernorat de Zaghouan,Rural,Masculin,Accompagnement de la famille,276
+29,Gouvernorat de Zaghouan,Rural,Féminin,Accompagnement de la famille,437
+30,Gouvernorat de Bizerte,Communal,Masculin,Accompagnement de la famille,2040
+31,Gouvernorat de Bizerte,Communal,Féminin,Accompagnement de la famille,3491
+32,Gouvernorat de Bizerte,Rural,Masculin,Accompagnement de la famille,548
+33,Gouvernorat de Bizerte,Rural,Féminin,Accompagnement de la famille,801
+34,Nord Ouest,Communal,Masculin,Accompagnement de la famille,5276
+35,Nord Ouest,Communal,Féminin,Accompagnement de la famille,9055
+36,Nord Ouest,Rural,Masculin,Accompagnement de la famille,2160
+37,Nord Ouest,Rural,Féminin,Accompagnement de la famille,3662
+38,Gouvernorat de Bèja,Communal,Masculin,Accompagnement de la famille,1238
+39,Gouvernorat de Bèja,Communal,Féminin,Accompagnement de la famille,2207
+40,Gouvernorat de Bèja,Rural,Masculin,Accompagnement de la famille,417
+41,Gouvernorat de Bèja,Rural,Féminin,Accompagnement de la famille,719
+42,Gouvernorat de Jendouba,Communal,Masculin,Accompagnement de la famille,1427
+43,Gouvernorat de Jendouba,Communal,Féminin,Accompagnement de la famille,2261
+44,Gouvernorat de Jendouba,Rural,Masculin,Accompagnement de la famille,687
+45,Gouvernorat de Jendouba,Rural,Féminin,Accompagnement de la famille,1114
+46,Gouvernorat du Kef,Communal,Masculin,Accompagnement de la famille,1407
+47,Gouvernorat du Kef,Communal,Féminin,Accompagnement de la famille,2542
+48,Gouvernorat du Kef,Rural,Masculin,Accompagnement de la famille,510
+49,Gouvernorat du Kef,Rural,Féminin,Accompagnement de la famille,866
+50,Gouvernorat de Siliana,Communal,Masculin,Accompagnement de la famille,1204
+51,Gouvernorat de Siliana,Communal,Féminin,Accompagnement de la famille,2045
+52,Gouvernorat de Siliana,Rural,Masculin,Accompagnement de la famille,546
+53,Gouvernorat de Siliana,Rural,Féminin,Accompagnement de la famille,963
+54,Centre Est,Communal,Masculin,Accompagnement de la famille,12471
+55,Centre Est,Communal,Féminin,Accompagnement de la famille,21340
+56,Centre Est,Rural,Masculin,Accompagnement de la famille,863
+57,Centre Est,Rural,Féminin,Accompagnement de la famille,1358
+58,Gouvernorat de Sousse,Communal,Masculin,Accompagnement de la famille,3612
+59,Gouvernorat de Sousse,Communal,Féminin,Accompagnement de la famille,6279
+60,Gouvernorat de Sousse,Rural,Masculin,Accompagnement de la famille,92
+61,Gouvernorat de Sousse,Rural,Féminin,Accompagnement de la famille,158
+62,Gouvernorat de Monastir,Communal,Masculin,Accompagnement de la famille,2269
+63,Gouvernorat de Monastir,Communal,Féminin,Accompagnement de la famille,3805
+64,Gouvernorat de Mahdia,Communal,Masculin,Accompagnement de la famille,825
+65,Gouvernorat de Mahdia,Communal,Féminin,Accompagnement de la famille,1497
+66,Gouvernorat de Mahdia,Rural,Masculin,Accompagnement de la famille,246
+67,Gouvernorat de Mahdia,Rural,Féminin,Accompagnement de la famille,351
+68,Gouvernorat de Sfax,Communal,Masculin,Accompagnement de la famille,5765
+69,Gouvernorat de Sfax,Communal,Féminin,Accompagnement de la famille,9759
+70,Gouvernorat de Sfax,Rural,Masculin,Accompagnement de la famille,525
+71,Gouvernorat de Sfax,Rural,Féminin,Accompagnement de la famille,849
+72,Centre Ouest,Communal,Masculin,Accompagnement de la famille,4939
+73,Centre Ouest,Communal,Féminin,Accompagnement de la famille,8279
+74,Centre Ouest,Rural,Masculin,Accompagnement de la famille,2691
+75,Centre Ouest,Rural,Féminin,Accompagnement de la famille,4288
+76,Gouvernorat de Kairouan,Communal,Masculin,Accompagnement de la famille,2337
+77,Gouvernorat de Kairouan,Communal,Féminin,Accompagnement de la famille,4012
+78,Gouvernorat de Kairouan,Rural,Masculin,Accompagnement de la famille,1245
+79,Gouvernorat de Kairouan,Rural,Féminin,Accompagnement de la famille,1939
+80,Gouvernorat de Kasserine,Communal,Masculin,Accompagnement de la famille,1413
+81,Gouvernorat de Kasserine,Communal,Féminin,Accompagnement de la famille,2282
+82,Gouvernorat de Kasserine,Rural,Masculin,Accompagnement de la famille,851
+83,Gouvernorat de Kasserine,Rural,Féminin,Accompagnement de la famille,1375
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Accompagnement de la famille,1189
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Accompagnement de la famille,1985
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Accompagnement de la famille,595
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Accompagnement de la famille,974
+88,Sud Est,Communal,Masculin,Accompagnement de la famille,5440
+89,Sud Est,Communal,Féminin,Accompagnement de la famille,9427
+90,Sud Est,Rural,Masculin,Accompagnement de la famille,1313
+91,Sud Est,Rural,Féminin,Accompagnement de la famille,2344
+92,Gouvernorat de Gabès,Communal,Masculin,Accompagnement de la famille,2149
+93,Gouvernorat de Gabès,Communal,Féminin,Accompagnement de la famille,3942
+94,Gouvernorat de Gabès,Rural,Masculin,Accompagnement de la famille,378
+95,Gouvernorat de Gabès,Rural,Féminin,Accompagnement de la famille,658
+96,Gouvernorat de Medenine,Communal,Masculin,Accompagnement de la famille,2401
+97,Gouvernorat de Medenine,Communal,Féminin,Accompagnement de la famille,4027
+98,Gouvernorat de Medenine,Rural,Masculin,Accompagnement de la famille,575
+99,Gouvernorat de Medenine,Rural,Féminin,Accompagnement de la famille,1067
+100,Gouvernorat de Tataouine,Communal,Masculin,Accompagnement de la famille,890
+101,Gouvernorat de Tataouine,Communal,Féminin,Accompagnement de la famille,1458
+102,Gouvernorat de Tataouine,Rural,Masculin,Accompagnement de la famille,360
+103,Gouvernorat de Tataouine,Rural,Féminin,Accompagnement de la famille,619
+104,Sud Ouest,Communal,Masculin,Accompagnement de la famille,1791
+105,Sud Ouest,Communal,Féminin,Accompagnement de la famille,2993
+106,Sud Ouest,Rural,Masculin,Accompagnement de la famille,1208
+107,Sud Ouest,Rural,Féminin,Accompagnement de la famille,1995
+108,Gouvernorat de Gafsa,Communal,Masculin,Accompagnement de la famille,937
+109,Gouvernorat de Gafsa,Communal,Féminin,Accompagnement de la famille,1555
+110,Gouvernorat de Gafsa,Rural,Masculin,Accompagnement de la famille,1032
+111,Gouvernorat de Gafsa,Rural,Féminin,Accompagnement de la famille,1702
+112,Gouvernorat de Tozeur,Communal,Masculin,Accompagnement de la famille,447
+113,Gouvernorat de Tozeur,Communal,Féminin,Accompagnement de la famille,738
+114,Gouvernorat de Tozeur,Rural,Masculin,Accompagnement de la famille,46
+115,Gouvernorat de Tozeur,Rural,Féminin,Accompagnement de la famille,67
+0,Tunisie,Communal,Masculin,Etudes,19275
+1,Tunisie,Communal,Féminin,Etudes,16363
+2,Tunisie,Rural,Masculin,Etudes,2745
+3,Tunisie,Rural,Féminin,Etudes,2233
+4,Nord Est,Communal,Masculin,Etudes,6062
+5,Nord Est,Communal,Féminin,Etudes,5429
+6,Nord Est,Rural,Masculin,Etudes,167
+7,Nord Est,Rural,Féminin,Etudes,156
+8,Gouvernorat de Tunis,Communal,Masculin,Etudes,2355
+9,Gouvernorat de Tunis,Communal,Féminin,Etudes,2096
+10,Gouvernorat de L'Ariana,Communal,Masculin,Etudes,306
+11,Gouvernorat de L'Ariana,Communal,Féminin,Etudes,266
+12,Gouvernorat de L'Ariana,Rural,Masculin,Etudes,4
+13,Gouvernorat de L'Ariana,Rural,Féminin,Etudes,11
+14,Gouvernorat de Ben Arous,Communal,Masculin,Etudes,423
+15,Gouvernorat de Ben Arous,Communal,Féminin,Etudes,332
+16,Gouvernorat de Ben Arous,Rural,Masculin,Etudes,0
+17,Gouvernorat de Ben Arous,Rural,Féminin,Etudes,3
+18,Gouvernorat de Manouba,Communal,Masculin,Etudes,184
+19,Gouvernorat de Manouba,Communal,Féminin,Etudes,199
+20,Gouvernorat de Manouba,Rural,Masculin,Etudes,2
+21,Gouvernorat de Manouba,Rural,Féminin,Etudes,9
+22,Gouvernorat de Nabeul,Communal,Masculin,Etudes,1689
+23,Gouvernorat de Nabeul,Communal,Féminin,Etudes,1425
+24,Gouvernorat de Nabeul,Rural,Masculin,Etudes,61
+25,Gouvernorat de Nabeul,Rural,Féminin,Etudes,36
+26,Gouvernorat de Zaghouan,Communal,Masculin,Etudes,255
+27,Gouvernorat de Zaghouan,Communal,Féminin,Etudes,214
+28,Gouvernorat de Zaghouan,Rural,Masculin,Etudes,27
+29,Gouvernorat de Zaghouan,Rural,Féminin,Etudes,23
+30,Gouvernorat de Bizerte,Communal,Masculin,Etudes,850
+31,Gouvernorat de Bizerte,Communal,Féminin,Etudes,897
+32,Gouvernorat de Bizerte,Rural,Masculin,Etudes,73
+33,Gouvernorat de Bizerte,Rural,Féminin,Etudes,74
+34,Nord Ouest,Communal,Masculin,Etudes,1932
+35,Nord Ouest,Communal,Féminin,Etudes,1767
+36,Nord Ouest,Rural,Masculin,Etudes,382
+37,Nord Ouest,Rural,Féminin,Etudes,381
+38,Gouvernorat de Bèja,Communal,Masculin,Etudes,463
+39,Gouvernorat de Bèja,Communal,Féminin,Etudes,395
+40,Gouvernorat de Bèja,Rural,Masculin,Etudes,75
+41,Gouvernorat de Bèja,Rural,Féminin,Etudes,68
+42,Gouvernorat de Jendouba,Communal,Masculin,Etudes,491
+43,Gouvernorat de Jendouba,Communal,Féminin,Etudes,494
+44,Gouvernorat de Jendouba,Rural,Masculin,Etudes,131
+45,Gouvernorat de Jendouba,Rural,Féminin,Etudes,133
+46,Gouvernorat du Kef,Communal,Masculin,Etudes,517
+47,Gouvernorat du Kef,Communal,Féminin,Etudes,547
+48,Gouvernorat du Kef,Rural,Masculin,Etudes,92
+49,Gouvernorat du Kef,Rural,Féminin,Etudes,102
+50,Gouvernorat de Siliana,Communal,Masculin,Etudes,461
+51,Gouvernorat de Siliana,Communal,Féminin,Etudes,331
+52,Gouvernorat de Siliana,Rural,Masculin,Etudes,84
+53,Gouvernorat de Siliana,Rural,Féminin,Etudes,78
+54,Centre Est,Communal,Masculin,Etudes,4654
+55,Centre Est,Communal,Féminin,Etudes,3879
+56,Centre Est,Rural,Masculin,Etudes,266
+57,Centre Est,Rural,Féminin,Etudes,194
+58,Gouvernorat de Sousse,Communal,Masculin,Etudes,1004
+59,Gouvernorat de Sousse,Communal,Féminin,Etudes,986
+60,Gouvernorat de Sousse,Rural,Masculin,Etudes,24
+61,Gouvernorat de Sousse,Rural,Féminin,Etudes,11
+62,Gouvernorat de Monastir,Communal,Masculin,Etudes,962
+63,Gouvernorat de Monastir,Communal,Féminin,Etudes,842
+64,Gouvernorat de Mahdia,Communal,Masculin,Etudes,901
+65,Gouvernorat de Mahdia,Communal,Féminin,Etudes,659
+66,Gouvernorat de Mahdia,Rural,Masculin,Etudes,89
+67,Gouvernorat de Mahdia,Rural,Féminin,Etudes,52
+68,Gouvernorat de Sfax,Communal,Masculin,Etudes,1787
+69,Gouvernorat de Sfax,Communal,Féminin,Etudes,1392
+70,Gouvernorat de Sfax,Rural,Masculin,Etudes,153
+71,Gouvernorat de Sfax,Rural,Féminin,Etudes,131
+72,Centre Ouest,Communal,Masculin,Etudes,2881
+73,Centre Ouest,Communal,Féminin,Etudes,1993
+74,Centre Ouest,Rural,Masculin,Etudes,820
+75,Centre Ouest,Rural,Féminin,Etudes,559
+76,Gouvernorat de Kairouan,Communal,Masculin,Etudes,1100
+77,Gouvernorat de Kairouan,Communal,Féminin,Etudes,919
+78,Gouvernorat de Kairouan,Rural,Masculin,Etudes,234
+79,Gouvernorat de Kairouan,Rural,Féminin,Etudes,200
+80,Gouvernorat de Kasserine,Communal,Masculin,Etudes,788
+81,Gouvernorat de Kasserine,Communal,Féminin,Etudes,487
+82,Gouvernorat de Kasserine,Rural,Masculin,Etudes,309
+83,Gouvernorat de Kasserine,Rural,Féminin,Etudes,171
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Etudes,993
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Etudes,587
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Etudes,277
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Etudes,188
+88,Sud Est,Communal,Masculin,Etudes,2519
+89,Sud Est,Communal,Féminin,Etudes,2352
+90,Sud Est,Rural,Masculin,Etudes,254
+91,Sud Est,Rural,Féminin,Etudes,252
+92,Gouvernorat de Gabès,Communal,Masculin,Etudes,915
+93,Gouvernorat de Gabès,Communal,Féminin,Etudes,1028
+94,Gouvernorat de Gabès,Rural,Masculin,Etudes,91
+95,Gouvernorat de Gabès,Rural,Féminin,Etudes,66
+96,Gouvernorat de Medenine,Communal,Masculin,Etudes,1227
+97,Gouvernorat de Medenine,Communal,Féminin,Etudes,1022
+98,Gouvernorat de Medenine,Rural,Masculin,Etudes,115
+99,Gouvernorat de Medenine,Rural,Féminin,Etudes,109
+100,Gouvernorat de Tataouine,Communal,Masculin,Etudes,377
+101,Gouvernorat de Tataouine,Communal,Féminin,Etudes,302
+102,Gouvernorat de Tataouine,Rural,Masculin,Etudes,48
+103,Gouvernorat de Tataouine,Rural,Féminin,Etudes,77
+104,Sud Ouest,Communal,Masculin,Etudes,1227
+105,Sud Ouest,Communal,Féminin,Etudes,943
+106,Sud Ouest,Rural,Masculin,Etudes,856
+107,Sud Ouest,Rural,Féminin,Etudes,691
+108,Gouvernorat de Gafsa,Communal,Masculin,Etudes,438
+109,Gouvernorat de Gafsa,Communal,Féminin,Etudes,344
+110,Gouvernorat de Gafsa,Rural,Masculin,Etudes,761
+111,Gouvernorat de Gafsa,Rural,Féminin,Etudes,609
+112,Gouvernorat de Tozeur,Communal,Masculin,Etudes,313
+113,Gouvernorat de Tozeur,Communal,Féminin,Etudes,206
+114,Gouvernorat de Tozeur,Rural,Masculin,Etudes,33
+115,Gouvernorat de Tozeur,Rural,Féminin,Etudes,24
+0,Tunisie,Communal,Masculin,Autres,10346
+1,Tunisie,Communal,Féminin,Autres,9653
+2,Tunisie,Rural,Masculin,Autres,1030
+3,Tunisie,Rural,Féminin,Autres,1220
+4,Nord Est,Communal,Masculin,Autres,5402
+5,Nord Est,Communal,Féminin,Autres,4996
+6,Nord Est,Rural,Masculin,Autres,166
+7,Nord Est,Rural,Féminin,Autres,200
+8,Gouvernorat de Tunis,Communal,Masculin,Autres,2748
+9,Gouvernorat de Tunis,Communal,Féminin,Autres,2619
+10,Gouvernorat de L'Ariana,Communal,Masculin,Autres,586
+11,Gouvernorat de L'Ariana,Communal,Féminin,Autres,533
+12,Gouvernorat de L'Ariana,Rural,Masculin,Autres,6
+13,Gouvernorat de L'Ariana,Rural,Féminin,Autres,5
+14,Gouvernorat de Ben Arous,Communal,Masculin,Autres,859
+15,Gouvernorat de Ben Arous,Communal,Féminin,Autres,763
+16,Gouvernorat de Ben Arous,Rural,Masculin,Autres,14
+17,Gouvernorat de Ben Arous,Rural,Féminin,Autres,11
+18,Gouvernorat de Manouba,Communal,Masculin,Autres,296
+19,Gouvernorat de Manouba,Communal,Féminin,Autres,295
+20,Gouvernorat de Manouba,Rural,Masculin,Autres,14
+21,Gouvernorat de Manouba,Rural,Féminin,Autres,22
+22,Gouvernorat de Nabeul,Communal,Masculin,Autres,534
+23,Gouvernorat de Nabeul,Communal,Féminin,Autres,458
+24,Gouvernorat de Nabeul,Rural,Masculin,Autres,63
+25,Gouvernorat de Nabeul,Rural,Féminin,Autres,76
+26,Gouvernorat de Zaghouan,Communal,Masculin,Autres,87
+27,Gouvernorat de Zaghouan,Communal,Féminin,Autres,83
+28,Gouvernorat de Zaghouan,Rural,Masculin,Autres,25
+29,Gouvernorat de Zaghouan,Rural,Féminin,Autres,42
+30,Gouvernorat de Bizerte,Communal,Masculin,Autres,292
+31,Gouvernorat de Bizerte,Communal,Féminin,Autres,245
+32,Gouvernorat de Bizerte,Rural,Masculin,Autres,44
+33,Gouvernorat de Bizerte,Rural,Féminin,Autres,44
+34,Nord Ouest,Communal,Masculin,Autres,595
+35,Nord Ouest,Communal,Féminin,Autres,623
+36,Nord Ouest,Rural,Masculin,Autres,247
+37,Nord Ouest,Rural,Féminin,Autres,296
+38,Gouvernorat de Bèja,Communal,Masculin,Autres,136
+39,Gouvernorat de Bèja,Communal,Féminin,Autres,143
+40,Gouvernorat de Bèja,Rural,Masculin,Autres,48
+41,Gouvernorat de Bèja,Rural,Féminin,Autres,59
+42,Gouvernorat de Jendouba,Communal,Masculin,Autres,166
+43,Gouvernorat de Jendouba,Communal,Féminin,Autres,175
+44,Gouvernorat de Jendouba,Rural,Masculin,Autres,100
+45,Gouvernorat de Jendouba,Rural,Féminin,Autres,114
+46,Gouvernorat du Kef,Communal,Masculin,Autres,186
+47,Gouvernorat du Kef,Communal,Féminin,Autres,207
+48,Gouvernorat du Kef,Rural,Masculin,Autres,54
+49,Gouvernorat du Kef,Rural,Féminin,Autres,67
+50,Gouvernorat de Siliana,Communal,Masculin,Autres,107
+51,Gouvernorat de Siliana,Communal,Féminin,Autres,98
+52,Gouvernorat de Siliana,Rural,Masculin,Autres,45
+53,Gouvernorat de Siliana,Rural,Féminin,Autres,56
+54,Centre Est,Communal,Masculin,Autres,2535
+55,Centre Est,Communal,Féminin,Autres,2347
+56,Centre Est,Rural,Masculin,Autres,92
+57,Centre Est,Rural,Féminin,Autres,144
+58,Gouvernorat de Sousse,Communal,Masculin,Autres,915
+59,Gouvernorat de Sousse,Communal,Féminin,Autres,894
+60,Gouvernorat de Sousse,Rural,Masculin,Autres,13
+61,Gouvernorat de Sousse,Rural,Féminin,Autres,23
+62,Gouvernorat de Monastir,Communal,Masculin,Autres,440
+63,Gouvernorat de Monastir,Communal,Féminin,Autres,397
+64,Gouvernorat de Mahdia,Communal,Masculin,Autres,148
+65,Gouvernorat de Mahdia,Communal,Féminin,Autres,151
+66,Gouvernorat de Mahdia,Rural,Masculin,Autres,17
+67,Gouvernorat de Mahdia,Rural,Féminin,Autres,36
+68,Gouvernorat de Sfax,Communal,Masculin,Autres,1032
+69,Gouvernorat de Sfax,Communal,Féminin,Autres,905
+70,Gouvernorat de Sfax,Rural,Masculin,Autres,62
+71,Gouvernorat de Sfax,Rural,Féminin,Autres,85
+72,Centre Ouest,Communal,Masculin,Autres,585
+73,Centre Ouest,Communal,Féminin,Autres,552
+74,Centre Ouest,Rural,Masculin,Autres,217
+75,Centre Ouest,Rural,Féminin,Autres,240
+76,Gouvernorat de Kairouan,Communal,Masculin,Autres,242
+77,Gouvernorat de Kairouan,Communal,Féminin,Autres,237
+78,Gouvernorat de Kairouan,Rural,Masculin,Autres,68
+79,Gouvernorat de Kairouan,Rural,Féminin,Autres,74
+80,Gouvernorat de Kasserine,Communal,Masculin,Autres,199
+81,Gouvernorat de Kasserine,Communal,Féminin,Autres,185
+82,Gouvernorat de Kasserine,Rural,Masculin,Autres,96
+83,Gouvernorat de Kasserine,Rural,Féminin,Autres,110
+84,Gouvernorat de Sidi Bouzid,Communal,Masculin,Autres,144
+85,Gouvernorat de Sidi Bouzid,Communal,Féminin,Autres,130
+86,Gouvernorat de Sidi Bouzid,Rural,Masculin,Autres,53
+87,Gouvernorat de Sidi Bouzid,Rural,Féminin,Autres,56
+88,Sud Est,Communal,Masculin,Autres,949
+89,Sud Est,Communal,Féminin,Autres,867
+90,Sud Est,Rural,Masculin,Autres,122
+91,Sud Est,Rural,Féminin,Autres,147
+92,Gouvernorat de Gabès,Communal,Masculin,Autres,406
+93,Gouvernorat de Gabès,Communal,Féminin,Autres,378
+94,Gouvernorat de Gabès,Rural,Masculin,Autres,22
+95,Gouvernorat de Gabès,Rural,Féminin,Autres,29
+96,Gouvernorat de Medenine,Communal,Masculin,Autres,435
+97,Gouvernorat de Medenine,Communal,Féminin,Autres,382
+98,Gouvernorat de Medenine,Rural,Masculin,Autres,59
+99,Gouvernorat de Medenine,Rural,Féminin,Autres,70
+100,Gouvernorat de Tataouine,Communal,Masculin,Autres,108
+101,Gouvernorat de Tataouine,Communal,Féminin,Autres,107
+102,Gouvernorat de Tataouine,Rural,Masculin,Autres,41
+103,Gouvernorat de Tataouine,Rural,Féminin,Autres,48
+104,Sud Ouest,Communal,Masculin,Autres,280
+105,Sud Ouest,Communal,Féminin,Autres,268
+106,Sud Ouest,Rural,Masculin,Autres,186
+107,Sud Ouest,Rural,Féminin,Autres,193
+108,Gouvernorat de Gafsa,Communal,Masculin,Autres,141
+109,Gouvernorat de Gafsa,Communal,Féminin,Autres,136
+110,Gouvernorat de Gafsa,Rural,Masculin,Autres,165
+111,Gouvernorat de Gafsa,Rural,Féminin,Autres,159
+112,Gouvernorat de Tozeur,Communal,Masculin,Autres,70
+113,Gouvernorat de Tozeur,Communal,Féminin,Autres,62
+114,Gouvernorat de Tozeur,Rural,Masculin,Autres,9
+115,Gouvernorat de Tozeur,Rural,Féminin,Autres,7

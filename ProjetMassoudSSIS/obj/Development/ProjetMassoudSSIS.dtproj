@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-P5D1I92</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+7N35mRxIkiqeyPMSC/bSAAAAAACAAAAAAAQZgAAAAEAACAAAAAvE5YjXIXKQBftFNXlqU6NuejULeLEPKIrkdRpt3ZOTAAAAAAOgAAAAAIAACAAAACffbYc2uLrMtrWG22M2cXfp5qPtUgSETua1pki6n1vzpAAAAB5Fk14BL4rs6Ue5SsuRY9EbNyy42J/hm45QyLL+ocCMLfw6Rmy8PL70nutHG9h0z+s18NE8CkNdWS1xAdHmVZ+Wz0n5kL8E8yXd7GRkdJ5++H6oOThNyYeYgxLPyc9lnrleKYLtKt+NfynbIzLpKdZrRF5VLXd7/V1TKj6yyVBKFoLi6yU7yQrLNHA2N0fSlVAAAAA2abHBO+qmnGQ21BfQWKT73phgIBjj7ddysqbZsB2xDbpPGtbmtSqphUAbVWrcR4ijvza4U0DDf0tfBagMi9/OA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+7N35mRxIkiqeyPMSC/bSAAAAAACAAAAAAAQZgAAAAEAACAAAADUUIBJY5ouDqw55qa+hSyv2qPowBwo39xjckG00YWTPQAAAAAOgAAAAAIAACAAAAD9bZV/tbWjBGxTuJUyHKjbz+cHuH6t2CCXcLJnpsvjKZAAAAADZsqBJI5W3o8b1NanQLpE85dsu9hAuEZWmf1oM/RcPrgAB85JA6b/2v0aX2+fNlfiIcUx1yUxsOsrBRjy5zp1m1r6eWPcEp6QT+Cx6ktfpBTSYVeXSQ2C9hfZI+CxtNuFobcVqIgPNBZWoxVcD6URJEPsS4SWkRxz71jRz/SFvPio8sMkl8pP43pQpoYF57JAAAAAmD8s2ughRgIs1V+FeJ8wem1eZVKDLYEjuVE/ugIyrg8qK6ozlsHgXi74yxmFJmk7JmgbToTCgVUrP1WEfw9qng==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -43,10 +43,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">57</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">67</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0CF78683-9249-41F2-AA6B-AE925F83D480}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{EB88EFBA-8793-498C-B01D-E987702EDC16}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -591,7 +591,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.AlwaysCheckForRowDelimiters">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -606,7 +606,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.CodePage">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.CodePage">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -621,7 +621,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.ColumnNamesInFirstDataRow">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.ColumnNamesInFirstDataRow">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -636,7 +636,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -651,7 +651,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -662,11 +662,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\micro\Documents\GitHub\projet massoud\datasets\Migration-Dataset.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\Migration-Dataset.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.DataRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.DataRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -681,7 +681,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.Format">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.Format">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -696,7 +696,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.HeaderRowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.HeaderRowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -712,7 +712,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.HeaderRowsToSkip">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.HeaderRowsToSkip">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -727,7 +727,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.LocaleID">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.LocaleID">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -742,7 +742,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.RowDelimiter">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.RowDelimiter">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -756,7 +756,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.TextQualifier">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.TextQualifier">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -771,7 +771,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Migration-dataset.Unicode">
+                <SSIS:Parameter SSIS:Name="CM.migration-dataset.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -794,10 +794,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">53</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{5F313AC1-34E5-4E14-8659-F2D6E0D7FB1D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{17E13D21-F60E-4668-9240-093AC3531F1A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
