@@ -44,6 +44,21 @@ UNION
 select distinct Region
 from StagingArea.dbo.stag_immigration
 
+-- GET THE DATE
+SELECT distinct Year([date]) 
+from StagingArea.dbo.stag_immigration
+
+UNION
+
+select distinct Year(Date_Collecte)
+from StagingArea.dbo.stag_Etudiant
+
+UNION
+
+select distinct Year(Date_Collecte)
+from StagingArea.dbo.stag_Emploi
+
+
 
 --***SINGLE DIMENSIONS VALUES
 

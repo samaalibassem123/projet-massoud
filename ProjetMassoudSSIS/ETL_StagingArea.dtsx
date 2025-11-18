@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="67"
-  DTS:VersionGUID="{EB88EFBA-8793-498C-B01D-E987702EDC16}">
+  DTS:VersionBuild="89"
+  DTS:VersionGUID="{4E8D4466-0154-4145-9495-2FA1F96DF8C0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -192,22 +192,10 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{CAB938EA-8E4C-4952-AD78-8F1C83136771}"
-      DTS:ObjectName="localhost\MSSQLSERVER01.StagingArea">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost\MSSQLSERVER01;Initial Catalog=StagingArea;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{CAB938EA-8E4C-4952-AD78-8F1C83136771}localhost\MSSQLSERVER01.StagingArea;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[migration-dataset]"
+      DTS:refId="Package.ConnectionManagers[immigration-dataset]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{95A09559-F9B3-44BA-9E3D-6663C21A4E72}"
-      DTS:ObjectName="migration-dataset">
+      DTS:DTSID="{517BD818-5877-4C8A-9581-6C0B1C4302C4}"
+      DTS:ObjectName="immigration-dataset">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -217,62 +205,94 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\Migration-Dataset.csv">
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\Migration-Dataset2.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="16"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Colonne 0"
-              DTS:DTSID="{EAEAA247-6020-4CE9-80E5-8904DB13FCFF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="26"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="RÃ©gions"
-              DTS:DTSID="{39F1FF14-E726-4863-883C-48BD72E8A24F}"
+              DTS:ObjectName="Colonne 0"
+              DTS:DTSID="{927B76C9-7922-4060-9375-A447ACB58D4E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="8"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Unnamed  0"
+              DTS:DTSID="{B1DF7992-F954-42EB-9B86-4C4785162BD2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="date"
+              DTS:DTSID="{83BD7765-F9A7-44FB-869B-9F8CB42B7EF5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Régions"
+              DTS:DTSID="{BFD55B0E-E17C-43C0-A6C9-EAA2F56789BE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Milieu"
-              DTS:DTSID="{94815D84-F29D-4161-AC7F-8526B6D309B0}"
+              DTS:DTSID="{8C4265C1-FA42-44B3-B1AF-F61F7F88A194}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="8"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexe"
-              DTS:DTSID="{D776B3DC-60B7-4D51-9FC6-4B2BFC8AB46E}"
+              DTS:DTSID="{0B7A56AD-7BC4-48ED-84CA-70C146898374}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="52"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="raison"
-              DTS:DTSID="{9099FDC1-4E62-4C80-B5B9-9A147F854FF0}"
+              DTS:DTSID="{7A830D9B-8640-421B-A78B-D62E757E7092}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="POPULATION"
-              DTS:DTSID="{CA50E093-3B24-4659-80FD-71BA351CFA24}"
+              DTS:DTSID="{CEE9EE2C-5819-409E-8FBC-61C8551B244E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CAB938EA-8E4C-4952-AD78-8F1C83136771}"
+      DTS:ObjectName="localhost\MSSQLSERVER01.StagingArea">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost\MSSQLSERVER01;Initial Catalog=StagingArea;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{CAB938EA-8E4C-4952-AD78-8F1C83136771}localhost\MSSQLSERVER01.StagingArea;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -516,7 +536,8 @@
               contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
               description="Conversion de données"
               name="Conversion de données 1"
-              usesDispositions="true">
+              usesDispositions="true"
+              validateExternalMetadata="False">
               <inputs>
                 <input
                   refId="Package\ETL_StagingArea\Conversion de données 1.Inputs[Entrée de conversion de données]"
@@ -732,19 +753,13 @@
               contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
               description="Conversion de données"
               name="Conversion de données 2"
-              usesDispositions="true">
+              usesDispositions="true"
+              validateExternalMetadata="False">
               <inputs>
                 <input
                   refId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données]"
                   name="Entrée de conversion de données">
                   <inputColumns>
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Regions]"
-                      cachedCodepage="65001"
-                      cachedDataType="str"
-                      cachedLength="26"
-                      cachedName="Regions"
-                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Regions]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Milieu]"
                       cachedCodepage="65001"
@@ -771,6 +786,20 @@
                       cachedDataType="i4"
                       cachedName="POPULATION"
                       lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[POPULATION]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[date]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="date"
+                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[date]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données].Columns[Régions]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Régions"
+                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Régions]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -782,27 +811,6 @@
                   name="Sortie de conversion de données"
                   synchronousInputId="Package\ETL_StagingArea\Conversion de données 2.Inputs[Entrée de conversion de données]">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="100"
-                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]"
-                      name="Copy of RÃ©gions"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Regions]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
                       dataType="wstr"
@@ -880,6 +888,47 @@
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
                           name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[POPULATION]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      name="Copy of date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Régions]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Régions]"
+                      name="Copy of Régions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Régions]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -1485,8 +1534,8 @@
               <connections>
                 <connection
                   refId="Package\ETL_StagingArea\Migration_dataset.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[migration-dataset]"
-                  connectionManagerRefId="Package.ConnectionManagers[migration-dataset]"
+                  connectionManagerID="Package.ConnectionManagers[immigration-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[immigration-dataset]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -1494,28 +1543,6 @@
                   refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat]"
                   name="Sortie de source de fichier plat">
                   <outputColumns>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Regions]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
-                      length="26"
-                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Regions]"
-                      name="Regions"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
                     <outputColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
                       codePage="65001"
@@ -1602,41 +1629,123 @@
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      name="date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Régions]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Régions]"
+                      name="Régions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Unnamed  0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Unnamed  0]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].Columns[Unnamed  0]"
+                      name="Unnamed  0"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
-                      dataType="i1"
-                      name="Colonne 0" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[RÃ©gions]"
                       codePage="65001"
                       dataType="str"
-                      length="26"
-                      name="RÃ©gions" />
+                      length="50"
+                      name="Colonne 0" />
                     <externalMetadataColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
                       codePage="65001"
                       dataType="str"
-                      length="8"
+                      length="50"
                       name="Milieu" />
                     <externalMetadataColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
                       codePage="65001"
                       dataType="str"
-                      length="8"
+                      length="50"
                       name="Sexe" />
                     <externalMetadataColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[raison]"
                       codePage="65001"
                       dataType="str"
-                      length="52"
+                      length="50"
                       name="raison" />
                     <externalMetadataColumn
                       refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[POPULATION]"
-                      dataType="i4"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="POPULATION" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="date" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Régions" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Migration_dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Unnamed  0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Unnamed  0" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2091,13 +2200,6 @@
                   name="Entrée de destination OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of RÃ©gions]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="Copy of RÃ©gions"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of RÃ©gions]" />
-                    <inputColumn
                       refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -2124,6 +2226,19 @@
                       cachedName="Copy of POPULATION"
                       externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
                       lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Régions]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of Régions"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of Régions]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of date"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[date]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2155,6 +2270,10 @@
                       refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
                       dataType="i4"
                       name="Population" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[date]"
+                      dataType="dbTimeStamp"
+                      name="date" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2249,51 +2368,51 @@
           Id="Package\ETL_StagingArea\Conversion de données 1"
           TopLeft="488,348" />
         <NodeLayout
-          Size="195,42"
-          Id="Package\ETL_StagingArea\Conversion de données"
-          TopLeft="491,207" />
-        <NodeLayout
-          Size="167,42"
-          Id="Package\ETL_StagingArea\Migration_dataset"
-          TopLeft="151,474" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\ETL_StagingArea\Conversion de données 2"
-          TopLeft="511,474" />
-        <NodeLayout
-          Size="138,42"
-          Id="Package\ETL_StagingArea\stag_emploi"
-          TopLeft="864,203" />
-        <NodeLayout
           Size="162,42"
           Id="Package\ETL_StagingArea\Etudiant_dataset"
           TopLeft="150,339" />
         <NodeLayout
-          Size="145,42"
-          Id="Package\ETL_StagingArea\stag_etudiant"
-          TopLeft="868,344" />
+          Size="124,42"
+          Id="Package\ETL_StagingArea\stag_mig"
+          TopLeft="896,459" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\ETL_StagingArea\Conversion de données 2"
+          TopLeft="495,462" />
         <NodeLayout
           Size="152,42"
           Id="Package\ETL_StagingArea\Emploi-dataset"
           TopLeft="154.5,207.5" />
         <NodeLayout
-          Size="124,42"
-          Id="Package\ETL_StagingArea\stag_mig"
-          TopLeft="877,477" />
+          Size="138,42"
+          Id="Package\ETL_StagingArea\stag_emploi"
+          TopLeft="864,203" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\ETL_StagingArea\Conversion de données"
+          TopLeft="491,207" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\ETL_StagingArea\stag_etudiant"
+          TopLeft="868,344" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\ETL_StagingArea\Migration_dataset"
+          TopLeft="151,466" />
         <EdgeLayout
           Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat2]"
-          TopLeft="318,495">
+          TopLeft="318,485">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="193,0"
+              EndConnector="177,0"
               Start="0,0"
-              End="185.5,0">
+              End="169.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="185.5,0" />
+                    End="169.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2360,18 +2479,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\ETL_StagingArea.Paths[Sortie de conversion de données2]"
-          TopLeft="715,496.5">
+          TopLeft="699,481.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="162,0"
+              EndConnector="197,0"
               Start="0,0"
-              End="154.5,0">
+              End="189.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="154.5,0" />
+                    End="189.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2428,6 +2547,19 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\ETL_StagingArea\stag_mig">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\ETL_StagingArea\stag_emploi">
     <Properties>
       <Property>
@@ -2442,19 +2574,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\ETL_StagingArea\stag_etudiant">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\ETL_StagingArea\stag_mig">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
