@@ -70,3 +70,7 @@ from StagingArea.dbo.stag_emploi
 -- GET THE raison from stag_immigration table
 SELECT distinct raison 
 from StagingArea.dbo.stag_immigration
+
+-- GET THE AGE TRANCHES FROM THE emplyer paer age table
+SELECT distinct TrancheAge
+from StagingArea.dbo.stag_EmploiPerAge

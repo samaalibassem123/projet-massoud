@@ -12,10 +12,6 @@ CREATE TABLE stag_Etudiant (
     Population INT
 );
 
--- Example data (no need to insert Indicateur_Cle manually)
-INSERT INTO stag_Etudiant (Date_Collecte, Milieu, Sexe, Niveau_Instruction, Region, Population)
-VALUES ('2014-01-01 00:00:00', 'Communal', 'Masculin', 'Primaire', 'Nord Est', 432720);
-
 
 -- STAG_EMPLOI TABLE
 CREATE TABLE stag_Emploi (
@@ -28,18 +24,26 @@ CREATE TABLE stag_Emploi (
     Population INT
 );
 
--- Example data (no need to insert Indicateur_Cle manually)
-INSERT INTO stag_Emploi (Date_Collecte, Milieu, Sexe, Secteur_Activite, Region, Population)
-VALUES ('2014-01-01 00:00:00', 'Communal', 'Masculin', 'Agriculture et peche', 'Tunisie', 76872);
+-- Stag_EmploiPerAge TABLE
+CREATE TABLE stag_EmploiPerAge (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Date_Collecte DATETIME,
+    Milieu_Nom NVARCHAR(100),
+    Sexe NVARCHAR(50),
+    TrancheAge NVARCHAR(100),
+    Region NVARCHAR(100),
+    population INT
+);
 
 
 -- STAG_MIGRATION TABLE
 CREATE TABLE stag_immigration (
     ID INT IDENTITY(1,1) PRIMARY KEY,  -- Auto-increment primary key
-    Region NVARCHAR(100) NOT NULL,
-    Milieu NVARCHAR(50) NOT NULL,
-    Sexe NVARCHAR(20) NOT NULL,
-    Raison NVARCHAR(100) NOT NULL,
-    Population INT NOT NULL
+    Region NVARCHAR(100) ,
+    date DATETIME,
+    Milieu NVARCHAR(50),
+    Sexe NVARCHAR(20),
+    Raison NVARCHAR(100),
+    Population INT
 );
 

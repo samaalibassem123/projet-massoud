@@ -1,4 +1,4 @@
--- data for tje education fact table
+-- data for the education fact table
 SELECT
     g.id_genre,
     m.id_milieu,
@@ -42,6 +42,31 @@ where
     Year(e.Date_Collecte) = d.annee and 
     e.Milieu = m.libelle_milieu and
     e.Secteur_Activite = s.libelle_secteur and
+    e.Region = r.nom_region and
+    g.libelle_genre = case 
+        when e.Sexe = 'Masculin' then 'M' 
+        when e.Sexe = 'Féminin' then 'F'
+    end
+
+-- data for the  fact table emploi par age
+SELECT
+    g.id_genre,
+    m.id_milieu,
+    a.id_age,
+    r.id_region,
+    d.id_annee,
+    e.population
+FROM 
+    StagingArea.dbo.stag_EmploiPerAge e, 
+    DatawareHouse.dbo.Dim_Genre g,
+    DatawareHouse.dbo.Dim_Milieu m,
+    DatawareHouse.dbo.Dim_Region r,
+    DatawareHouse.dbo.Dim_Année d,
+    Datawarehouse.dbo.Dim_Age a
+where
+    Year(e.Date_Collecte) = d.annee and 
+    e.Milieu_Nom = m.libelle_milieu and
+    e.TrancheAge = a.tranche_age and
     e.Region = r.nom_region and
     g.libelle_genre = case 
         when e.Sexe = 'Masculin' then 'M' 

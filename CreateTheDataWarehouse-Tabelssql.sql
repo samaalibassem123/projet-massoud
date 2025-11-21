@@ -81,6 +81,26 @@ nombre_actifs INT,
   FOREIGN KEY (id_secteur) REFERENCES Dim_SecteurActivite(id_secteur)
 );
 
+use DatawareHouse;
+GO
+-- fait emploi par age
+CREATE TABLE Fait_Emploi_per_age (
+id_fait_emploi_per_age INT PRIMARY KEY IDENTITY,
+id_region INT,
+id_genre INT,
+id_age INT,
+id_annee INT,
+id_milieu INT,
+taux_chomage DECIMAL(5,2),
+nombre_actifs INT,
+  FOREIGN KEY (id_region) REFERENCES Dim_Region(id_region),
+  FOREIGN KEY (id_genre) REFERENCES Dim_Genre(id_genre),
+  FOREIGN KEY (id_age) REFERENCES Dim_Age(id_age),
+  FOREIGN KEY (id_annee) REFERENCES Dim_Année(id_annee),
+  FOREIGN KEY (id_milieu) REFERENCES Dim_Milieu(id_milieu)
+);
+
+
 
 
 CREATE TABLE Fait_Migration (
