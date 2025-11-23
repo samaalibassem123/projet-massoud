@@ -1,100 +1,205 @@
--- data for the education fact table
-SELECT
-    g.id_genre,
-    m.id_milieu,
-    n.id_niveau,
-    r.id_region,
-    d.id_annee,
-    e.population
-FROM 
-    StagingArea.dbo.stag_Etudiant e, 
-    DatawareHouse.dbo.Dim_Genre g,
-    DatawareHouse.dbo.Dim_Milieu m,
-    DatawareHouse.dbo.Dim_Niveau n,
-    DatawareHouse.dbo.Dim_Region r,
-    DatawareHouse.dbo.Dim_Année d
-where
-    Year(e.Date_Collecte) = d.annee and 
-    e.Milieu = m.libelle_milieu and
-    e.Niveau_Instruction = n.libelle_niveau and
-    e.Region = r.nom_region and
-    g.libelle_genre = case 
-        when e.Sexe = 'Masculin' then 'M' 
-        when e.Sexe = 'Féminin' then 'F'
-    end
 
--- data for the  fact table emploi
-SELECT
-    g.id_genre,
-    m.id_milieu,
-    s.id_secteur,
-    r.id_region,
-    d.id_annee,
-    e.Population
-FROM 
-    StagingArea.dbo.stag_Emploi e, 
-    DatawareHouse.dbo.Dim_Genre g,
-    DatawareHouse.dbo.Dim_Milieu m,
-    DatawareHouse.dbo.Dim_SecteurActivite s,
-    DatawareHouse.dbo.Dim_Region r,
-    DatawareHouse.dbo.Dim_Année d
-where
-    Year(e.Date_Collecte) = d.annee and 
-    e.Milieu = m.libelle_milieu and
-    e.Secteur_Activite = s.libelle_secteur and
-    e.Region = r.nom_region and
-    g.libelle_genre = case 
-        when e.Sexe = 'Masculin' then 'M' 
-        when e.Sexe = 'Féminin' then 'F'
-    end
+-- FACT EDUCATION
+SELECT  
+    -- 1. Conditional Gouverment Key Lookup
+    -- Returns id_gouverment if the region matches the Gouvernorat pattern, otherwise returns NULL.
+    (SELECT TOP 1 T1.id_gouverment
+     FROM DatawareHouse.dbo.Dim_Gouverment T1
+     WHERE SE.Region = T1.gouverment AND SE.Region LIKE 'Gouvernorat%') AS id_gouverment,
 
--- data for the  fact table emploi par age
-SELECT
-    g.id_genre,
-    m.id_milieu,
-    a.id_age,
-    r.id_region,
-    d.id_annee,
-    e.population
+    -- 2. Conditional District Key Lookup
+    -- Returns id_district if the region does NOT match the Gouvernorat pattern, otherwise returns NULL.
+    (SELECT TOP 1 T2.id_district
+     FROM DatawareHouse.dbo.Dim_District T2
+     WHERE SE.Region = T2.district AND SE.Region NOT LIKE 'Gouvernorat%') AS id_district,
+     
+    -- 3. Genre Key (Simple implicit join)
+    GR.id_genre,
+    
+    -- 4. Milieu Key (Simple implicit join)
+    M.id_milieu,
+    
+    -- 5. Année Key (Simple implicit join)
+    A.id_annee,
+    
+    -- 6. Niveau Key (Simple implicit join)
+    N.id_niveau,
+
+    SE.population AS nombre_etudiants
 FROM 
-    StagingArea.dbo.stag_EmploiPerAge e, 
-    DatawareHouse.dbo.Dim_Genre g,
-    DatawareHouse.dbo.Dim_Milieu m,
-    DatawareHouse.dbo.Dim_Region r,
-    DatawareHouse.dbo.Dim_Année d,
-    Datawarehouse.dbo.Dim_Age a
-where
-    Year(e.Date_Collecte) = d.annee and 
-    e.Milieu_Nom = m.libelle_milieu and
-    e.TrancheAge = a.tranche_age and
-    e.Region = r.nom_region and
-    g.libelle_genre = case 
-        when e.Sexe = 'Masculin' then 'M' 
-        when e.Sexe = 'Féminin' then 'F'
-    end
+    StagingArea.dbo.stag_Education SE,
+    DatawareHouse.dbo.Dim_Genre GR,
+    DatawareHouse.dbo.Dim_Milieu M,
+    DatawareHouse.dbo.Dim_Année A,
+    DatawareHouse.dbo.Dim_Niveau N
+WHERE
+    -- The WHERE clause only handles the standard, unambiguous dimension joins:
+    
+    -- Genre transformation join (Mapping Féminin/Masculin to F/M)
+    GR.libelle_genre = CASE 
+        WHEN SE.Sexe IN ('Féminin', 'Femme') THEN 'F' 
+        WHEN SE.Sexe IN ('Masculin', 'Homme') THEN 'M'
+        ELSE NULL 
+    END
+    
+    -- Milieu join
+    AND SE.Milieu = M.libelle_milieu
+    
+    -- Année join (extracting year from Date_Collecte)
+    AND YEAR(SE.Date_Collecte) = A.annee
+    
+    -- Niveau join
+    AND SE.Niveau_Instruction = N.libelle_niveau;
 
 
--- data for the fact table Migration
-SELECT
-    g.id_genre,
-    rm.id_raison,
-    r.id_region,
-    d.id_annee,
-    m.id_milieu,
-    s.Population
+-- FACT EMPLOI
+SELECT  
+    -- 1. Conditional Gouverment Key Lookup
+    (SELECT TOP 1 T1.id_gouverment
+     FROM DatawareHouse.dbo.Dim_Gouverment T1
+     WHERE SE.Region = T1.gouverment AND SE.Region LIKE 'Gouvernorat%') AS id_gouverment,
+
+    -- 2. Conditional District Key Lookup
+    (SELECT TOP 1 T2.id_district
+     FROM DatawareHouse.dbo.Dim_District T2
+     WHERE SE.Region = T2.district AND SE.Region NOT LIKE 'Gouvernorat%') AS id_district,
+     
+    -- 3. Genre Key
+    GR.id_genre,
+    
+    -- 4. Année Key
+    A.id_annee,
+    
+    -- 5. Milieu Key
+    M.id_milieu,
+    
+    -- 6. Secteur Activite Key
+    S.id_secteur,
+
+    -- Staging Data (For Reference)
+
+    SE.population AS nombre_actifs
 FROM 
-    StagingArea.dbo.stag_immigration s, 
-    DatawareHouse.dbo.Dim_Genre g,
-    DatawareHouse.dbo.Dim_Milieu m,
-    DatawareHouse.dbo.Dim_RaisonMigration rm,
-    DatawareHouse.dbo.Dim_Region r,
-    DatawareHouse.dbo.Dim_Année d
-where
-    Year(s.date) = d.annee and 
-    s.Milieu = m.libelle_milieu and
-    s.Raison = rm.libelle_raison and
-    s.Region = r.nom_region and
-    g.libelle_genre = case 
-        when s.Sexe = 'Masculin' then 'M' 
-        when s.Sexe = 'Féminin' then 'F'
-    end
+    StagingArea.dbo.stag_Emploi SE,
+    DatawareHouse.dbo.Dim_Genre GR,
+    DatawareHouse.dbo.Dim_Année A,
+    DatawareHouse.dbo.Dim_Milieu M,
+    DatawareHouse.dbo.Dim_SecteurActivite S
+WHERE
+    -- Genre transformation join
+    GR.libelle_genre = CASE 
+        WHEN SE.Sexe IN ('Féminin', 'Femme') THEN 'F' 
+        WHEN SE.Sexe IN ('Masculin', 'Homme') THEN 'M'
+        ELSE NULL 
+    END
+    
+    -- Année join
+    AND YEAR(SE.Date_Collecte) = A.annee
+    
+    -- Milieu join
+    AND SE.Milieu = M.libelle_milieu
+    
+    -- Secteur Activite join
+    AND SE.Secteur_Activite = S.libelle_secteur;
+
+
+-- FACT EMPLOI PER AGE
+SELECT  
+    -- 1. Conditional Gouverment Key Lookup
+    (SELECT TOP 1 T1.id_gouverment
+     FROM DatawareHouse.dbo.Dim_Gouverment T1
+     WHERE SE.Region = T1.gouverment AND SE.Region LIKE 'Gouvernorat%') AS id_gouverment,
+
+    -- 2. Conditional District Key Lookup
+    (SELECT TOP 1 T2.id_district
+     FROM DatawareHouse.dbo.Dim_District T2
+     WHERE SE.Region = T2.district AND SE.Region NOT LIKE 'Gouvernorat%') AS id_district,
+     
+    -- 3. Genre Key
+    GR.id_genre,
+    
+    -- 4. Age Key
+    AGE.id_age,
+    
+    -- 5. Année Key
+    A.id_annee,
+    
+    -- 6. Milieu Key
+    M.id_milieu,
+
+    -- Staging Data (For Reference)
+
+    SE.population AS nombre_chomage
+FROM 
+    StagingArea.dbo.stag_EmploiPerAge SE,
+    DatawareHouse.dbo.Dim_Genre GR,
+    DatawareHouse.dbo.Dim_Age AGE,
+    DatawareHouse.dbo.Dim_Année A,
+    DatawareHouse.dbo.Dim_Milieu M
+WHERE
+    -- Genre transformation join
+    GR.libelle_genre = CASE 
+        WHEN SE.Sexe IN ('Féminin', 'Femme') THEN 'F' 
+        WHEN SE.Sexe IN ('Masculin', 'Homme') THEN 'M'
+        ELSE NULL 
+    END
+    
+    -- Age join
+    AND SE.TrancheAge = AGE.tranche_age
+    
+    -- Année join
+    AND YEAR(SE.Date_Collecte) = A.annee
+    
+    -- Milieu join
+    AND SE.Milieu = M.libelle_milieu;
+
+
+-- FACT MIGATION
+SELECT  
+    -- 1. Conditional Gouverment Key Lookup
+    (SELECT TOP 1 T1.id_gouverment
+     FROM DatawareHouse.dbo.Dim_Gouverment T1
+     WHERE SI.Region = T1.gouverment AND SI.Region LIKE 'Gouvernorat%') AS id_gouverment,
+
+    -- 2. Conditional District Key Lookup
+    (SELECT TOP 1 T2.id_district
+     FROM DatawareHouse.dbo.Dim_District T2
+     WHERE SI.Region = T2.district AND SI.Region NOT LIKE 'Gouvernorat%') AS id_district,
+     
+    -- 3. Genre Key
+    GR.id_genre,
+    
+    -- 4. Milieu Key
+    M.id_milieu,
+    
+    -- 5. Année Key
+    A.id_annee,
+    
+    -- 6. Raison Migration Key
+    R.id_raison,
+
+    -- Staging Data (For Reference)
+
+    SI.population AS nombre_migrants
+FROM 
+    StagingArea.dbo.stag_immigration SI,
+    DatawareHouse.dbo.Dim_Genre GR,
+    DatawareHouse.dbo.Dim_Milieu M,
+    DatawareHouse.dbo.Dim_Année A,
+    DatawareHouse.dbo.Dim_RaisonMigration R
+WHERE
+    -- Genre transformation join
+    GR.libelle_genre = CASE 
+        WHEN SI.Sexe IN ('Féminin', 'Femme') THEN 'F' 
+        WHEN SI.Sexe IN ('Masculin', 'Homme') THEN 'M'
+        ELSE NULL 
+    END
+    
+    -- Milieu join
+    AND SI.Milieu = M.libelle_milieu
+    
+    -- Année join
+    AND YEAR(SI.Date_Collecte) = A.annee
+    
+    -- Raison Migration join
+    AND SI.Raison = R.libelle_raison;

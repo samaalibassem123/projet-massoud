@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="91"
-  DTS:VersionGUID="{D2FE3B80-347D-4620-B0CB-F939D59F7CE2}">
+  DTS:VersionBuild="96"
+  DTS:VersionGUID="{27BE23DE-988C-4FF9-B698-EF8CC79595C6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -406,42 +406,42 @@
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Date"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Date]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Date]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données].Columns[Milieu  Nom]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Milieu  Nom"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données].Columns[Sexe  Nom]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Sexe  Nom"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données].Columns[Tranche d''âge  Nom]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Tranche d''âge  Nom"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données].Columns[Régions  Nom]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Régions  Nom"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]" />
                     <inputColumn
                       refId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données].Columns[Faits  Valeur]"
                       cachedCodepage="65001"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Faits  Valeur"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]" />
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -466,7 +466,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Date]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Date]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -487,7 +487,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -499,7 +499,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="20"
                       lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe  Nom]"
                       name="Copy of Sexe  Nom"
                       truncationRowDisposition="FailComponent">
@@ -508,7 +508,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -520,7 +520,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="100"
                       lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Tranche d''âge  Nom]"
                       name="Copy of Tranche d''âge  Nom"
                       truncationRowDisposition="FailComponent">
@@ -529,7 +529,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -541,7 +541,7 @@
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      length="50"
+                      length="100"
                       lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions  Nom]"
                       name="Copy of Régions  Nom"
                       truncationRowDisposition="FailComponent">
@@ -550,7 +550,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -570,7 +570,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
-                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]}</property>
+                          name="SourceInputColumnLineageID">#{Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
@@ -1254,239 +1254,6 @@
               </outputs>
             </component>
             <component
-              refId="Package\ETL_StagingArea\Emploi-dataset"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
-              description="Source du fichier plat"
-              localeId="1036"
-              name="Emploi-dataset"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\ETL_StagingArea\Emploi-dataset.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[emploi-par-age-dataset]"
-                  connectionManagerRefId="Package.ConnectionManagers[emploi-par-age-dataset]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat]"
-                  name="Sortie de source de fichier plat">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Date]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Date]"
-                      name="Date"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu  Nom]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]"
-                      name="Milieu  Nom"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe  Nom]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]"
-                      name="Sexe  Nom"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Tranche d''âge  Nom]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]"
-                      name="Tranche d''âge  Nom"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions  Nom]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]"
-                      name="Régions  Nom"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]"
-                      codePage="65001"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Faits  Valeur]"
-                      length="50"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]"
-                      name="Faits  Valeur"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Date" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Milieu  Nom" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Sexe  Nom" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Tranche d''âge  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Tranche d''âge  Nom" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions  Nom]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Régions  Nom" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat].ExternalColumns[Faits  Valeur]"
-                      codePage="65001"
-                      dataType="str"
-                      length="50"
-                      name="Faits  Valeur" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat]"
-                  isErrorOut="true"
-                  name="Sortie d'erreur de source de fichier plat">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
-                      codePage="1252"
-                      dataType="text"
-                      description="Colonne de sortie d'erreur de source de fichier plat"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
-                      name="Colonne de sortie d'erreur de source de fichier plat" />
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\ETL_StagingArea\Emploi-dataset 1"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
@@ -1768,6 +1535,239 @@
                       refId="Package\ETL_StagingArea\Emploi-dataset 1.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\ETL_StagingArea\Emploi-dataset 1.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\ETL_StagingArea\Emploi-dataset_per_age"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Emploi-dataset_per_age"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[emploi-par-age-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[emploi-par-age-dataset]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu  Nom]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Milieu  Nom]"
+                      name="Milieu  Nom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe  Nom]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Sexe  Nom]"
+                      name="Sexe  Nom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Tranche d''âge  Nom]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Tranche d''âge  Nom]"
+                      name="Tranche d''âge  Nom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions  Nom]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Régions  Nom]"
+                      name="Régions  Nom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Faits  Valeur]"
+                      length="50"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].Columns[Faits  Valeur]"
+                      name="Faits  Valeur"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Milieu  Nom" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Sexe  Nom" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Tranche d''âge  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Tranche d''âge  Nom" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions  Nom]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Régions  Nom" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat].ExternalColumns[Faits  Valeur]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Faits  Valeur" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2302,181 +2302,6 @@
               </outputs>
             </component>
             <component
-              refId="Package\ETL_StagingArea\stag_emploi"
-              componentClassID="Microsoft.OLEDBDestination"
-              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
-              description="Destination OLE DB"
-              name="stag_emploi"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowset">[dbo].[stag_EmploiPerAge]</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="Commande SQL à exécuter."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Spécifie le mode utilisé pour accéder à la base de données."
-                  name="AccessMode"
-                  typeConverter="AccessMode">0</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
-                  name="FastLoadKeepIdentity">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
-                  name="FastLoadKeepNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
-                  name="FastLoadOptions"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
-                  name="FastLoadMaxInsertCommitSize">2147483647</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\ETL_StagingArea\stag_emploi.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
-                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB]"
-                  errorOrTruncationOperation="Insérer"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="Entrée de destination OLE DB">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="Copy of date"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of Sexe  Nom]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Copy of Sexe  Nom"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe  Nom]" />
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of Régions  Nom]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Copy of Régions  Nom"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions  Nom]" />
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu  Nom]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Copy of Milieu  Nom"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu_Nom]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Milieu  Nom]" />
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of Tranche d''âge  Nom]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Copy of Tranche d''âge  Nom"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[TrancheAge]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Tranche d''âge  Nom]" />
-                    <inputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].Columns[Copy of Faits  Valeur]"
-                      cachedDataType="i4"
-                      cachedName="Copy of Faits  Valeur"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Faits  Valeur]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
-                      dataType="dbTimeStamp"
-                      name="Date_Collecte" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
-                      dataType="wstr"
-                      length="50"
-                      name="Sexe" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
-                      dataType="wstr"
-                      length="100"
-                      name="Region" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Id]"
-                      dataType="i4"
-                      name="Id" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu_Nom]"
-                      dataType="wstr"
-                      length="100"
-                      name="Milieu_Nom" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[TrancheAge]"
-                      dataType="wstr"
-                      length="100"
-                      name="TrancheAge" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
-                      dataType="i4"
-                      name="population" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\ETL_StagingArea\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Sortie d'erreur de destination OLE DB"
-                  synchronousInputId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\ETL_StagingArea\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\ETL_StagingArea\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\ETL_StagingArea\stag_emploi.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\ETL_StagingArea\stag_emploi 1"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
@@ -2586,7 +2411,7 @@
                       refId="Package\ETL_StagingArea\stag_emploi 1.Inputs[Entrée de destination OLE DB].Columns[Copy of population]"
                       cachedDataType="ui4"
                       cachedName="Copy of population"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi 1.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi 1.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
                       lineageId="Package\ETL_StagingArea\Conversion de données 3.Outputs[Sortie de conversion de données].Columns[Copy of population]" />
                   </inputColumns>
                   <externalMetadataColumns
@@ -2620,9 +2445,9 @@
                       length="100"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_emploi 1.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      refId="Package\ETL_StagingArea\stag_emploi 1.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
                       dataType="i4"
-                      name="Population" />
+                      name="population" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2652,6 +2477,181 @@
               </outputs>
             </component>
             <component
+              refId="Package\ETL_StagingArea\stag_emploi_per_age"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="stag_emploi_per_age"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[stag_EmploiPerAge]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\ETL_StagingArea\stag_emploi_per_age.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of date"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of Sexe  Nom]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of Sexe  Nom"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe  Nom]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of Régions  Nom]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of Régions  Nom"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions  Nom]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of Tranche d''âge  Nom]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of Tranche d''âge  Nom"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[TrancheAge]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Tranche d''âge  Nom]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of Faits  Valeur]"
+                      cachedDataType="i4"
+                      cachedName="Copy of Faits  Valeur"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Faits  Valeur]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu  Nom]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of Milieu  Nom"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Milieu  Nom]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      dataType="dbTimeStamp"
+                      name="Date_Collecte" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      dataType="wstr"
+                      length="20"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Id]"
+                      dataType="i4"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[TrancheAge]"
+                      dataType="wstr"
+                      length="100"
+                      name="TrancheAge" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      dataType="i4"
+                      name="population" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="Milieu" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\ETL_StagingArea\stag_emploi_per_age.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ETL_StagingArea\stag_emploi_per_age.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ETL_StagingArea\stag_emploi_per_age.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ETL_StagingArea\stag_emploi_per_age.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\ETL_StagingArea\stag_etudiant"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
@@ -2667,7 +2667,7 @@
                 <property
                   dataType="System.String"
                   description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowset">[dbo].[stag_Etudiant]</property>
+                  name="OpenRowset">[dbo].[stag_Education]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
@@ -2761,7 +2761,7 @@
                       refId="Package\ETL_StagingArea\stag_etudiant.Inputs[Entrée de destination OLE DB].Columns[Copy of population]"
                       cachedDataType="i4"
                       cachedName="Copy of population"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
                       lineageId="Package\ETL_StagingArea\Conversion de données 1.Outputs[Sortie de conversion de données].Columns[Copy of population]" />
                   </inputColumns>
                   <externalMetadataColumns
@@ -2795,9 +2795,9 @@
                       length="100"
                       name="Region" />
                     <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
+                      refId="Package\ETL_StagingArea\stag_etudiant.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
                       dataType="i4"
-                      name="Population" />
+                      name="population" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2920,12 +2920,6 @@
                       externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Raison]"
                       lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of raison]" />
                     <inputColumn
-                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of POPULATION]"
-                      cachedDataType="i4"
-                      cachedName="Copy of POPULATION"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
-                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]" />
-                    <inputColumn
                       refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of Régions]"
                       cachedDataType="wstr"
                       cachedLength="100"
@@ -2936,8 +2930,14 @@
                       refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Copy of date"
-                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[date]"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
                       lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
+                    <inputColumn
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].Columns[Copy of POPULATION]"
+                      cachedDataType="i4"
+                      cachedName="Copy of POPULATION"
+                      externalMetadataColumnId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      lineageId="Package\ETL_StagingArea\Conversion de données 2.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2966,13 +2966,13 @@
                       length="100"
                       name="Raison" />
                     <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Population]"
-                      dataType="i4"
-                      name="Population" />
-                    <externalMetadataColumn
-                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[date]"
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
                       dataType="dbTimeStamp"
-                      name="date" />
+                      name="Date_Collecte" />
+                    <externalMetadataColumn
+                      refId="Package\ETL_StagingArea\stag_mig.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      dataType="i4"
+                      name="population" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3005,7 +3005,7 @@
           <paths>
             <path
               refId="Package\ETL_StagingArea.Paths[Sortie de conversion de données]"
-              endId="Package\ETL_StagingArea\stag_emploi.Inputs[Entrée de destination OLE DB]"
+              endId="Package\ETL_StagingArea\stag_emploi_per_age.Inputs[Entrée de destination OLE DB]"
               name="Sortie de conversion de données"
               startId="Package\ETL_StagingArea\Conversion de données.Outputs[Sortie de conversion de données]" />
             <path
@@ -3042,7 +3042,7 @@
               refId="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat3]"
               endId="Package\ETL_StagingArea\Conversion de données.Inputs[Entrée de conversion de données]"
               name="Sortie de source de fichier plat"
-              startId="Package\ETL_StagingArea\Emploi-dataset.Outputs[Sortie de source de fichier plat]" />
+              startId="Package\ETL_StagingArea\Emploi-dataset_per_age.Outputs[Sortie de source de fichier plat]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3073,13 +3073,17 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="145,42"
+          Id="Package\ETL_StagingArea\stag_etudiant"
+          TopLeft="868,344" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\ETL_StagingArea\Emploi-dataset 1"
+          TopLeft="150,572.5" />
+        <NodeLayout
           Size="204,42"
           Id="Package\ETL_StagingArea\Conversion de données 1"
           TopLeft="488,348" />
-        <NodeLayout
-          Size="162,42"
-          Id="Package\ETL_StagingArea\Etudiant_dataset"
-          TopLeft="150,339" />
         <NodeLayout
           Size="124,42"
           Id="Package\ETL_StagingArea\stag_mig"
@@ -3089,25 +3093,55 @@
           Id="Package\ETL_StagingArea\Conversion de données 2"
           TopLeft="495,462" />
         <NodeLayout
-          Size="152,42"
-          Id="Package\ETL_StagingArea\Emploi-dataset"
+          Size="195,42"
+          Id="Package\ETL_StagingArea\Conversion de données 3"
+          TopLeft="486.5,572" />
+        <NodeLayout
+          Size="185,42"
+          Id="Package\ETL_StagingArea\stag_emploi_per_age"
+          TopLeft="864,203" />
+        <NodeLayout
+          Size="199,42"
+          Id="Package\ETL_StagingArea\Emploi-dataset_per_age"
           TopLeft="154.5,207.5" />
         <NodeLayout
+          Size="162,42"
+          Id="Package\ETL_StagingArea\Etudiant_dataset"
+          TopLeft="150,339" />
+        <NodeLayout
           Size="138,42"
-          Id="Package\ETL_StagingArea\stag_emploi"
-          TopLeft="864,203" />
+          Id="Package\ETL_StagingArea\stag_emploi 1"
+          TopLeft="859.5,568" />
         <NodeLayout
           Size="195,42"
           Id="Package\ETL_StagingArea\Conversion de données"
           TopLeft="491,206" />
         <NodeLayout
-          Size="145,42"
-          Id="Package\ETL_StagingArea\stag_etudiant"
-          TopLeft="868,344" />
-        <NodeLayout
           Size="167,42"
           Id="Package\ETL_StagingArea\Migration_dataset"
           TopLeft="151,466" />
+        <EdgeLayout
+          Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat2]"
+          TopLeft="302,593.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="184.5,0"
+              Start="0,0"
+              End="177,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="177,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat1]"
           TopLeft="318,485">
@@ -3156,6 +3190,28 @@
                     Point3="92,9" />
                   <mssgle:LineSegment
                     End="168.5,9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\ETL_StagingArea.Paths[Sortie de conversion de données3]"
+          TopLeft="681.5,591">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="178,0"
+              Start="0,0"
+              End="170.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="170.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3230,76 +3286,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="152,42"
-          Id="Package\ETL_StagingArea\Emploi-dataset 1"
-          TopLeft="150,572.5" />
-        <NodeLayout
-          Size="138,42"
-          Id="Package\ETL_StagingArea\stag_emploi 1"
-          TopLeft="859.5,568" />
-        <NodeLayout
-          Size="195,42"
-          Id="Package\ETL_StagingArea\Conversion de données 3"
-          TopLeft="486.5,572" />
-        <EdgeLayout
-          Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat2]"
-          TopLeft="302,593.25">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="184.5,0"
-              Start="0,0"
-              End="177,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="177,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\ETL_StagingArea.Paths[Sortie de conversion de données3]"
-          TopLeft="681.5,591">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="178,0"
-              Start="0,0"
-              End="170.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="170.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat3]"
-          TopLeft="306.5,227.75">
+          TopLeft="353.5,227.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="184.5,0"
+              EndConnector="137.5,0"
               Start="0,0"
-              End="177,0">
+              End="130,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="177,0" />
+                    End="130,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3312,7 +3312,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\ETL_StagingArea\stag_mig">
+    design-time-name="Package\ETL_StagingArea\stag_emploi_per_age">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3325,7 +3325,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\ETL_StagingArea\stag_emploi">
+    design-time-name="Package\ETL_StagingArea\stag_emploi 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3339,6 +3339,19 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\ETL_StagingArea\stag_etudiant">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\ETL_StagingArea\stag_mig">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
