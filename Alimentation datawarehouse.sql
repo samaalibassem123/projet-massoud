@@ -43,8 +43,10 @@ WHERE
     END
     
     -- Milieu join
-    AND SE.Milieu = M.libelle_milieu
-    
+    AND SE.Milieu = Case
+        WHEN M.libelle_milieu = 'Rural'  then 'Rural' 
+        when M.libelle_milieu = 'Urbain'  then 'Communal'
+     END
     -- Année join (extracting year from Date_Collecte)
     AND YEAR(SE.Date_Collecte) = A.annee
     
@@ -96,8 +98,11 @@ WHERE
     -- Année join
     AND YEAR(SE.Date_Collecte) = A.annee
     
-    -- Milieu join
-    AND SE.Milieu = M.libelle_milieu
+      -- Milieu join
+    AND SE.Milieu = Case
+        WHEN M.libelle_milieu = 'Rural'  then 'Rural' 
+        when M.libelle_milieu = 'Urbain'  then 'Communal'
+     END
     
     -- Secteur Activite join
     AND SE.Secteur_Activite = S.libelle_secteur;
@@ -150,9 +155,11 @@ WHERE
     -- Année join
     AND YEAR(SE.Date_Collecte) = A.annee
     
-    -- Milieu join
-    AND SE.Milieu = M.libelle_milieu;
-
+       -- Milieu join
+    AND SE.Milieu = Case
+        WHEN M.libelle_milieu = 'Rural'  then 'Rural' 
+        when M.libelle_milieu = 'Urbain'  then 'Communal'
+     END
 
 -- FACT MIGATION
 SELECT  
@@ -195,9 +202,11 @@ WHERE
         ELSE NULL 
     END
     
-    -- Milieu join
-    AND SI.Milieu = M.libelle_milieu
-    
+       -- Milieu join
+    AND SI.Milieu = Case
+        WHEN M.libelle_milieu = 'Rural'  then 'Rural' 
+        when M.libelle_milieu = 'Urbain'  then 'Communal'
+     END
     -- Année join
     AND YEAR(SI.Date_Collecte) = A.annee
     
