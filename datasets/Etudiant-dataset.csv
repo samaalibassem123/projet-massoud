@@ -71,6 +71,84 @@ Indicateur: Clé,Date,Milieu,Sexe,Niveau d''instruction,Régions,population
 27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Sud Ouest,22583
 27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Sud Ouest,23005
 27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Sud Ouest,6707
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Tunis,124426
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Tunis,204666
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Tunis,90215
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Tunis,115423
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Tunis,179032
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Tunis,88335
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de L'Ariana,59248
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de L'Ariana,90250
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de L'Ariana,49681
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de L'Ariana,51965
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de L'Ariana,79524
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de L'Ariana,48078
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de L'Ariana,9493
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de L'Ariana,10709
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de L'Ariana,4122
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de L'Ariana,7836
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de L'Ariana,8771
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de L'Ariana,4412
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Ben Arous,64771
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Ben Arous,115761
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Ben Arous,45872
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Ben Arous,62679
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Ben Arous,100779
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Ben Arous,45953
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Ben Arous,10311
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Ben Arous,9120
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Ben Arous,1076
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Ben Arous,7989
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Ben Arous,7300
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Ben Arous,1370
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Manouba,39437
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Manouba,54873
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Manouba,15423
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Manouba,34260
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Manouba,45194
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Manouba,17031
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Manouba,16001
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Manouba,14919
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Manouba,1835
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Manouba,12267
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Manouba,11349
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Manouba,2358
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Nabeul,82292
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Nabeul,96075
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Nabeul,29365
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Nabeul,73150
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Nabeul,82190
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Nabeul,30690
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Nabeul,46359
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Nabeul,35215
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Nabeul,4647
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Nabeul,36876
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Nabeul,28603
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Nabeul,5505
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Zaghouan,10241
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Zaghouan,13702
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Zaghouan,3867
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Zaghouan,9169
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Zaghouan,11658
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Zaghouan,3962
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Zaghouan,15886
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Zaghouan,12900
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Zaghouan,1715
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Zaghouan,11420
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Zaghouan,9861
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Zaghouan,1796
+27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Bizerte,52305
+27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Bizerte,69989
+27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Bizerte,18328
+27989679,2014-01-01 00:00:00,Communal,Féminin,Primaire,Gouvernorat de Bizerte,48949
+27989679,2014-01-01 00:00:00,Communal,Féminin,Secondaire,Gouvernorat de Bizerte,60944
+27989679,2014-01-01 00:00:00,Communal,Féminin,Supérieur,Gouvernorat de Bizerte,19672
+27989679,2014-01-01 00:00:00,Rural,Masculin,Primaire,Gouvernorat de Bizerte,33264
+27989679,2014-01-01 00:00:00,Rural,Masculin,Secondaire,Gouvernorat de Bizerte,24930
+27989679,2014-01-01 00:00:00,Rural,Masculin,Supérieur,Gouvernorat de Bizerte,2531
+27989679,2014-01-01 00:00:00,Rural,Féminin,Primaire,Gouvernorat de Bizerte,23856
+27989679,2014-01-01 00:00:00,Rural,Féminin,Secondaire,Gouvernorat de Bizerte,19134
+27989679,2014-01-01 00:00:00,Rural,Féminin,Supérieur,Gouvernorat de Bizerte,3078
 27989679,2014-01-01 00:00:00,Communal,Masculin,Primaire,Gouvernorat de Bèja,17316
 27989679,2014-01-01 00:00:00,Communal,Masculin,Secondaire,Gouvernorat de Bèja,24991
 27989679,2014-01-01 00:00:00,Communal,Masculin,Supérieur,Gouvernorat de Bèja,6777
