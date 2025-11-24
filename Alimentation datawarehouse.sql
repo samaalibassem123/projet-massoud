@@ -1,6 +1,6 @@
 
 -- FACT EDUCATION
-SELECT  
+SELECT  DISTINCT
     -- 1. Conditional Gouverment Key Lookup
     -- Returns id_gouverment if the region matches the Gouvernorat pattern, otherwise returns NULL.
     (SELECT TOP 1 T1.id_gouverment
@@ -55,7 +55,7 @@ WHERE
 
 
 -- FACT EMPLOI
-SELECT  
+SELECT DISTINCT 
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1
@@ -109,7 +109,7 @@ WHERE
 
 
 -- FACT EMPLOI PER AGE
-SELECT  
+SELECT DISTINCT  
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1
@@ -162,7 +162,7 @@ WHERE
      END
 
 -- FACT MIGATION
-SELECT  
+SELECT  DISTINCT
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1

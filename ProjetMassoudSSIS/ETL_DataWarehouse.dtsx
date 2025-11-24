@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="193"
-  DTS:VersionGUID="{135B8AD1-D4B6-4CC7-8C12-D76ECF176B9D}">
+  DTS:VersionBuild="197"
+  DTS:VersionGUID="{BA22A73F-B0F9-453F-8F9B-5E09707D0D0B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5065,7 +5065,7 @@ from StagingArea.dbo.stag_EmploiPerAge</property>
                   dataType="System.Int32"
                   description="Spécifie le mode utilisé pour accéder à la base de données."
                   name="AccessMode"
-                  typeConverter="AccessMode">3</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.Boolean"
                   description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
@@ -5324,38 +5324,6 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_gouverment]"
-                      cachedDataType="i4"
-                      cachedName="Copy of id_gouverment"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_gouverment]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
-                          name="JoinToReferenceColumn">id_gouverment</property>
-                        <property
-                          dataType="System.Null"
-                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_district]"
-                      cachedDataType="i4"
-                      cachedName="Copy of id_district"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_district]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
-                          name="JoinToReferenceColumn">id_district</property>
-                        <property
-                          dataType="System.Null"
-                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_niveau]"
                       cachedDataType="i4"
                       cachedName="Copy of id_niveau"
@@ -5381,6 +5349,38 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                           dataType="System.String"
                           description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
                           name="JoinToReferenceColumn">id_annee</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_district]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_district"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_district]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_district</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_gouverment]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_gouverment"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_gouverment]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_gouverment</property>
                         <property
                           dataType="System.Null"
                           description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
@@ -5458,7 +5458,8 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT  
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">-- FACT EDUCATION
+SELECT  DISTINCT
     -- 1. Conditional Gouverment Key Lookup
     -- Returns id_gouverment if the region matches the Gouvernorat pattern, otherwise returns NULL.
     (SELECT TOP 1 T1.id_gouverment
@@ -6491,7 +6492,8 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT  
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">-- FACT EMPLOI
+SELECT DISTINCT 
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1
@@ -7522,7 +7524,8 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT  
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">-- FACT EMPLOI PER AGE
+SELECT DISTINCT  
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1
@@ -8551,7 +8554,8 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                   dataType="System.String"
                   description="Commande SQL à exécuter."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT  
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">-- FACT MIGATION
+SELECT  DISTINCT
     -- 1. Conditional Gouverment Key Lookup
     (SELECT TOP 1 T1.id_gouverment
      FROM DatawareHouse.dbo.Dim_Gouverment T1
@@ -11603,9 +11607,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11699,9 +11701,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11795,9 +11795,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11903,9 +11901,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12011,9 +12007,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12107,9 +12101,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
