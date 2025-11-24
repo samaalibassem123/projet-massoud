@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="192"
-  DTS:VersionGUID="{47C52BC3-3CFA-485F-9E32-945668835B34}">
+  DTS:VersionBuild="193"
+  DTS:VersionGUID="{135B8AD1-D4B6-4CC7-8C12-D76ECF176B9D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5292,123 +5292,99 @@ where [refTable].[id_genre] = ? and [refTable].[id_milieu] = ? and [refTable].[i
                   name="Entrée de recherche">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_genre]"
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_genre]"
                       cachedDataType="i4"
                       cachedName="Copy of id_genre"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_genre]"
-                      name="id_genre"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_genre]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
                           name="JoinToReferenceColumn">id_genre</property>
                         <property
-                          dataType="System.String"
+                          dataType="System.Null"
                           description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_genre</property>
+                          name="CopyFromReferenceColumn" />
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_milieu]"
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_milieu]"
                       cachedDataType="i4"
                       cachedName="Copy of id_milieu"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_milieu]"
-                      name="id_milieu"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_milieu]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
                           name="JoinToReferenceColumn">id_milieu</property>
                         <property
-                          dataType="System.String"
+                          dataType="System.Null"
                           description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_milieu</property>
+                          name="CopyFromReferenceColumn" />
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_niveau]"
-                      cachedDataType="i4"
-                      cachedName="Copy of id_niveau"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_niveau]"
-                      name="id_niveau"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
-                          name="JoinToReferenceColumn">id_niveau</property>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_niveau</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_annee]"
-                      cachedDataType="i4"
-                      cachedName="Copy of id_annee"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_annee]"
-                      name="id_annee"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
-                          name="JoinToReferenceColumn">id_annee</property>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_annee</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_district]"
-                      cachedDataType="i4"
-                      cachedName="Copy of id_district"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_district]"
-                      name="id_district"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
-                          name="JoinToReferenceColumn">id_district</property>
-                        <property
-                          dataType="System.String"
-                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_district</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[id_gouverment]"
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_gouverment]"
                       cachedDataType="i4"
                       cachedName="Copy of id_gouverment"
-                      errorOrTruncationOperation="Copie de colonnes"
-                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_gouverment]"
-                      name="id_gouverment"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_gouverment]">
                       <properties>
                         <property
                           dataType="System.String"
                           description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
                           name="JoinToReferenceColumn">id_gouverment</property>
                         <property
-                          dataType="System.String"
+                          dataType="System.Null"
                           description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
-                          name="CopyFromReferenceColumn">id_gouverment</property>
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_district]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_district"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_district]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_district</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_niveau]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_niveau"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_niveau]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_niveau</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Fact_Education\Recherche.Inputs[Entrée de recherche].Columns[Copy of id_annee]"
+                      cachedDataType="i4"
+                      cachedName="Copy of id_annee"
+                      lineageId="Package\Fact_Education\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of id_annee]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">id_annee</property>
+                        <property
+                          dataType="System.Null"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn" />
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -9651,6 +9627,50 @@ WHERE
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 4]"
+          TopLeft="1145.77380952381,884.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-161"
+              Start="0,0"
+              End="0,-153.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-153.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 5]"
+          TopLeft="855.230158730159,894.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-150.777777777778"
+              Start="0,0"
+              End="0,-143.277777777778">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-143.277777777778" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 6]"
           TopLeft="351.765512265513,371.614718614719">
           <EdgeLayout.Curve>
@@ -9774,50 +9794,6 @@ WHERE
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte 5]"
-          TopLeft="855.230158730159,894.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-150.777777777778"
-              Start="0,0"
-              End="0,-143.277777777778">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-143.277777777778" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte 4]"
-          TopLeft="1145.77380952381,884.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-161"
-              Start="0,0"
-              End="0,-153.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-153.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -9861,9 +9837,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9909,9 +9883,7 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11393,6 +11365,10 @@ WHERE
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="177,42"
+          Id="Package\Fact_Education\Destination OLE DB"
+          TopLeft="950,210" />
+        <NodeLayout
           Size="132,42"
           Id="Package\Fact_Education\Recherche"
           TopLeft="655,270.6" />
@@ -11430,44 +11406,6 @@ WHERE
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
-          TopLeft="588.5,228">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="132.5,42.6"
-              Start="0,0"
-              End="132.5,35.1">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.3" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.3"
-                    Point2="0,21.3"
-                    Point3="4,21.3" />
-                  <mssgle:LineSegment
-                    End="128.5,21.3" />
-                  <mssgle:CubicBezierSegment
-                    Point1="128.5,21.3"
-                    Point2="132.5,21.3"
-                    Point3="132.5,25.3" />
-                  <mssgle:LineSegment
-                    End="132.5,35.1" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Fact_Education\Destination OLE DB"
-          TopLeft="950,210" />
         <EdgeLayout
           Id="Package\Fact_Education.Paths[Sortie de recherche sans correspondance]"
           TopLeft="787,291.6">
@@ -11540,6 +11478,40 @@ WHERE
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
+          TopLeft="588.5,228">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="132.5,42.6"
+              Start="0,0"
+              End="132.5,35.1">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.3" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.3"
+                    Point2="0,21.3"
+                    Point3="4,21.3" />
+                  <mssgle:LineSegment
+                    End="128.5,21.3" />
+                  <mssgle:CubicBezierSegment
+                    Point1="128.5,21.3"
+                    Point2="132.5,21.3"
+                    Point3="132.5,25.3" />
+                  <mssgle:LineSegment
+                    End="132.5,35.1" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -11571,6 +11543,19 @@ WHERE
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -11618,7 +11603,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11712,7 +11699,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11724,7 +11713,7 @@ WHERE
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -11806,7 +11795,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11912,7 +11903,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11937,7 +11930,7 @@ WHERE
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q4:boolean">false</Value>
+          type="q4:string">false</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -12018,7 +12011,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12112,7 +12107,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12124,7 +12121,7 @@ WHERE
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12151,19 +12148,6 @@ WHERE
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Fact_Migration\fact_immigration">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Destination OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="96"
-  DTS:VersionGUID="{27BE23DE-988C-4FF9-B698-EF8CC79595C6}">
+  DTS:VersionBuild="98"
+  DTS:VersionGUID="{EA26966E-3DC2-41EA-A9A8-BEE6D23659ED}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -183,10 +183,10 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Etudiant-dataset]"
+      DTS:refId="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{BC990D6A-CC6B-41FB-800F-92720C24395B}"
-      DTS:ObjectName="Etudiant-dataset">
+      DTS:DTSID="{DCBD8F59-473D-420C-B0A3-22804761E7E6}"
+      DTS:ObjectName="Gestionnaire de connexions de fichiers plats">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -196,7 +196,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet massoud\datasets\Etudiant-dataset.csv">
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\Etudiant-dataset.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -205,7 +205,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Indicateur  ClÃ©"
-              DTS:DTSID="{C7DB9561-427F-4355-8027-2D6C10C6EB57}"
+              DTS:DTSID="{3E8F1871-AC3D-44CE-91CC-9AEBC997F258}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{F848F0BC-2276-4BF5-BE8F-F37DB78DDBEB}"
+              DTS:DTSID="{5F9F5A37-CDDF-4734-9FD5-A7ED4AF49B6D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +223,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Milieu"
-              DTS:DTSID="{FB9EB686-A54E-453E-BA87-7AF57E2648F1}"
+              DTS:DTSID="{30390078-6C66-4D85-987D-7DF43718F9D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -232,7 +232,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sexe"
-              DTS:DTSID="{EC7538A4-9103-4C54-AF55-DEF726E6FB43}"
+              DTS:DTSID="{A16883F2-EF0A-4160-9794-C8C8D1F2ACD3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -241,7 +241,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Niveau d''instruction"
-              DTS:DTSID="{2300054A-6018-469F-8D79-A61780CB61CB}"
+              DTS:DTSID="{FE084D46-510B-40CA-A987-E19D0C9454CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="RÃ©gions"
-              DTS:DTSID="{A639150C-F43F-41DC-8C29-62E3BE413778}"
+              DTS:DTSID="{2C283B40-1DE1-46F2-ABDF-25BC3F22DD77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -259,7 +259,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="population"
-              DTS:DTSID="{3E0EA0C5-FDE6-49E7-8C84-7B60951A0FB5}"
+              DTS:DTSID="{4491365E-C09E-4C81-B30B-68805B4F08B7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1797,8 +1797,8 @@
               <connections>
                 <connection
                   refId="Package\ETL_StagingArea\Etudiant_dataset.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Etudiant-dataset]"
-                  connectionManagerRefId="Package.ConnectionManagers[Etudiant-dataset]"
+                  connectionManagerID="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -3077,10 +3077,6 @@
           Id="Package\ETL_StagingArea\stag_etudiant"
           TopLeft="868,344" />
         <NodeLayout
-          Size="152,42"
-          Id="Package\ETL_StagingArea\Emploi-dataset 1"
-          TopLeft="150,572.5" />
-        <NodeLayout
           Size="204,42"
           Id="Package\ETL_StagingArea\Conversion de données 1"
           TopLeft="488,348" />
@@ -3097,21 +3093,25 @@
           Id="Package\ETL_StagingArea\Conversion de données 3"
           TopLeft="486.5,572" />
         <NodeLayout
-          Size="185,42"
-          Id="Package\ETL_StagingArea\stag_emploi_per_age"
-          TopLeft="864,203" />
-        <NodeLayout
           Size="199,42"
           Id="Package\ETL_StagingArea\Emploi-dataset_per_age"
-          TopLeft="154.5,207.5" />
+          TopLeft="153.5,207.5" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\ETL_StagingArea\stag_emploi 1"
+          TopLeft="859.5,568" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\ETL_StagingArea\Emploi-dataset 1"
+          TopLeft="150,572.5" />
         <NodeLayout
           Size="162,42"
           Id="Package\ETL_StagingArea\Etudiant_dataset"
           TopLeft="150,339" />
         <NodeLayout
-          Size="138,42"
-          Id="Package\ETL_StagingArea\stag_emploi 1"
-          TopLeft="859.5,568" />
+          Size="185,42"
+          Id="Package\ETL_StagingArea\stag_emploi_per_age"
+          TopLeft="864,203" />
         <NodeLayout
           Size="195,42"
           Id="Package\ETL_StagingArea\Conversion de données"
@@ -3120,6 +3120,28 @@
           Size="167,42"
           Id="Package\ETL_StagingArea\Migration_dataset"
           TopLeft="151,466" />
+        <EdgeLayout
+          Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat3]"
+          TopLeft="352.5,227.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="138.5,0"
+              Start="0,0"
+              End="131,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="131,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat2]"
           TopLeft="302,593.25">
@@ -3286,33 +3308,11 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\ETL_StagingArea.Paths[Sortie de source de fichier plat3]"
-          TopLeft="353.5,227.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="137.5,0"
-              Start="0,0"
-              End="130,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="130,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\ETL_StagingArea\stag_emploi_per_age">
+    design-time-name="Package\ETL_StagingArea\stag_emploi 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3325,7 +3325,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\ETL_StagingArea\stag_emploi 1">
+    design-time-name="Package\ETL_StagingArea\stag_emploi_per_age">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
