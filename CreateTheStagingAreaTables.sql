@@ -14,8 +14,8 @@ CREATE TABLE stag_Education (
 );
 
 
--- STAG_EMPLOI TABLE
-CREATE TABLE stag_Emploi (
+-- stag_EmploiPerSecteur TABLE
+CREATE TABLE stag_EmploiPerSecteur(
     Indicateur_Cle INT IDENTITY(1,1) PRIMARY KEY,  -- auto-increment
     Date_Collecte DATETIME,
     Milieu NVARCHAR(50),
@@ -37,8 +37,8 @@ CREATE TABLE stag_EmploiPerAge (
 );
 
 
--- STAG_MIGRATION TABLE
-CREATE TABLE stag_immigration (
+-- stag_Migration TABLE
+CREATE TABLE stag_Migration (
     ID INT IDENTITY(1,1) PRIMARY KEY, 
     Region NVARCHAR(100),
     Date_Collecte DATETIME,

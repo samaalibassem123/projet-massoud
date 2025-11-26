@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>ProjetMassoudSSIS</Name>
-    <LastWriteTime>2025-11-24T18:12:56.4884509Z</LastWriteTime>
+    <LastWriteTime>2025-11-26T19:49:15.3837558Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>ETL_StagingArea.dtsx</Name>
-      <LastWriteTime>2025-11-24T18:12:56.3034029Z</LastWriteTime>
+      <LastWriteTime>2025-11-26T20:05:35.9244813Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ETL_DataWarehouse.dtsx</Name>
-      <LastWriteTime>2025-11-24T18:49:46.660355Z</LastWriteTime>
+      <LastWriteTime>2025-11-26T21:08:18.69573Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
