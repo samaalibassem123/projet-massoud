@@ -54,7 +54,7 @@ WHERE
     AND SE.Niveau_Instruction = N.libelle_niveau;
 
 -- FACT EMPLOI
-SELECT
+SELECT DISTINCT
     id_gouverment,
     id_district,
     id_delegation,

@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="107"
-  DTS:VersionGUID="{C981A202-42B7-4D60-A659-EBA04B71ED9B}">
+  DTS:VersionBuild="146"
+  DTS:VersionGUID="{FD139B09-0F9F-44B6-9350-CB4C691004CB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -94,6 +94,93 @@
               DTS:TextQualified="True"
               DTS:ObjectName="population"
               DTS:DTSID="{8911AF56-C7AC-4859-9C0B-BFEFD0D9D013}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Emploi-dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F1AB2A77-3732-4F03-B0F3-5B15C0C8E86C}"
+      DTS:ObjectName="Emploi-dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\fin-migration.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Colonne 0"
+              DTS:DTSID="{CDD39271-EC8D-41BF-83F1-6FBB26D99E53}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="16"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Unnamed  0"
+              DTS:DTSID="{29F2FAA7-C4D5-4361-91AB-0BC92F592E69}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="date"
+              DTS:DTSID="{3F69A41E-65EF-478A-9BB6-CB4A1FF49098}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RÃ©gions"
+              DTS:DTSID="{D456E4A3-39A5-48D8-930A-6A9EA07C3320}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Milieu"
+              DTS:DTSID="{609F54EB-A70B-4790-8892-91782EE3C26E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexe"
+              DTS:DTSID="{EA83E042-F654-4578-9388-D9F6D18797CC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1000"
+              DTS:DataType="129"
+              DTS:ObjectName="raison"
+              DTS:DTSID="{901316C0-35D0-40D0-85B6-AB69ABE9CCDD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="POPULATION"
+              DTS:DTSID="{B809E18F-B0DC-4AB4-9D00-776A0995570F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -275,6 +362,101 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{B3FBE145-1A7D-4B2C-A5B1-5239443F9D42}"
+      DTS:ObjectName="Gestionnaire de connexions de fichiers plats">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\Etudiant-dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Indicateur  ClÃ©"
+              DTS:DTSID="{3DEBD167-F5C0-48B5-8B6D-2ACA0B85B5DC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{03B2650E-791F-4BA8-ACE0-20E7F51A672F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Milieu"
+              DTS:DTSID="{540D1DD7-1A77-4D51-9840-D857B694FFAF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexe"
+              DTS:DTSID="{9AE684A9-8B4C-4463-8783-979225C31F9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Niveau d''instruction"
+              DTS:DTSID="{D9D1E767-B65B-4386-9300-908FC975690F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RÃ©gions"
+              DTS:DTSID="{7E11CB6B-533E-4CC8-B11A-BD239C5962A3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="population"
+              DTS:DTSID="{856C514F-7D88-494E-8328-710D145BF6D5}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost\MSSQLSERVER01.DatawareHouse]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{5A35F26B-3BA5-48C9-B146-A79FE2DBE0C4}"
+      DTS:ObjectName="localhost\MSSQLSERVER01.DatawareHouse">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost\MSSQLSERVER01;Initial Catalog=DatawareHouse;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{5A35F26B-3BA5-48C9-B146-A79FE2DBE0C4}localhost\MSSQLSERVER01.DatawareHouse;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{CAB938EA-8E4C-4952-AD78-8F1C83136771}"
@@ -296,6 +478,98 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=localhost\MSSQLSERVER01;Initial Catalog=StagingArea;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{1B09849C-B51D-4698-ACF7-50AC5DACD84B}localhost\MSSQLSERVER01.StagingArea 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Migration-dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{AC0FD190-04C1-43EA-AF07-6BF220562C1F}"
+      DTS:ObjectName="Migration-dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\micro\Documents\GitHub\projet-massoud\projet-massoud\datasets\fin-migration.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Colonne 0"
+              DTS:DTSID="{875D9E58-A2EB-4E27-A1C5-CE93369E8D02}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Unnamed  0"
+              DTS:DTSID="{4AA6B413-7870-477F-92B5-791CEAC0A02B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="date"
+              DTS:DTSID="{315D29B1-6921-4E31-B984-28E483CDA43D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Régions"
+              DTS:DTSID="{79B88833-31A0-476A-8105-84A89E98BCDD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Milieu"
+              DTS:DTSID="{534B4DB2-27C3-41CC-A933-435E5E9925AD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexe"
+              DTS:DTSID="{897D278F-E8DF-4D9B-96BE-DAC28ADACCA4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="raison"
+              DTS:DTSID="{1C2F74EE-91F3-4FBF-858C-E17686DEC974}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="POPULATION"
+              DTS:DTSID="{16212471-F784-4924-8824-775885442527}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2378,6 +2652,713 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\stag_migration"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{A4E7C088-A606-45AE-BE32-574F7D0546CB}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="stag_migration"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\stag_migration\Conversion de données"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Conversion de données"
+              name="Conversion de données"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données]"
+                  name="Entrée de conversion de données">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[Milieu]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Milieu"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Milieu]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[Sexe]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sexe"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Sexe]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[date]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="date"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[date]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[Régions]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Régions"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Régions]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[raison]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="raison"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[raison]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données].Columns[POPULATION]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="POPULATION"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[POPULATION]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données]"
+                  exclusionGroup="1"
+                  name="Sortie de conversion de données"
+                  synchronousInputId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]"
+                      name="Copy of Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Milieu]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]"
+                      name="Copy of Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Sexe]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]"
+                      name="Copy of date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions]"
+                      name="Copy of Régions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Régions]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of raison]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of raison]"
+                      name="Copy of raison"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[raison]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]"
+                      name="Copy of POPULATION"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[POPULATION]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\stag_migration\Conversion de données.Outputs[Sortie d'erreur de conversion de données]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de conversion de données"
+                  synchronousInputId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\stag_migration\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\stag_migration\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[stag_Migration]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\stag_migration\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost\MSSQLSERVER01.StagingArea]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of Régions]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of Régions"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Régions]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Copy of date"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of date]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of Milieu]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of Milieu"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Milieu]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of Sexe]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of Sexe"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of Sexe]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of raison]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copy of raison"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Raison]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of raison]" />
+                    <inputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of POPULATION]"
+                      cachedDataType="i4"
+                      cachedName="Copy of POPULATION"
+                      externalMetadataColumnId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      lineageId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of POPULATION]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ID]"
+                      dataType="i4"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="100"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Date_Collecte]"
+                      dataType="dbTimeStamp"
+                      name="Date_Collecte" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Milieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Sexe]"
+                      dataType="wstr"
+                      length="20"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Raison]"
+                      dataType="wstr"
+                      length="100"
+                      name="Raison" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[population]"
+                      dataType="i4"
+                      name="population" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\stag_migration\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\stag_migration\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\stag_migration\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\stag_migration\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Migration-dataset]"
+                  connectionManagerRefId="Package.ConnectionManagers[Migration-dataset]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Milieu]"
+                      name="Milieu"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Sexe]"
+                      name="Sexe"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Colonne 0]"
+                      name="Colonne 0"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Unnamed  0]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Unnamed  0]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Unnamed  0]"
+                      name="Unnamed  0"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[date]"
+                      name="date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Régions]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Régions]"
+                      name="Régions"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[raison]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[raison]"
+                      length="255"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[raison]"
+                      name="raison"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[POPULATION]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[POPULATION]"
+                      length="50"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[POPULATION]"
+                      name="POPULATION"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Milieu]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Milieu" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Sexe]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Sexe" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Colonne 0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Colonne 0" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Unnamed  0]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Unnamed  0" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[date]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="date" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Régions]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Régions" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[raison]"
+                      dataType="wstr"
+                      length="255"
+                      name="raison" />
+                    <externalMetadataColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[POPULATION]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="POPULATION" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\stag_migration\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\stag_migration.Paths[Sortie de conversion de données]"
+              endId="Package\stag_migration\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de conversion de données"
+              startId="Package\stag_migration\Conversion de données.Outputs[Sortie de conversion de données]" />
+            <path
+              refId="Package\stag_migration.Paths[Sortie de source de fichier plat]"
+              endId="Package\stag_migration\Conversion de données.Inputs[Entrée de conversion de données]"
+              name="Sortie de source de fichier plat"
+              startId="Package\stag_migration\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Tâche d'exécution de requêtes SQL"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tâche d'exécution de requêtes SQL"
@@ -2399,7 +3380,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte]"
       DTS:CreationName=""
-      DTS:DTSID="{8B3ADAF3-99F4-45B5-9BFA-0540BD7F98A6}"
+      DTS:DTSID="{69E6E9B5-A124-4EDD-9F78-801B7E7EE003}"
       DTS:From="Package\Tâche d'exécution de requêtes SQL"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte"
@@ -2407,18 +3388,26 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 1]"
       DTS:CreationName=""
-      DTS:DTSID="{BA753830-1658-4115-A8DF-585AC22AD9D9}"
+      DTS:DTSID="{35E4EC9F-49BB-4B85-897C-9DD8C5520517}"
       DTS:From="Package\Tâche d'exécution de requêtes SQL"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 1"
-      DTS:To="Package\Stag Emploi_per_Age" />
+      DTS:To="Package\stag_migration" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 2]"
       DTS:CreationName=""
-      DTS:DTSID="{3D0BA962-C49E-4A78-832C-FE7BD28A6257}"
+      DTS:DTSID="{3908553D-E6FD-499D-BB0C-3A19DF76E425}"
       DTS:From="Package\Tâche d'exécution de requêtes SQL"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 2"
+      DTS:To="Package\Stag Emploi_per_Age" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{3423158D-7B37-42AA-8BC8-B983FD858874}"
+      DTS:From="Package\Tâche d'exécution de requêtes SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 3"
       DTS:To="Package\Stag Emploi_per_Secteur" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
@@ -2432,49 +3421,53 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="154,42"
           Id="Package\Stag Education"
-          TopLeft="27.5,305.5" />
+          TopLeft="92.5,287.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\Stag Emploi_per_Age"
-          TopLeft="477.5,326.5" />
+          TopLeft="598.5,309.5" />
         <NodeLayout
           Size="204,42"
           Id="Package\Stag Emploi_per_Secteur"
           TopLeft="854.5,306.5" />
         <NodeLayout
+          Size="151,42"
+          Id="Package\stag_migration"
+          TopLeft="360,296" />
+        <NodeLayout
           Size="254,42"
           Id="Package\Tâche d'exécution de requêtes SQL"
-          TopLeft="440,97" />
+          TopLeft="440,96" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="505.5,139">
+          TopLeft="505.5,138">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-401,166.5"
+              EndConnector="-336,149.5"
               Start="0,0"
-              End="-401,159">
+              End="-336,142">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.6532467532468" />
+                    End="0,46.8688311688312" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,52.6532467532468"
-                    Point2="0,56.6532467532468"
-                    Point3="-4,56.6532467532468" />
+                    Point1="0,46.8688311688312"
+                    Point2="0,50.8688311688312"
+                    Point3="-4,50.8688311688312" />
                   <mssgle:LineSegment
-                    End="-397,56.6532467532468" />
+                    End="-332,50.8688311688312" />
                   <mssgle:CubicBezierSegment
-                    Point1="-397,56.6532467532468"
-                    Point2="-401,56.6532467532468"
-                    Point3="-401,60.6532467532468" />
+                    Point1="-332,50.8688311688312"
+                    Point2="-336,50.8688311688312"
+                    Point3="-336,54.8688311688312" />
                   <mssgle:LineSegment
-                    End="-401,159" />
+                    End="-336,142" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2485,18 +3478,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="568.75,139">
+          TopLeft="567,138">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,187.5"
+              EndConnector="-131.5,158"
               Start="0,0"
-              End="0,180">
+              End="-131.5,150.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,180" />
+                    End="0,75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,75"
+                    Point2="0,79"
+                    Point3="-4,79" />
+                  <mssgle:LineSegment
+                    End="-127.5,79" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-127.5,79"
+                    Point2="-131.5,79"
+                    Point3="-131.5,83" />
+                  <mssgle:LineSegment
+                    End="-131.5,150.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2507,30 +3512,64 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 2]"
-          TopLeft="628.5,139">
+          TopLeft="628.5,138">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="328,167.5"
+              EndConnector="63,171.5"
               Start="0,0"
-              End="328,160">
+              End="63,164">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.9935064935065" />
+                    End="0,54.3545454545455" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,52.9935064935065"
-                    Point2="0,56.9935064935065"
-                    Point3="4,56.9935064935065" />
+                    Point1="0,54.3545454545455"
+                    Point2="0,58.3545454545455"
+                    Point3="4,58.3545454545455" />
                   <mssgle:LineSegment
-                    End="324,56.9935064935065" />
+                    End="59,58.3545454545455" />
                   <mssgle:CubicBezierSegment
-                    Point1="324,56.9935064935065"
-                    Point2="328,56.9935064935065"
-                    Point3="328,60.9935064935065" />
+                    Point1="59,58.3545454545455"
+                    Point2="63,58.3545454545455"
+                    Point3="63,62.3545454545455" />
                   <mssgle:LineSegment
-                    End="328,160" />
+                    End="63,164" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 3]"
+          TopLeft="640.8,138">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="315.7,168.5"
+              Start="0,0"
+              End="315.7,161">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.7458379578247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.7458379578247"
+                    Point2="0,49.7458379578247"
+                    Point3="4,49.7458379578247" />
+                  <mssgle:LineSegment
+                    End="311.7,49.7458379578247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="311.7,49.7458379578247"
+                    Point2="315.7,49.7458379578247"
+                    Point3="315.7,53.7458379578247" />
+                  <mssgle:LineSegment
+                    End="315.7,161" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2550,15 +3589,15 @@
         <NodeLayout
           Size="145,42"
           Id="Package\Stag Education\stag_etudiant"
-          TopLeft="778,65" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Stag Education\Conversion de données 1"
-          TopLeft="398,69" />
+          TopLeft="778,67" />
         <NodeLayout
           Size="162,42"
           Id="Package\Stag Education\Etudiant_dataset"
           TopLeft="60,60" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Stag Education\Conversion de données 1"
+          TopLeft="398,69" />
         <EdgeLayout
           Id="Package\Stag Education.Paths[Sortie de source de fichier plat]"
           TopLeft="222,81">
@@ -2595,7 +3634,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Stag Education.Paths[Sortie de conversion de données]"
-          TopLeft="602,88">
+          TopLeft="602,89">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2624,39 +3663,17 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="199,42"
-          Id="Package\Stag Emploi_per_Age\Emploi-dataset_per_age"
-          TopLeft="60,64.5" />
-        <NodeLayout
           Size="185,42"
           Id="Package\Stag Emploi_per_Age\stag_emploi_per_age"
           TopLeft="768.5,61" />
         <NodeLayout
+          Size="199,42"
+          Id="Package\Stag Emploi_per_Age\Emploi-dataset_per_age"
+          TopLeft="60,64.5" />
+        <NodeLayout
           Size="195,42"
           Id="Package\Stag Emploi_per_Age\Conversion de données"
           TopLeft="397.5,63" />
-        <EdgeLayout
-          Id="Package\Stag Emploi_per_Age.Paths[Sortie de conversion de données]"
-          TopLeft="592.5,83">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="176,0"
-              Start="0,0"
-              End="168.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="168.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Stag Emploi_per_Age.Paths[Sortie de source de fichier plat]"
           TopLeft="259,84.75">
@@ -2679,9 +3696,44 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stag Emploi_per_Age.Paths[Sortie de conversion de données]"
+          TopLeft="592.5,83">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="176,0"
+              Start="0,0"
+              End="168.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="168.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stag Emploi_per_Age\stag_emploi_per_age">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Stag Emploi_per_Secteur">
     <LayoutInfo>
@@ -2691,6 +3743,10 @@
           Size="206,42"
           Id="Package\Stag Emploi_per_Secteur\EmploiPersecteur-dataset"
           TopLeft="60,64.5" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Stag Emploi_per_Secteur\stag EmploiPerSecteur"
+          TopLeft="786,95" />
         <NodeLayout
           Size="195,42"
           Id="Package\Stag Emploi_per_Secteur\Conversion de données"
@@ -2729,10 +3785,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="191,42"
-          Id="Package\Stag Emploi_per_Secteur\stag EmploiPerSecteur"
-          TopLeft="786,95" />
         <EdgeLayout
           Id="Package\Stag Emploi_per_Secteur.Paths[Sortie de conversion de données]"
           TopLeft="623,102">
@@ -2771,7 +3823,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stag Emploi_per_Age\stag_emploi_per_age">
+    design-time-name="Package\Stag Emploi_per_Secteur\stag EmploiPerSecteur">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2783,8 +3835,96 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\stag_migration">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="182,42"
+          Id="Package\stag_migration\Source du fichier plat"
+          TopLeft="206,268" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\stag_migration\Destination OLE DB"
+          TopLeft="853,410" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\stag_migration\Conversion de données"
+          TopLeft="557,346" />
+        <EdgeLayout
+          Id="Package\stag_migration.Paths[Sortie de source de fichier plat]"
+          TopLeft="297,310">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="357.5,36"
+              Start="0,0"
+              End="357.5,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14"
+                    Point2="0,18"
+                    Point3="4,18" />
+                  <mssgle:LineSegment
+                    End="353.5,18" />
+                  <mssgle:CubicBezierSegment
+                    Point1="353.5,18"
+                    Point2="357.5,18"
+                    Point3="357.5,22" />
+                  <mssgle:LineSegment
+                    End="357.5,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\stag_migration.Paths[Sortie de conversion de données]"
+          TopLeft="752,367">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="101,64"
+              Start="0,0"
+              End="93.5,64">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="46.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="46.5,0"
+                    Point2="50.5,0"
+                    Point3="50.5,4" />
+                  <mssgle:LineSegment
+                    End="50.5,60" />
+                  <mssgle:CubicBezierSegment
+                    Point1="50.5,60"
+                    Point2="50.5,64"
+                    Point3="54.5,64" />
+                  <mssgle:LineSegment
+                    End="93.5,64" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Stag Emploi_per_Secteur\stag EmploiPerSecteur">
+    design-time-name="Package\stag_migration\Destination OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

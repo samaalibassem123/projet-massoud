@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="206"
-  DTS:VersionGUID="{54E23FE8-C26F-4A8D-9220-51D0CA7D7468}">
+  DTS:VersionBuild="209"
+  DTS:VersionGUID="{E3243763-6152-49ED-AD84-443C403FAF53}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -9434,7 +9434,7 @@ WHERE
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 16]"
-          TopLeft="771.25,750.458333333334">
+          TopLeft="771.25,750.458333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11549,6 +11549,10 @@ WHERE
           Id="Package\Fact_Education\Recherche"
           TopLeft="655,270.6" />
         <NodeLayout
+          Size="157,42"
+          Id="Package\Fact_Education\Source OLE DB"
+          TopLeft="211,191" />
+        <NodeLayout
           Size="195,42"
           Id="Package\Fact_Education\Conversion de données"
           TopLeft="491,186" />
@@ -11556,10 +11560,42 @@ WHERE
           Size="179,42"
           Id="Package\Fact_Education\Commande OLE DB"
           TopLeft="900,405" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Fact_Education\Source OLE DB"
-          TopLeft="211,191" />
+        <EdgeLayout
+          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
+          TopLeft="588.5,228">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="132.5,42.6"
+              Start="0,0"
+              End="132.5,35.1">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.3" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.3"
+                    Point2="0,21.3"
+                    Point3="4,21.3" />
+                  <mssgle:LineSegment
+                    End="128.5,21.3" />
+                  <mssgle:CubicBezierSegment
+                    Point1="128.5,21.3"
+                    Point2="132.5,21.3"
+                    Point3="132.5,25.3" />
+                  <mssgle:LineSegment
+                    End="132.5,35.1" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_Education.Paths[Sortie de source OLE DB]"
           TopLeft="368,209.5">
@@ -11579,7 +11615,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11654,43 +11692,30 @@ WHERE
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fact_Education.Paths[Sortie de conversion de données]"
-          TopLeft="588.5,228">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="132.5,42.6"
-              Start="0,0"
-              End="132.5,35.1">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.3" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.3"
-                    Point2="0,21.3"
-                    Point3="4,21.3" />
-                  <mssgle:LineSegment
-                    End="128.5,21.3" />
-                  <mssgle:CubicBezierSegment
-                    Point1="128.5,21.3"
-                    Point2="132.5,21.3"
-                    Point3="132.5,25.3" />
-                  <mssgle:LineSegment
-                    End="132.5,35.1" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Education\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Fact_Education\Recherche">
     <Properties>
@@ -11714,36 +11739,11 @@ WHERE
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Source OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Education\Destination OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Fact_Emploi">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="195,42"
-          Id="Package\Fact_Emploi\Conversion de données"
-          TopLeft="477,170" />
         <NodeLayout
           Size="132,42"
           Id="Package\Fact_Emploi\Recherche"
@@ -11753,13 +11753,39 @@ WHERE
           Id="Package\Fact_Emploi\fact_emploi"
           TopLeft="996,161" />
         <NodeLayout
-          Size="179,42"
-          Id="Package\Fact_Emploi\Commande OLE DB"
-          TopLeft="931,310" />
-        <NodeLayout
           Size="157,42"
           Id="Package\Fact_Emploi\Source OLE DB"
           TopLeft="178,169" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\Fact_Emploi\Conversion de données"
+          TopLeft="477,170" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Fact_Emploi\Commande OLE DB"
+          TopLeft="931,310" />
+        <EdgeLayout
+          Id="Package\Fact_Emploi.Paths[Sortie de source OLE DB]"
+          TopLeft="335,190.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="142,0"
+              Start="0,0"
+              End="134.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="134.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_Emploi.Paths[Sortie de recherche sans correspondance]"
           TopLeft="904,181.5">
@@ -11854,28 +11880,6 @@ WHERE
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fact_Emploi.Paths[Sortie de source OLE DB]"
-          TopLeft="335,190.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="142,0"
-              Start="0,0"
-              End="134.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="134.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -11929,6 +11933,14 @@ WHERE
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="157,42"
+          Id="Package\Fact_Migration\Source OLE DB"
+          TopLeft="58,66" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Fact_Migration\Commande OLE DB"
+          TopLeft="813,209" />
+        <NodeLayout
           Size="160,42"
           Id="Package\Fact_Migration\fact_immigration"
           TopLeft="878,60" />
@@ -11940,14 +11952,42 @@ WHERE
           Size="195,42"
           Id="Package\Fact_Migration\Conversion de données"
           TopLeft="334,96" />
-        <NodeLayout
-          Size="179,42"
-          Id="Package\Fact_Migration\Commande OLE DB"
-          TopLeft="813,209" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Fact_Migration\Source OLE DB"
-          TopLeft="58,66" />
+        <EdgeLayout
+          Id="Package\Fact_Migration.Paths[Sortie de conversion de données]"
+          TopLeft="529,117">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="126,-35"
+              Start="0,0"
+              End="118.5,-35">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="59,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59,0"
+                    Point2="63,0"
+                    Point3="63,-4" />
+                  <mssgle:LineSegment
+                    End="63,-31" />
+                  <mssgle:CubicBezierSegment
+                    Point1="63,-31"
+                    Point2="63,-35"
+                    Point3="67,-35" />
+                  <mssgle:LineSegment
+                    End="118.5,-35" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Fact_Migration.Paths[Sortie de source OLE DB]"
           TopLeft="215,87">
@@ -11979,7 +12019,9 @@ WHERE
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12042,66 +12084,9 @@ WHERE
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fact_Migration.Paths[Sortie de conversion de données]"
-          TopLeft="529,117">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="126,-35"
-              Start="0,0"
-              End="118.5,-35">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="59,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="59,0"
-                    Point2="63,0"
-                    Point3="63,-4" />
-                  <mssgle:LineSegment
-                    End="63,-31" />
-                  <mssgle:CubicBezierSegment
-                    Point1="63,-31"
-                    Point2="63,-35"
-                    Point3="67,-35" />
-                  <mssgle:LineSegment
-                    End="118.5,-35" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Fact_Migration\Recherche">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Fait_Migration]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Fact_Migration\Source OLE DB">
     <Properties>
@@ -12120,6 +12105,29 @@ WHERE
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Fact_Migration\Recherche">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fait_Migration]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
